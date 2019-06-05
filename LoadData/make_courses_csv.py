@@ -6,6 +6,7 @@ import time
 import urllib.request
 from bs4 import BeautifulSoup
 import re
+import csv
 
 stat_df = pd.DataFrame()
 
@@ -28,21 +29,21 @@ for c in courses:
    title = c.find("p", {"class" : "courseblocktitle"})
    title = title.find("strong")
    credits = title.find("span", {"class" : "courseblockhours"})
-   course_units.append(str(credits.string.strip())[:-6])
+   course_units.append((str(credits.string.strip())[:-6]).lower())
    tmp_title = str(title)[12:16]
-   course_num.append(tmp_title.replace(",", ''))
+   course_num.append(tmp_title.replace(",", '').lower())
    jank = str(title)[17:]
    text = jank.partition(".")[0]
-   course_title.append(text.replace(",", '').replace('"', ''))
+   course_title.append(text.replace(",", '').replace('"', '').lower())
 
    area = c.find_all("p", {"class" : "noindent"})
    if len(area) == 2:
       tmp_terms = str(area[1])[43:-4]
-      course_terms.append(tmp_terms.replace(',',''))
-      course_area.append(str(area[0])[20:-4])
+      course_terms.append(tmp_terms.replace(',','').lower())
+      course_area.append((str(area[0])[20:-4]).lower())
    else:
       tmp_terms = str(area[0])[43:-4]
-      course_terms.append(tmp_terms.replace(',',''))
+      course_terms.append(tmp_terms.replace(',','').lower())
       course_area.append("None")
 
    pre = c.find_all("p", {"class" : None})
@@ -57,10 +58,10 @@ for c in courses:
          #print("Extracted: ", extracted)
          prgood = re.sub(r'<a(.*)<\/a>', str(extracted), str(pr.groups()))
          if prgood:
-            course_pre.append(prgood.replace('[', '').replace(']', '').replace("'",'').replace(",", '').replace(')','').replace('(',''));
+            course_pre.append(prgood.replace('[', '').replace(']', '').replace("'",'').replace(",", '').replace(')','').replace('(','').lower());
 
       else:
-         course_pre.append(str(pr.groups()).replace('[', '').replace(']', '').replace("'",'').replace(",", '').replace(')','').replace('(',''));
+         course_pre.append(str(pr.groups()).replace('[', '').replace(']', '').replace("'",'').replace(",", '').replace(')','').replace('(','').lower());
 
    else:
       course_pre.append("None")
@@ -90,3 +91,88 @@ stat_df["pre"] = pd.Series(course_pre)
 stat_df["description"] = pd.Series(course_description)
 
 stat_df.to_csv("courses.csv", index=False, header=False)
+
+syn = pd.read_csv("courses.csv")
+syns = []
+
+def make_entry(Canon, Syn):
+   tmp = []
+   tmp.append('courses')
+   tmp.append('course_name')
+   tmp.append(int(Canon))
+   tmp.append(Syn)
+   syns.append(tmp)
+
+for index, row in syn.iterrows():
+   tmp = []
+   #print(row[0])
+   make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
+   make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+   make_entry(row[0], int(row[0]))
+   make_entry(row[0], (str(row[1])))
+
+syns.append(['courses', 'term', 'w', 'w'])
+syns.append(['courses', 'term','w', 'winter'])
+syns.append(['courses', 'term','w', 'w19'])
+syns.append(['courses', 'term','w', 'w18'])
+syns.append(['courses', 'term','w', 'winter18'])
+syns.append(['courses', 'term','w', 'winter19'])
+syns.append(['courses', 'term','w', 'winter20'])
+syns.append(['courses', 'term','w', 'w20'])
+syns.append(['courses', 'term','w', 'winter quarter'])
+syns.append(['courses', 'term','w', 'q'])
+
+syns.append(['courses', 'term','f', 'f'])
+syns.append(['courses', 'term','f', 'fall'])
+syns.append(['courses', 'term','f', 'f19'])
+syns.append(['courses', 'term','f', 'f18'])
+syns.append(['courses', 'term','f', 'f20'])
+syns.append(['courses', 'term','f', 'fall19'])
+syns.append(['courses', 'term','f', 'fall20'])
+syns.append(['courses', 'term','f', 'fall18'])
+syns.append(['courses', 'term','f', 'fall quarter'])
+
+syns.append(['courses', 'term','sp', 'sp'])
+syns.append(['courses', 'term','sp', 's'])
+syns.append(['courses', 'term','sp', 'spring'])
+syns.append(['courses', 'term','sp', 'sp19'])
+syns.append(['courses', 'term','sp', 'sp18'])
+syns.append(['courses', 'term','sp', 'sp20'])
+syns.append(['courses', 'term','sp', 'spring19'])
+syns.append(['courses', 'term','sp', 'spring20'])
+syns.append(['courses', 'term','sp', 'spring18'])
+syns.append(['courses', 'term','sp', 'spring quarter'])
+
+syns.append(['courses', 'term','su', 'su'])
+syns.append(['courses', 'term','su', 'summerq'])
+syns.append(['courses', 'term','su', 'summer'])
+syns.append(['courses', 'term','su', 'su19'])
+syns.append(['courses', 'term','su', 'su18'])
+syns.append(['courses', 'term','su', 'su20'])
+syns.append(['courses', 'term','su', 'summer19'])
+syns.append(['courses', 'term','su', 'summer20'])
+syns.append(['courses', 'term','su', 'summer18'])
+syns.append(['courses', 'term','su', 'summer quarter'])
+
+syns.append(['courses', 'course_area', 'ge area b1', 'b1'])  
+syns.append(['courses', 'course_area', 'ge area b1', 'areab1'])  
+syns.append(['courses', 'course_area', 'ge area b1', 'geb1'])  
+syns.append(['courses', 'course_area', 'ge area b1', 'ge b1'])  
+syns.append(['courses', 'course_area', 'ge area b1', 'ge area b1'])  
+syns.append(['courses', 'course_area', 'ge area b1', 'area b1'])  
+syns.append(['courses', 'course_area', 'ge area b1', 'b1'])  
+syns.append(['courses', 'course_area', 'ge area b6', 'b6'])  
+syns.append(['courses', 'course_area', 'ge area b6', 'areab6'])  
+syns.append(['courses', 'course_area', 'ge area b6', 'geb6'])  
+syns.append(['courses', 'course_area', 'ge area b6', 'ge b6'])  
+syns.append(['courses', 'course_area', 'ge area b6', 'ge area b6'])  
+syns.append(['courses', 'course_area', 'ge area b6', 'area b6'])  
+syns.append(['courses', 'course_area', 'cr/nc', 'credit no credit'])  
+syns.append(['courses', 'course_area', 'cr/nc', 'cr no cr'])  
+syns.append(['courses', 'course_area', 'cr/nc', 'credit'])  
+syns.append(['courses', 'course_area', 'cr/nc', 'no credit or credit'])  
+syns.append(['courses', 'course_area', 'cr/nc', 'pass or fail'])  
+syns.append(['courses', 'course_area', 'cr/nc', 'pass/fail']) 
+
+syns_df = pd.DataFrame(syns)
+syns_df.to_csv("syn_courses_1.csv", index=False, header=False, escapechar=' ', quoting=csv.QUOTE_NONE)

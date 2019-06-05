@@ -205,4 +205,4 @@ assert sub['last'].dtype == object
 assert sub['rating'].dtype == float
 
 sub = sub.loc[sub['department'] == 'STAT']
-sub.to_csv('poly_ratings.csv', header=False)
+sub.to_csv('poly_ratings.csv', header=False, index=False)
