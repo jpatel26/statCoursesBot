@@ -106,10 +106,32 @@ def make_entry(Canon, Syn):
 for index, row in syn.iterrows():
    tmp = []
    #print(row[0])
+   make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
+   make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
+   make_entry(row[0], "stat " + str(int(row[0])))
+   make_entry(row[0], "stat " + (str(row[1])))
+   make_entry(row[0], "stat" + (str(int(row[0])) + " " + str(row[1])))
+   make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))))
+   make_entry(row[0], "stat" + str(int(row[0])))
+   make_entry(row[0], "stat" + (str(row[1])))
    make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
    make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
    make_entry(row[0], int(row[0]))
    make_entry(row[0], (str(row[1])))
+
+   if int(row[0]) >= 500:
+      make_entry(row[0], "graduate stat " + (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], "grad stat " + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "grad level stat " + str(int(row[0])))
+      make_entry(row[0], "graduate level stat " + (str(row[1])))
+      make_entry(row[0], "masters level stat " + (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))) + " grad level")
+      make_entry(row[0], "stat" + str(int(row[0]))+ " for grad students")
+      make_entry(row[0], "stat" + (str(row[1])) + " graduate level")
+      make_entry(row[0], (str(int(row[0])) + " " + str(row[1]))+ " for grads")
+      make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))) + " for graduates")
+      make_entry(row[0], int(row[0]))
+      make_entry(row[0], (str(row[1]))+ " for graduate students")
 
 syns.append(['courses', 'term', 'w', 'w'])
 syns.append(['courses', 'term','w', 'winter'])

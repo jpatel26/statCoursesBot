@@ -217,6 +217,12 @@ for index, row in syn2.iterrows():
 
 syns2_df = pd.DataFrame(syns2)
 syns2_df.to_csv("syn_faculty_3.csv", index=False, header=False, escapechar=' ', quoting=csv.QUOTE_NONE)
+def isInt(s):
+   try: 
+      int(s)
+      return int(s)
+   except ValueError:
+      return 0
 
 syns3 = []
 syn3 = pd.read_csv("sections.csv", error_bad_lines=False)
@@ -237,13 +243,33 @@ for index, row in syn3.iterrows():
    s = ' '
    make_entry_cn('course_num', can, desc)
    make_entry_cn('course_num', can, str(row[0]))
-   make_entry_cn('course_num', str(row[7]) ,str(row[6]))
-   make_entry_cn('course_num', str(row[7]) , ' '.join((row[6]).split(' ')[:-3]))
-   make_entry_cn('course_num', str(row[7]) , str(row[6]).split(' ')[0])
-   make_entry_cn('course_num', str(row[7]) ,''.join(str(row[6]).split(' ')[0:3]))
-   make_entry_cn('course_room',  str(row[7]), str(row[7]))
-   
+   if isInt(can) >= 500:
+      make_entry_cn('course_num', can, desc + " graduate")
+      make_entry_cn('course_num', can, desc + " graduate level")
+      make_entry_cn('course_num', can, desc + " grad")
+      make_entry_cn('course_num', can, desc + " grad level")
+      make_entry_cn('course_num', can, "graduate " + desc)
+      make_entry_cn('course_num', can, "grad " + desc)
+      make_entry_cn('course_num', can, "graduate level " + desc)
+      make_entry_cn('course_num', can, "grad level " + desc)
+      make_entry_cn('course_num', can, "masters level " + desc)
+      make_entry_cn('course_num', can, desc + " masters")
 
+      make_entry_cn('course_num', can, str(row[0]) + " graduate")
+      make_entry_cn('course_num', can, str(row[0]) + " graduate level")
+      make_entry_cn('course_num', can, str(row[0]) + " grad")
+      make_entry_cn('course_num', can, str(row[0]) + " grad level")
+      make_entry_cn('course_num', can, "graduate " + str(row[0]))
+      make_entry_cn('course_num', can, "grad " + str(row[0]))
+      make_entry_cn('course_num', can, "graduate level " + str(row[0]))
+      make_entry_cn('course_num', can, "grad level " + str(row[0]))
+      make_entry_cn('course_num', can, "masters level " + str(row[0]))
+      make_entry_cn('course_num', can, str(row[0]) + " masters")
+
+   make_entry_cn('course_room', str(row[7]) ,str(row[6]))
+   make_entry_cn('course_room', str(row[7]) , ' '.join((row[6]).split(' ')[:-3]))
+   make_entry_cn('course_room', str(row[7]) , str(row[6]).split(' ')[0])
+   make_entry_cn('course_room', str(row[7]) ,''.join(str(row[6]).split(' ')[0:3]))
 
 make_entry_cn( "course_type", "lecture", "lecture")
 make_entry_cn( "course_type", "lecture", "lec")
