@@ -1,0 +1,140 @@
+theme	question	answerId	primary	secondary
+content	What is the course description for [STAT-COURSE]?	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].	
+content	Which courses require use of statistical software?	2	The following courses require use of statistical software: [COURSE-LIST].	
+content	What coding classes does the stat department offer?	3	The following coding classes are offered by the stat department: [COURSE-LIST].	
+content	What stat courses are for engineers?	4	The following courses are for engineers: [COURSE-LIST].	
+content	What stat courses are for business majors?	5	The following courses are for business majors: [COURSE-LIST].	
+content	What [TOPIC] classes does the department offer?	12	There are [NUM-OF-CLASSES] of classes about [TOPIC]. They are : [COURSE-LIST]	
+content	What certification classes does the department offer?	7	The following courses are certification courses: [COURSE-LIST].	
+content	What are the intro stat classes?	8	The following courses are intro courses: [COURSE-LIST].	
+content	Which stat classes use R?	9	The following courses use R: [COURSE-LIST].	
+content	Which stat classes use SAS?	10	The following courses use SAS: [COURSE-LIST].	
+content	What series does the stat department offer?	11	The following are series are offered by the stat department: [COURSE-LIST].	
+content	Are there any courses offered about [TOPIC]?	12	There are [NUM-OF-CLASSES] of classes about [TOPIC]. They are : [COURSE-LIST]	
+content	How many courses are offered about [TOPIC]?	12	There are [NUM-OF-CLASSES] of classes about [TOPIC]. They are : [COURSE-LIST]	
+content	Which faculty members teach courses on [TOPIC]?	14	There are a couple facultymembers that come to mind. They are [STAT-FACULTY-LIST].	
+content	What types of programs are offered by the STAT department?	15	The department offers the following programs: a [PROGRAM-TYPE] in [PROGRAM-NAME], ...	
+content	Will I learn about [TOPIC] in [STAT-COURSE]?	16	Based on the course description, I think so.	Based on the course description, I don't think so.
+content	Which courses do not have labs?	17	There are quite a few. I'll list them for you: [COURSE-LIST].	
+content	Does [STAT-COURSE] have any labs?	18	Yes, [STAT-COURSE] has [NUM-LABS] labs.	No, [STAT-COURSE] does not have any labs.
+content	How many lectures does [STAT-COURSE] have?	19	[STAT-COURSE] has [NUM-LECTURES] lectures. The other [NUM-LABS] are labs.	
+content	How many labs does [STAT-COURSE] have?	20	[STAT-COURSE] has [NUM-LABS] labs. The other [NUM-LECTURES] are lectures.	
+content	What are some approved support electives in the area of [TOPIC]?	21	Some support classes on [TOPIC] are: [COURSE-LIST]. Make sure both of the support electives you take are from the same area!	
+content	What courses should I take if I'm interested in [TOPIC]?	12	There are [NUM-OF-CLASSES] of classes about [TOPIC]. They are : [COURSE-LIST]	
+content	How many units is [STAT-COURSE]?	23	[STAT-COURSE] is [NUM-CREDITS] units	
+faculty	Which faculty teach [STAT-COURSE]?	24	[STAT-FACULTY-LIST] are teaching [STAT-COURSE].	
+faculty	Who teaches [STAT-COURSE]?	25	[STAT-FACULTY-LIST] are teaching [STAT-COURSE].	
+faculty	Which faculty is teaching the most courses?	26	[STAT-FACULTY] is teaching the most courses.	[STAT-FACULTY] is teaching the most courses. They are: [COURSE-LIST].
+faculty	How many STAT professors teach [STAT-COURSE]?	27	There are [NUM-FACULTY] professors that teach this course. They are: [STAT-FACULTY-LIST].	
+faculty	How many courses does [STAT-FACULTY] teach?	28	[STAT-FACULTY] teaches [NUM-OF-CLASSES] of classes. They are: [COURSE-LIST].	
+faculty	What does [STAT-FACULTY] teach?	29	[STAT-FACULTY] teaches [NUM-OF-CLASSES] of classes. They are: [COURSE-LIST].	
+faculty	What topics does [STAT-FACULTY] teach in their classes?	30	[STAT-FACULTY] teaches classes about [TOPIC-LIST].	
+faculty	What is the polyrating for the professor(s) teaching [STAT-COURSE]?	31	The following professors teach [STAT-COURSE]: [POLYRATING-LIST].	
+faculty	Can [STAT-FACULTY] teach me about [TOPIC]?	32	Yes, [STAT-FACULTY] covers that subject matter in [COURSE-LIST].	It doesn't look like [STAT-FACULTY] covers that subject in any classes they teach.
+faculty	What professor teaching [STAT-COURSE] has the highest polyrating?	33	[STAT-FACULTY] has the highest polyrating	
+faculty	Can I take [STAT-COURSE] with a professor whose Polyrating is over [NUM-RATING].	34	Yes, the following professors have a PolyRating over [number] and teach [STAT-COURSE].	It doen't look like it. The highest Polyrating for professors teaching [STAT-COURSE] is [NUM-RATING].
+faculty	Which stat professor has the highest polyrating?	33	[STAT-FACULTY] has the highest polyrating	
+other	Is [STAT-COURSE] a valid DATA course?	36	[STAT-COURSE] is/is not a valid DATA course.	
+other	Is [STAT-COURSE] a valid STAT course?	36	[STAT-COURSE] is/is not a valid DATA course.	
+other	How many STAT courses does the STAT department offer?	38	The stat department offers [NUM-OF-CLASSES] STAT courses.	
+other	How many DATA courses does the STAT department offer?	38	The stat department offers [NUM-OF-CLASSES] STAT courses.	
+other	What is the average grade in [STAT-COURSE]?	40	The average grade for [STAT-COURSE] is [GRADE] based on Polyratings.	
+other	What is the title of [COURSE_NUMBER]?	41	The title of [COURSE-NUMBER] is [COURSE-TITLE].	
+other	What is the course number of [COURSE-TITLE]?	42	The course number of [COURSE-TITLE] is [COURSE-NUMBER].	
+other	How many [COURSE-LEVEL] level stat courses are there?	43	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level stat courses.	
+other	How many [COURSE-LEVEL] level data courses are there?	44	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level data courses.	
+other	How many [COURSE-LEVEL] level courses does the stat department offer?	43	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level stat courses.	
+other	Does [STAT-COURSE] count as a support elective?	46	It sure does! Just be sure to let your advisor know you are taking it.	It's not listed as a support elective, but it doesn't hurt to ask your advisor about it.
+other	How many units do I need to graduate with a BS if I currently have [NUM-CREDITS] units?	47	You need another [NUM-CREDITS] units to graduate.	
+other	Which STAT courses do I need for the data science minor?	48	You will need [COURSE-LIST] for the data science minor.	
+other	What is the highest rated STAT class?	49	[STAT-COURSE] is the most popular STAT class based on the Polyratings.	
+other	How many units do I need to graduate with a degree in Stats?	47	You need another [NUM-CREDITS] units to graduate.	
+other	What is the hardest STAT class?	51	STAT 465 is the last course in the major.	
+other	What is the hardest STAT series?	52	425, 426, and 427 is the hardest series.	
+other	How many STAT courses am I required to take?	53	As a STAT major you are required to take [NUM-OF-CLASSES] stat courses. As a stat minor you are required to take [NUM-OF-CLASSES] stat courses.	
+other	What room is [STAT-COURSE] in?	54	[STAT-COURSE] is in this [ROOM]	
+other	Should I take [STAT-COURSE] if I'm a data science minor?	55	As a data science minor you would, need to take this course / might take this course as an elective / don't need to take this course	
+other	Should I take [STAT-COURSE] if I'm a stat major?	56	As a STAT major you would, need to take this course / might take this course as an elective / don't need to take this course	
+other	Which STAT courses do I need for the STAT minor?	57	You need [COURSE-LIST] for the STAT minor.	
+other	What are the STAT courses I should take for the STAT minor?	57	You need [COURSE-LIST] for the STAT minor.	
+other	What is a STAT course for beginners?	59	[COURSE-LIST] are STAT courses for non-stat majors.	
+other	How many total credits do I need for the STAT minor?	60	The STAT minor requires [NUM-CREDITS] credits.	
+other	How many credits is the STAT minor?	60	The STAT minor requires [NUM-CREDITS] credits.	
+other	What was is the withdrawl rate of [STAT-COURSE] last quarter?	62	Last quarter, the withdrawl rate of [STAT-COURSE] was [number] percent.	
+prerequisites	Does [STAT-FACULTY] teach any courses with no prerequisites?	63	[STAT-FACULTY] teaches [COURSE-LIST]. None of these require a prerequisite class.	
+prerequisites	Does [STAT-COURSE] have any prerequisites?	64	[STAT-COURSE] has [NUM-OF-CLASSES] prerequisites. They are: [COURSE-LIST].	
+prerequisites	Is [STAT-COURSE] a prerequisite for [STAT_COURSE]?	65	Yes. [STAT-COURSE] is a prerequisite for [STAT-COURSE].	
+prerequisites	Do I have to take [STAT-COURSE[1]] before I can take [STAT-COURSE[2]]?	66	Yes. [STAT-COURSE] is a prerequisite for [STAT-COURSE].	
+prerequisites	How many prerequisites are there for [STAT-COURSE]?	64	[STAT-COURSE] has [NUM-OF-CLASSES] prerequisites. They are: [COURSE-LIST].	
+prerequisites	Which STAT courses can I take without a prerequisite?	68	[COURSE-LIST] do not have a prerequisite.	
+prerequisites	Which STAT courses have no prerequisites?	68	[COURSE-LIST] do not have a prerequisite.	
+prerequisites	What is a STAT class with no prerequisites?	70	[STAT-COURSE] does not have a prerequisite.	
+prerequisites	How many STAT classes do not require a prerequisite?	71	[NUM-OF-CLASSES] of stat classes do not require a prerequisite. They are [COURSE-LIST].	
+prerequisites	Which class has the most prerequisites?	72	[STAT-COURSE] has the most prerequisites. They are [COURSE-LIST].	
+prerequisites	After I take [STAT-COURSE[1]] can I take [STAT-COURSE[2]]?	73	Yes. [STAT-COURSE] is a prerequisite for [STAT-COURSE].	No. You still need to take [COURSE-LIST] before you can take [STAT-COURSE[2]].
+prerequisites	Can I take [STAT-COURSE[1]] at the same time as [STAT-COURSE[2]]?	74	Yes. That would not cause a circular prerequisite issue.	No. [STAT-COURSE] has prerequisites that you need for [STAT-COURSE]
+prerequisites	Can I take [STAT-COURSE[1]] before [STAT-COURSE[2]]?	74	Yes. That would not cause a circular prerequisite issue.	No. [STAT-COURSE] has prerequisites that you need for [STAT-COURSE]
+prerequisites	How may DATA classes require a prerequisite?	76	[NUM-OF-CLASSES] of stat classes require a prerequisite. They are [COURSE-LIST].	
+prerequisites	Are there any alternatives to taking [STAT-COURSE]?	77	Yes, [STAT-COURSE] fulfills the same prerequisites.	No, unfortunately. [STAT-COURSE[1]] is required for [STAT-COURSE[2]]
+prerequisites	How many units are needed to get a minor in STAT?	60	The STAT minor requires [NUM-CREDITS] credits.	
+prerequisites	Does [STAT-COURSE] count towards a minor in STAT?	79	Yes, [STAT-COURSE] would get you [NUM-CREDITS] units closer to a minor in STAT.	It doesn't look like it.
+prerequisites	Which courses require graduate standing?	80	The following courses require graduate standing as a prerequisite: [COURSE-LIST]	
+prerequisites	Can I take [STAT-COURSE] as an undergraduate?	81	Yes, that course is available to undergrads.	Unfortunately not. You would have to have graduate standing to take that course.
+prerequisites	Which courses can I take with the consent of an instructor?	82	You can take the following courses with the consent of an instructor: [COURSE-LIST].	
+prerequisites	How do I avoid taking [STAT-COURSE]?	83	If you really want to avoid that course, you could take [STAT-COURSE]. It will fulfill the same prerequisites.	Since [STAT-COURSE] is a required class, you would have to drop out.
+prerequisites	What order should you take [COURSE-LIST] in?	84	[COURSE-LIST]	
+prerequisites	What stat courses can you get AP credit for?	85	You can get credit for stat 251.	
+prerequisites	What is the last STAT class in the major?	86	STAT 465 is the last course in the major.	
+prerequisites	Which STAT classes should I take if I am not a stat major?	87	[COURSE-LIST] are STAT courses for non-stat majors.	
+prerequisites	Am I required to take any STAT classes?	88	Yes. All majors are required to take a stat class. For example, STAT 312 is Statistics for Engineers.	
+prerequisites	Does [STAT-COURSE] count towards the data science minor?	89	Yes. [STAT-COURSE] is required for the data science minor.	
+prerequisites	Which STAT courses satisfy a GE?	90	The following STAT courses satisfy a GE: [COURSE-LIST]
+scheduling	How many hours a week is [STAT-COURSE]?	91	[STAT-COURSE] is [NUM-HOURS] hours a week.	
+scheduling	How many lecture hours a week is [STAT-COURSE]?	92	[STAT-COURSE] is [NUM-HOURS] lecture hours a week.	
+scheduling	How many lab hours a week is [STAT-COURSE]?	93	[STAT-COURSE] is [NUM-HOURS] lab hours a week.	
+scheduling	Will [STAT-FACULTY] be teaching [STAT-COURSE] this quarter?	94	[STAT-FACULTY] will/will not be teaching [STAT-COURSE].	
+scheduling	How many STAT courses are offered this quarter?	95	[NUM-OF-CLASSES] courses are taught this quarter.	The following courses are taught this quarter[COURSE-LIST]. There are [number] in total.
+scheduling	Which course has the most sections offered?	96	[STAT-COURSE] has the most sections this quarter.	
+scheduling	Does [STAT-FACULTY] teach any courses this quarter?	97	[STAT-FACULTY] does teach courses this quarter. They are: [COURSE-LIST].	
+scheduling	How many stat professors are teaching this quarter?	98	[NUM-FACULTY] of stat professors are teaching this quarter. They are: [STAT-FACULTY-LIST].	
+scheduling	How many sections of [STAT-COURSE] are offered this quarter?	99	Ther are [NUM-OF-SECTIONS] of sections of [STAT-COURSE] offered this quarter.	
+scheduling	How many sections of [STAT-COURSE] does [STAT-FACULTY] teach?	100	[STAT-FACULTY] teaches [NUM-OF-SECTIONS] sections.	
+scheduling	Who teaches the most sections of [STAT-COURSE]?	101	[STAT-FACULTY] teaches the most sections of [STAT-COURSE].	
+scheduling	How many DATA courses are offered this quarter?	102	[NUM-OF-CLASSES] courses are taught this quarter.	The following courses are taught this quarter[COURSE-LIST]. There are [number] in total.
+scheduling	Which DATA courses are offered in [TERM] quarter?	103	The following courses are taught [TERM] quarter: [COURSE-LIST]. There are [number] in total.	
+scheduling	Which quarter is [STAT-COURSE] typically offered?	104	[STAT-COURSE] is typically offered [TERM] quarter.	
+scheduling	Which [COURSE-LEVEL] courses are offered [TERM]?	105	In [TERM] quarter, there are [NUM-CREDITS] [COURSE-LEVEL] units offered. They are [COURSE-LIST].	
+scheduling	Are there any classes that are only offered in [TERM]?	106	Yes, [COURSE-LIST] are only offered in [TERM].	
+scheduling	Is [STAT-COURSE] required in the [CATALOG-YEAR] catalog?	107	Yes, it is.	No, [STAT-COURSE] is not required in the [CATALOG-YEAR] catalog.
+scheduling	How many open seats are there in [STAT-COURSE]?	108	There are [NUM-SEATS] open seats.	
+scheduling	Is [STAT-COURSE] required for the stat major in [YEAR] year?	109	Yes, it is.	No, [STAT-COURSE] is not required in the [CATALOG-YEAR] catalog.
+scheduling	What time is [STAT-COURSE]?	110	[TIME-LIST]	
+scheduling	Is [STAT-COURSE] offered on [DAY].	111	Yes. [STAT-COURSE] is offered on [day].	No [STAT-COURSE] is not offered on [DAY].
+scheduling	For next quarter, does [STAT-COURSE] conflict with [STAT-COURSE]?	112	Yes. Those two courses conflict	No. Those courses don't conflict
+scheduling	Which courses are offered this quarter but not next quarter?	113	[COURSE-LIST] is offered this quarter but not next quarter.	
+scheduling	What STAT courses end before [TIME]?	84	[COURSE-LIST]	
+scheduling	What courses don't have a [DAY] class?	84	[COURSE-LIST]	
+scheduling	Which courses should I take as a [YEAR-NUM] year?	116	You should take [COURSE-LIST] as a [YEAR-NUM] year.	
+scheduling	How many students are on the waitlist for [STAT-COURSE]?	117	As of [UPDATE-TIME], there are [NUM-STUDENTS] students on the wait list.	
+scheduling	What courses are still open for next quarter?	118	As of [UPDATE-TIME], [COURSE-LIST] are all still open.	
+scheduling	How many students are currenly enrolled in each section of [STAT-COURSE]?	119	As of [UPDATE-TIME], here are the number of students enrolled in each section of [STAT-COURSE]: [SECTION] [NUM-STUDENTS]	
+scheduling	What classes can I take as a graduate student?	84	[COURSE-LIST]	
+scheduling	What class is the hardest to get into?	121	[COURSE]	
+other	Where are most STAT courses located?	122	[LOCATION]	
+other	Can I take [COURSE] credit / no credit?	123	Yes, [COURSE] can be taken credit / no credit	No, [COURSE] must be taken for a grade
+other	Which professor should I take for [TOPIC]?	124	[STAT-FACULTY] is the best for this subject.	
+	How many units is [STAT-COURSE]?	23	[STAT-COURSE] is [NUM-CREDITS] units	
+	Is [STAT-COURSE] available during [QUARTER]?	126	Yes, [STAT-COURSE] is available during [QUARTER].	No, I'm afraid not.
+	Who is teaching [STAT-COURSE]?	24	[STAT-FACULTY-LIST] are teaching [STAT-COURSE].	
+	How many upper division stat classes are there?	43	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level stat courses.	
+	Is [STAT-COURSE] available this quarter?	126	Yes, [STAT-COURSE] is available during [QUARTER].	No, I'm afraid not.
+	When is [STAT-COURSE] available next?	104	[STAT-COURSE] is typically offered [TERM] quarter.	
+	What days is [STAT-COURSE] taught? At what times?	110	[TIME-LIST]	
+	What is the description for [STAT-COURSE]?	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].	
+	What classroom is [STAT-COURSE] in this quarter?	54	[STAT-COURSE] is in this [ROOM]	
+	What terms is [STAT-COURSE] normally offered?	104	[STAT-COURSE] is typically offered [TERM] quarter.	
+	How many 300 level courses are there?	43	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level stat courses.	
+	What are the introductory stat courses?	43	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level stat courses.	
+	Are there any grad courses?	43	There are [NUM-OF-CLASSES] [COURSE-LEVEL] level stat courses.	
+	When can I take [STAT-COURSE]	104	[STAT-COURSE] is typically offered [TERM] quarter.	
+	What can I learn about in [STAT-COURSE]	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].	
