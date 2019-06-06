@@ -119,6 +119,30 @@ for index, row in syn.iterrows():
    make_entry(row[0], int(row[0]))
    make_entry(row[0], (str(row[1])))
 
+   if str(row[1])[-2:] == "ii":
+      row[1] = str(row[1]).replace("ii", "2")
+      make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat " + (str(row[1])))
+      make_entry(row[0], "stat" + (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat" + (str(row[1])))
+      make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], (str(row[1])))
+   elif str(row[1])[-1] == "i":
+      row[1] = str(row[1])[:-1] + "1"
+      make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat " + (str(row[1])))
+      make_entry(row[0], "stat" + (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat" + (str(row[1])))
+      make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
+      make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], (str(row[1])))
+
+
    if int(row[0]) >= 500:
       make_entry(row[0], "graduate stat " + (str(int(row[0])) + " " + str(row[1])))
       make_entry(row[0], "grad stat " + (str(row[1]) + " " + str(int(row[0]))))
