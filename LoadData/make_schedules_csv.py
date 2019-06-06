@@ -202,13 +202,9 @@ for index, row in syn2.iterrows():
    make_entry_pr(lastname, lastname);
    make_entry_pr(lastname, "dr." + lastname);
    make_entry_pr(lastname, "professor" + lastname);
-   make_entry_pr(lastname, "mr." + lastname);
-   make_entry_pr(lastname, "mrs." + lastname);
    make_entry_pr(lastname, lastname +"," + firstname);
    make_entry_pr(lastname, firstname + lastname);
    make_entry_pr(lastname, firstname);
-   make_entry_pr(lastname, "mr." + firstname);
-   make_entry_pr(lastname, "mrs." + firstname);
    make_entry_pr(lastname, "professor " + firstname);
    make_entry_pr(lastname, "dr." + firstname + lastname);
    make_entry_pr(lastname, "mr." + firstname + lastname);
@@ -300,6 +296,10 @@ make_entry_cn( "course_days", "thursday", "thurs")
 make_entry_cn( "course_days", "thursday", "thursday")
 make_entry_cn( "course_days", "thursday", "th")
 make_entry_cn( "course_days", "thursday", "tr")
+make_entry_cn( "course_days", "friday", "fri")
+make_entry_cn( "course_days", "friday", "friday")
+make_entry_cn( "course_days", "friday", "f")
+make_entry_cn( "course_days", "friday", "fr")
 #print(syns3)
 
 syns3_df = pd.DataFrame(syns3)
