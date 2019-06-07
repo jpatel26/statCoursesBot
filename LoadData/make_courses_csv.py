@@ -111,21 +111,15 @@ for index, row in syn.iterrows():
    cleantext = re.search(r'([\s\S]+?)Not[\s\S]+?\.', text)
    if cleantext:
       text = cleantext.group(1)
-   make_entry(row[0], "stat " + (str(int(row[0])) + " " + text))
-   #make_entry(row[0], text)
-   sentences = text.split('.') #creates a list of sentences
-   clauses = text.split('and')
-   for s in sentences:
-      if (len(s) > 1):
-         if ("Fulfills" in s or '.' in s): # it is a req
-            continue
-         make_entry(row[0], s)
+   cleantext = re.search(r'([\s\S]+?)Fulfills[\s\S]+?\.', text)
+   if cleantext:
+      text = cleantext.group(1)
+   cleantext = re.search(r'([\s\S]+?)Total[\s\S]+?\.', text)
+   if cleantext:
+      text = cleantext.group(1)
 
-   for c in clauses:
-      if (len(c) > 1):
-         if ("Fulfills" in s or '.' in s): # it is a req
-            continue
-         make_entry(row[0], c)
+
+   make_entry(row[0], text.lower().replace('.','')) # add course descriptions
 
    make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
    make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
