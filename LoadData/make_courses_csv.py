@@ -101,11 +101,32 @@ def make_entry(Canon, Syn):
    tmp.append('course_name')
    tmp.append(int(Canon))
    tmp.append(Syn)
+   if (str(Syn).isspace()):
+      return
    syns.append(tmp)
 
 for index, row in syn.iterrows():
    tmp = []
-   #print(row[0])
+   text = str(''.join([i for i in str(row[6]) if not i.isdigit()]).replace('lectures',''))
+   cleantext = re.search(r'([\s\S]+?)Not[\s\S]+?\.', text)
+   if cleantext:
+      text = cleantext.group(1)
+   make_entry(row[0], "stat " + (str(int(row[0])) + " " + text))
+   #make_entry(row[0], text)
+   sentences = text.split('.') #creates a list of sentences
+   clauses = text.split('and')
+   for s in sentences:
+      if (len(s) > 1):
+         if ("Fulfills" in s or '.' in s): # it is a req
+            continue
+         make_entry(row[0], s)
+
+   for c in clauses:
+      if (len(c) > 1):
+         if ("Fulfills" in s or '.' in s): # it is a req
+            continue
+         make_entry(row[0], c)
+
    make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
    make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
    make_entry(row[0], "stat " + str(int(row[0])))
@@ -156,6 +177,15 @@ for index, row in syn.iterrows():
       make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))) + " for graduates")
       make_entry(row[0], int(row[0]))
       make_entry(row[0], (str(row[1]))+ " for graduate students")
+
+syns.append(['courses', 'term','sp', 'this quarter'])
+syns.append(['courses', 'term','su', 'next quarter'])
+syns.append(['courses', 'term','sp', 'now'])
+syns.append(['courses', 'term','su', 'next summer'])
+syns.append(['courses', 'term','f', 'next fall'])
+syns.append(['courses', 'term','w', 'next winter'])
+syns.append(['courses', 'term','sp', 'next spring'])
+syns.append(['courses', 'term','sp', 'today'])
 
 syns.append(['courses', 'term', 'w', 'w'])
 syns.append(['courses', 'term','w', 'winter'])
