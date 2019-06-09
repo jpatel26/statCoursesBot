@@ -24,14 +24,14 @@ stat-312-70-2194  has  one  ptype  overlap,70 ,lecture,tuesday  thursday,04:10 
 stat-312-71-2194  has  one  ptype  overlap,71 ,lecture,tuesday  thursday,06:10  pm,08:00  pm,graphic  arts  room  0104,026-0104,23,312,427
 statistics  350  probability  and  random  processes  for  engineers,01 ,lecture,monday  tuesday  wednesday  thursday,02:10  pm,03:00  pm,pilling  building  room  0252,014-0252,24,350,427
 statistics  350  probability  and  random  processes  for  engineers,02 ,lecture,monday  tuesday  wednesday  thursday,03:10  pm,04:00  pm,pilling  building  room  0252,014-0252,25,350,427
-statistics  313  applied  experimental  design  and  regression  models,01 ,lecture,monday  wednesday,12:10  pm,01:00  pm,pilling  building  room  0247,014-0247,26,313,427
-statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,monday  wednesday,01:10  pm,02:00  pm,pilling  building  room  0247,014-0247,27,313,427
-statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,tuesday  thursday,01:10  pm,02:00  pm,kennedy  library  room  0111b,035-0111b,28,313,427
-stat-323-71-2194  has  one  ptype  overlap,71 ,lecture,monday  tuesday  wednesday  thursday,09:10  am,10:00  am,pilling  building  room  0247,014-0247,29,323,427
-statistics  313  applied  experimental  design  and  regression  models,01 ,lecture,tuesday  thursday,12:10  pm,01:00  pm,kennedy  library  room  0111b,035-0111b,30,313,427
-statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,monday  wednesday,01:10  pm,02:00  pm,pilling  building  room  0247,014-0247,31,313,427
-statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,tuesday  thursday,01:10  pm,02:00  pm,kennedy  library  room  0111b,035-0111b,32,313,427
-stat-323-71-2194  has  one  ptype  overlap,71 ,lecture,monday  tuesday  wednesday  thursday,09:10  am,10:00  am,pilling  building  room  0247,014-0247,33,323,427
+statistics  313  applied  experimental  design  and  regression  models,01 ,lecture,tuesday  thursday,12:10  pm,01:00  pm,kennedy  library  room  0111b,035-0111b,26,313,427
+statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,tuesday  thursday,01:10  pm,02:00  pm,kennedy  library  room  0111b,035-0111b,27,313,427
+stat-323-71-2194  has  one  ptype  overlap,71 ,lecture,monday  tuesday  wednesday  thursday,09:10  am,10:00  am,pilling  building  room  0247,014-0247,28,323,427
+statistics  313  applied  experimental  design  and  regression  models,01 ,lecture,monday  wednesday,12:10  pm,01:00  pm,pilling  building  room  0247,014-0247,29,313,427
+statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,monday  wednesday,01:10  pm,02:00  pm,pilling  building  room  0247,014-0247,30,313,427
+statistics  313  applied  experimental  design  and  regression  models,02 ,lecture,tuesday  thursday,01:10  pm,02:00  pm,kennedy  library  room  0111b,035-0111b,31,313,427
+stat-323-71-2194  has  one  ptype  overlap,71 ,lecture,monday  tuesday  wednesday  thursday,09:10  am,10:00  am,pilling  building  room  0247,014-0247,32,323,427
+statistics  313  applied  experimental  design  and  regression  models,01 ,lecture,monday  wednesday,12:10  pm,01:00  pm,pilling  building  room  0247,014-0247,33,313,427
 statistics  513  applied  experimental  design  and  regression  models,01 ,lecture,tuesday  thursday,12:10  pm,01:00  pm,erhart  agriculture  room  0111,010-0111,34,513,427
 statistics  218  applied  statistics  for  the  life  sciences,01 ,lecture,monday  tuesday  wednesday  thursday,02:10  pm,03:00  pm,pilling  building  room  0251,014-0251,35,218,427
 statistics  218  applied  statistics  for  the  life  sciences,02 ,lecture,monday  tuesday  wednesday  thursday,03:10  pm,04:00  pm,pilling  building  room  0251,014-0251,36,218,427
@@ -50,12 +50,12 @@ statistics  217  introduction  to  statistical  concepts  and  methods,11 ,lect
 statistics  302  statistics  ii,01 ,lecture,monday  tuesday  wednesday  thursday,08:10  am,09:00  am,erhart  agriculture  room  0223,010-0223,49,302,427
 statistics  334  applied  linear  models,01 ,lecture,monday  tuesday  wednesday  thursday,12:10  pm,01:00  pm,engineering  west  room  0238,021-0238,50,334,427
 statistics  334  applied  linear  models,02 ,lecture,monday  tuesday  wednesday  thursday,01:10  pm,02:00  pm,engineering  west  room  0238,021-0238,51,334,427
-stat-312-72-2194  has  one  ptype  overlap,72 ,lecture,monday  tuesday  wednesday  thursday,12:10  pm,01:00  pm,construction  innovations  center  room  c300,186-c300,52,312,427
-stat-312-74-2194  has  one  ptype  overlap,74 ,lecture,monday  tuesday  wednesday  thursday,02:10  pm,03:00  pm,construction  innovations  center  room  c300,186-c300,53,312,427
-stat-542-72-2194  has  one  ptype  overlap,72 ,lecture,monday  tuesday  wednesday  thursday,12:10  pm,01:00  pm,construction  innovations  center  room  c300,186-c300,54,542,427
-stat-312-73-2194  has  one  ptype  overlap,73 ,lecture,monday  tuesday  wednesday  thursday,01:10  pm,02:00  pm,construction  innovations  center  room  c300,186-c300,55,312,427
-stat-312-74-2194  has  one  ptype  overlap,74 ,lecture,monday  tuesday  wednesday  thursday,02:10  pm,03:00  pm,construction  innovations  center  room  c300,186-c300,56,312,427
-stat-542-72-2194  has  one  ptype  overlap,72 ,lecture,monday  tuesday  wednesday  thursday,12:10  pm,01:00  pm,construction  innovations  center  room  c300,186-c300,57,542,427
+stat-542-72-2194  has  one  ptype  overlap,72 ,lecture,monday  tuesday  wednesday  thursday,12:10  pm,01:00  pm,construction  innovations  center  room  c300,186-c300,52,542,427
+stat-312-73-2194  has  one  ptype  overlap,73 ,lecture,monday  tuesday  wednesday  thursday,01:10  pm,02:00  pm,construction  innovations  center  room  c300,186-c300,53,312,427
+stat-312-74-2194  has  one  ptype  overlap,74 ,lecture,monday  tuesday  wednesday  thursday,02:10  pm,03:00  pm,construction  innovations  center  room  c300,186-c300,54,312,427
+stat-312-72-2194  has  one  ptype  overlap,72 ,lecture,monday  tuesday  wednesday  thursday,12:10  pm,01:00  pm,construction  innovations  center  room  c300,186-c300,55,312,427
+stat-312-73-2194  has  one  ptype  overlap,73 ,lecture,monday  tuesday  wednesday  thursday,01:10  pm,02:00  pm,construction  innovations  center  room  c300,186-c300,56,312,427
+stat-312-74-2194  has  one  ptype  overlap,74 ,lecture,monday  tuesday  wednesday  thursday,02:10  pm,03:00  pm,construction  innovations  center  room  c300,186-c300,57,312,427
 statistics  252  statistical  inference  for  management  ii,01 ,lecture,monday  tuesday  wednesday  thursday,07:10  am,08:00  am,pilling  building  room  0252,014-0252,58,252,427
 statistics  252  statistical  inference  for  management  ii,02 ,lecture,monday  tuesday  wednesday  thursday,08:10  am,09:00  am,pilling  building  room  0252,014-0252,59,252,427
 statistics  252  statistical  inference  for  management  ii,02 ,lecture,friday,08:10  am,09:00  am,mathematics  and  science  room  0123,038-0123,60,252,427
@@ -91,7 +91,7 @@ statistics  252  statistical  inference  for  management  ii,04 ,lecture,monday
 statistics  252  statistical  inference  for  management  ii,06 ,lecture,monday  tuesday  wednesday  thursday  friday,05:10  pm,06:00  pm,engineering  east  room  0139,020-0139,90,465,427
 statistics  252  statistical  inference  for  management  ii,05 ,lecture,monday  tuesday  wednesday  thursday  friday,04:10  pm,05:00  pm,engineering  east  room  0139,020-0139,91,252,427
 statistics  252  statistical  inference  for  management  ii,06 ,lecture,monday  tuesday  wednesday  thursday  friday,05:10  pm,06:00  pm,engineering  east  room  0139,020-0139,92,252,427
-stat-312-75-2194  has  one  ptype  overlap,75 ,lecture,monday  tuesday  wednesday  thursday,03:10  pm,04:00  pm,pilling  building  room  0253,014-0253,93,252,427
-statistics  251  statistical  inference  for  management  i,04 ,lecture,monday  tuesday  wednesday  thursday,05:10  pm,06:00  pm,construction  innovations  center  room  c203,186-c203,94,252,427
-stat-312-76-2194  has  one  ptype  overlap,76 ,lecture,monday  tuesday  wednesday  thursday,04:10  pm,05:00  pm,pilling  building  room  0253,014-0253,95,312,427
-statistics  251  statistical  inference  for  management  i,04 ,lecture,monday  tuesday  wednesday  thursday,05:10  pm,06:00  pm,construction  innovations  center  room  c203,186-c203,96,251,427
+statistics  251  statistical  inference  for  management  i,04 ,lecture,monday  tuesday  wednesday  thursday,05:10  pm,06:00  pm,construction  innovations  center  room  c203,186-c203,93,252,427
+stat-312-76-2194  has  one  ptype  overlap,76 ,lecture,monday  tuesday  wednesday  thursday,04:10  pm,05:00  pm,pilling  building  room  0253,014-0253,94,252,427
+stat-312-75-2194  has  one  ptype  overlap,75 ,lecture,monday  tuesday  wednesday  thursday,03:10  pm,04:00  pm,pilling  building  room  0253,014-0253,95,251,427
+stat-312-76-2194  has  one  ptype  overlap,76 ,lecture,monday  tuesday  wednesday  thursday,04:10  pm,05:00  pm,pilling  building  room  0253,014-0253,96,312,427

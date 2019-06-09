@@ -224,6 +224,9 @@ syns3 = []
 syn3 = pd.read_csv("sections.csv", error_bad_lines=False)
 def make_entry_cn(Col, Canon, sss):
    tmp = []
+   if Col == 'course_num':
+      Canon = "stat"+str(Canon)
+
    tmp.append('sections')
    tmp.append(Col)
    tmp.append(Canon)
@@ -309,17 +312,19 @@ s1 = pd.read_csv("syn_courses_1.csv", error_bad_lines=False)
 s2 = pd.read_csv("syn_faculty_3.csv", error_bad_lines=False)
 s3 = pd.read_csv("syn_faculty_2.csv", error_bad_lines=False)
 s4 = pd.read_csv("syn_sections_4.csv", error_bad_lines=False)
+s5 = pd.read_csv("syn_courses_6.csv", error_bad_lines=False)
 import glob
 
 os.remove("syn_table.csv")
-filenames = ['syn_courses_1.csv', 'syn_faculty_2.csv', 'syn_faculty_3.csv', 'syn_sections_4.csv']
+filenames = ['syn_courses_1.csv', 'syn_faculty_2.csv', 'syn_faculty_3.csv', 'syn_sections_4.csv',
+'syn_courses_6.csv']
 with open('result.csv', 'w') as outfile:
    for fname in filenames:
       with open(fname) as infile:
          for line in infile:
             outfile.write(line)
 
-s_table = pd.concat([s1, s2, s3, s4])
+s_table = pd.concat([s1, s2, s3, s4, s5])
 
 df5 = pd.DataFrame(s_table)
 df5.drop_duplicates()
