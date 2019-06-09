@@ -90,6 +90,6 @@ stat_df["terms"] = pd.Series(course_terms)
 stat_df["pre"] = pd.Series(course_pre)
 stat_df["description"] = pd.Series(course_description)
 
-stat_df.to_csv("datacourses.csv", index=False, header=False)
+stat_df.to_csv("datacourses.csv", header=False, index=False)
 
 

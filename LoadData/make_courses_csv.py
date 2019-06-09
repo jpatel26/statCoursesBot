@@ -98,8 +98,8 @@ syns = []
 def make_entry(Canon, Syn):
    tmp = []
    tmp.append('courses')
-   tmp.append('course_name')
-   tmp.append(int(Canon))
+   tmp.append('course_num')
+   tmp.append("stat" + str(int(Canon)))
    tmp.append(Syn)
    if (str(Syn).isspace()):
       return
@@ -117,7 +117,6 @@ for index, row in syn.iterrows():
    cleantext = re.search(r'([\s\S]+?)Total[\s\S]+?\.', text)
    if cleantext:
       text = cleantext.group(1)
-
 
    make_entry(row[0], text.lower().replace('.','')) # add course descriptions
 
@@ -246,3 +245,72 @@ syns.append(['courses', 'course_area', 'cr/nc', 'pass/fail'])
 
 syns_df = pd.DataFrame(syns)
 syns_df.to_csv("syn_courses_1.csv", index=False, header=False, escapechar=' ', quoting=csv.QUOTE_NONE)
+
+
+dsyn = pd.read_csv("datacourses.csv", header=None)
+print(dsyn)
+dsyns = []
+def dmake_entry(Canon, Syn):
+   tmp = []
+   tmp.append('datacourses')
+   tmp.append('course_num')
+   tmp.append("data" + str(int(Canon)))
+   tmp.append(Syn)
+   if (str(Syn).isspace()):
+      return
+   dsyns.append(tmp)
+
+for index, row in dsyn.iterrows():
+   tmp = []
+   text = str(''.join([i for i in str(row[6]) if not i.isdigit()]).replace('lectures',''))
+   cleantext = re.search(r'([\s\S]+?)Not[\s\S]+?\.', text)
+   if cleantext:
+      text = cleantext.group(1)
+   cleantext = re.search(r'([\s\S]+?)Fulfills[\s\S]+?\.', text)
+   if cleantext:
+      text = cleantext.group(1)
+   cleantext = re.search(r'([\s\S]+?)Total[\s\S]+?\.', text)
+   if cleantext:
+      text = cleantext.group(1)
+
+   dmake_entry(row[0], text.lower().replace('.','')) # add course descriptions
+
+   dmake_entry(row[0], "data " + (str(int(row[0])) + " " + str(row[1])))
+   dmake_entry(row[0], "data " + (str(row[1]) + " " + str(int(row[0]))))
+   dmake_entry(row[0], "data " + str(int(row[0])))
+   dmake_entry(row[0], "data " + (str(row[1])))
+   dmake_entry(row[0], "data" + (str(int(row[0])) + " " + str(row[1])))
+   dmake_entry(row[0], "data" + (str(row[1]) + " " + str(int(row[0]))))
+   dmake_entry(row[0], "data" + str(int(row[0])))
+   dmake_entry(row[0], "data" + (str(row[1])))
+   dmake_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
+   dmake_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+   dmake_entry(row[0], int(row[0]))
+   dmake_entry(row[0], (str(row[1])))
+
+   if str(row[1])[-2:] == "ii":
+      row[1] = str(row[1]).replace("ii", "2")
+      dmake_entry(row[0], "data " + (str(int(row[0])) + " " + str(row[1])))
+      dmake_entry(row[0], "data " + (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], "data " + (str(row[1])))
+      dmake_entry(row[0], "data" + (str(int(row[0])) + " " + str(row[1])))
+      dmake_entry(row[0], "data" + (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], "data" + (str(row[1])))
+      dmake_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
+      dmake_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], (str(row[1])))
+   elif str(row[1])[-1] == "i":
+      row[1] = str(row[1])[:-1] + "1"
+      dmake_entry(row[0], "data " + (str(int(row[0])) + " " + str(row[1])))
+      dmake_entry(row[0], "data " + (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], "data " + (str(row[1])))
+      dmake_entry(row[0], "data" + (str(int(row[0])) + " " + str(row[1])))
+      dmake_entry(row[0], "data" + (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], "data" + (str(row[1])))
+      dmake_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
+      dmake_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], (str(row[1])))
+
+dsyns_df = pd.DataFrame(dsyns)
+dsyns_df.to_csv("syn_courses_6.csv", index=False, header=False, escapechar=' ', quoting=csv.QUOTE_NONE)
+

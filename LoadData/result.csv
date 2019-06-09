@@ -1,215 +1,877 @@
-courses,course_name,150,150    introduction  to  the  discipline  of  statistics
-courses,course_name,150,  introduction  to  the  discipline  of  statistics  150
-courses,course_name,150,150
-courses,course_name,150,  introduction  to  the  discipline  of  statistics
-courses,course_name,200,200    special  problems  for  undergraduates
-courses,course_name,200,  special  problems  for  undergraduates  200
-courses,course_name,200,200
-courses,course_name,200,  special  problems  for  undergraduates
-courses,course_name,217,217    introduction  to  statistical  concepts  and  methods
-courses,course_name,217,  introduction  to  statistical  concepts  and  methods  217
-courses,course_name,217,217
-courses,course_name,217,  introduction  to  statistical  concepts  and  methods
-courses,course_name,218,218    applied  statistics  for  the  life  sciences
-courses,course_name,218,  applied  statistics  for  the  life  sciences  218
-courses,course_name,218,218
-courses,course_name,218,  applied  statistics  for  the  life  sciences
-courses,course_name,251,251    statistical  inference  for  management  i
-courses,course_name,251,  statistical  inference  for  management  i  251
-courses,course_name,251,251
-courses,course_name,251,  statistical  inference  for  management  i
-courses,course_name,252,252    statistical  inference  for  management  ii
-courses,course_name,252,  statistical  inference  for  management  ii  252
-courses,course_name,252,252
-courses,course_name,252,  statistical  inference  for  management  ii
-courses,course_name,270,270    selected  topics
-courses,course_name,270,  selected  topics  270
-courses,course_name,270,270
-courses,course_name,270,  selected  topics
-courses,course_name,301,301    statistics  i
-courses,course_name,301,  statistics  i  301
-courses,course_name,301,301
-courses,course_name,301,  statistics  i
-courses,course_name,302,302    statistics  ii
-courses,course_name,302,  statistics  ii  302
-courses,course_name,302,302
-courses,course_name,302,  statistics  ii
-courses,course_name,305,305    introduction  to  probability  and  simulation
-courses,course_name,305,  introduction  to  probability  and  simulation  305
-courses,course_name,305,305
-courses,course_name,305,  introduction  to  probability  and  simulation
-courses,course_name,312,312    statistical  methods  for  engineers
-courses,course_name,312,  statistical  methods  for  engineers  312
-courses,course_name,312,312
-courses,course_name,312,  statistical  methods  for  engineers
-courses,course_name,313,313    applied  experimental  design  and  regression  models
-courses,course_name,313,  applied  experimental  design  and  regression  models  313
-courses,course_name,313,313
-courses,course_name,313,  applied  experimental  design  and  regression  models
-courses,course_name,314,314    statistical  methods  for  food  science
-courses,course_name,314,  statistical  methods  for  food  science  314
-courses,course_name,314,314
-courses,course_name,314,  statistical  methods  for  food  science
-courses,course_name,321,321    probability  and  statistics  for  engineers  and  scientists
-courses,course_name,321,  probability  and  statistics  for  engineers  and  scientists  321
-courses,course_name,321,321
-courses,course_name,321,  probability  and  statistics  for  engineers  and  scientists
-courses,course_name,323,323    design  and  analysis  of  experiments  i
-courses,course_name,323,  design  and  analysis  of  experiments  i  323
-courses,course_name,323,323
-courses,course_name,323,  design  and  analysis  of  experiments  i
-courses,course_name,324,324    applied  regression  analysis
-courses,course_name,324,  applied  regression  analysis  324
-courses,course_name,324,324
-courses,course_name,324,  applied  regression  analysis
-courses,course_name,330,330    statistical  computing  with  sas
-courses,course_name,330,  statistical  computing  with  sas  330
-courses,course_name,330,330
-courses,course_name,330,  statistical  computing  with  sas
-courses,course_name,331,331    statistical  computing  with  r
-courses,course_name,331,  statistical  computing  with  r  331
-courses,course_name,331,331
-courses,course_name,331,  statistical  computing  with  r
-courses,course_name,334,334    applied  linear  models
-courses,course_name,334,  applied  linear  models  334
-courses,course_name,334,334
-courses,course_name,334,  applied  linear  models
-courses,course_name,350,350    probability  and  random  processes  for  engineers
-courses,course_name,350,  probability  and  random  processes  for  engineers  350
-courses,course_name,350,350
-courses,course_name,350,  probability  and  random  processes  for  engineers
-courses,course_name,365,365    statistical  communication
-courses,course_name,365,  statistical  communication  365
-courses,course_name,365,365
-courses,course_name,365,  statistical  communication
-courses,course_name,400,400    special  problems  for  advanced  undergraduates
-courses,course_name,400,  special  problems  for  advanced  undergraduates  400
-courses,course_name,400,400
-courses,course_name,400,  special  problems  for  advanced  undergraduates
-courses,course_name,405,405    applied  probability  models
-courses,course_name,405,  applied  probability  models  405
-courses,course_name,405,405
-courses,course_name,405,  applied  probability  models
-courses,course_name,410,410    statistics  education:  pedagogy  content  technology  and  assessment
-courses,course_name,410,  statistics  education:  pedagogy  content  technology  and  assessment  410
-courses,course_name,410,410
-courses,course_name,410,  statistics  education:  pedagogy  content  technology  and  assessment
-courses,course_name,414,414    multilevel  and  mixed  modeling
-courses,course_name,414,  multilevel  and  mixed  modeling  414
-courses,course_name,414,414
-courses,course_name,414,  multilevel  and  mixed  modeling
-courses,course_name,415,415    bayesian  reasoning  and  methods
-courses,course_name,415,  bayesian  reasoning  and  methods  415
-courses,course_name,415,415
-courses,course_name,415,  bayesian  reasoning  and  methods
-courses,course_name,416,416    statistical  analysis  of  time  series
-courses,course_name,416,  statistical  analysis  of  time  series  416
-courses,course_name,416,416
-courses,course_name,416,  statistical  analysis  of  time  series
-courses,course_name,417,417    survival  analysis  methods
-courses,course_name,417,  survival  analysis  methods  417
-courses,course_name,417,417
-courses,course_name,417,  survival  analysis  methods
-courses,course_name,418,418    categorical  data  analysis
-courses,course_name,418,  categorical  data  analysis  418
-courses,course_name,418,418
-courses,course_name,418,  categorical  data  analysis
-courses,course_name,419,419    applied  multivariate  statistics
-courses,course_name,419,  applied  multivariate  statistics  419
-courses,course_name,419,419
-courses,course_name,419,  applied  multivariate  statistics
-courses,course_name,421,421    survey  sampling  and  methodology
-courses,course_name,421,  survey  sampling  and  methodology  421
-courses,course_name,421,421
-courses,course_name,421,  survey  sampling  and  methodology
-courses,course_name,423,423    design  and  analysis  of  experiments  ii
-courses,course_name,423,  design  and  analysis  of  experiments  ii  423
-courses,course_name,423,423
-courses,course_name,423,  design  and  analysis  of  experiments  ii
-courses,course_name,425,425    probability  theory
-courses,course_name,425,  probability  theory  425
-courses,course_name,425,425
-courses,course_name,425,  probability  theory
-courses,course_name,426,426    estimation  and  sampling  theory
-courses,course_name,426,  estimation  and  sampling  theory  426
-courses,course_name,426,426
-courses,course_name,426,  estimation  and  sampling  theory
-courses,course_name,427,427    mathematical  statistics
-courses,course_name,427,  mathematical  statistics  427
-courses,course_name,427,427
-courses,course_name,427,  mathematical  statistics
-courses,course_name,431,431    advanced  statistical  computing  with  r
-courses,course_name,431,  advanced  statistical  computing  with  r  431
-courses,course_name,431,431
-courses,course_name,431,  advanced  statistical  computing  with  r
-courses,course_name,434,434    statistical  learning:  methods  and  applications
-courses,course_name,434,  statistical  learning:  methods  and  applications  434
-courses,course_name,434,434
-courses,course_name,434,  statistical  learning:  methods  and  applications
-courses,course_name,440,440    sas  certification  preparation
-courses,course_name,440,  sas  certification  preparation  440
-courses,course_name,440,440
-courses,course_name,440,  sas  certification  preparation
-courses,course_name,441,441    sas  advanced  certification  preparation
-courses,course_name,441,  sas  advanced  certification  preparation  441
-courses,course_name,441,441
-courses,course_name,441,  sas  advanced  certification  preparation
-courses,course_name,461,461    senior  project  i
-courses,course_name,461,  senior  project  i  461
-courses,course_name,461,461
-courses,course_name,461,  senior  project  i
-courses,course_name,462,462    senior  project  ii
-courses,course_name,462,  senior  project  ii  462
-courses,course_name,462,462
-courses,course_name,462,  senior  project  ii
-courses,course_name,465,465    statistical  consulting
-courses,course_name,465,  statistical  consulting  465
-courses,course_name,465,465
-courses,course_name,465,  statistical  consulting
-courses,course_name,470,470    selected  advanced  topics
-courses,course_name,470,  selected  advanced  topics  470
-courses,course_name,470,470
-courses,course_name,470,  selected  advanced  topics
-courses,course_name,485,485    cooperative  education  experience
-courses,course_name,485,  cooperative  education  experience  485
-courses,course_name,485,485
-courses,course_name,485,  cooperative  education  experience
-courses,course_name,495,495    cooperative  education  experience
-courses,course_name,495,  cooperative  education  experience  495
-courses,course_name,495,495
-courses,course_name,495,  cooperative  education  experience
-courses,course_name,511,511    statistical  methods
-courses,course_name,511,  statistical  methods  511
-courses,course_name,511,511
-courses,course_name,511,  statistical  methods
-courses,course_name,513,513    applied  experimental  design  and  regression  models
-courses,course_name,513,  applied  experimental  design  and  regression  models  513
-courses,course_name,513,513
-courses,course_name,513,  applied  experimental  design  and  regression  models
-courses,course_name,523,523    design  and  analysis  of  experiments  i
-courses,course_name,523,  design  and  analysis  of  experiments  i  523
-courses,course_name,523,523
-courses,course_name,523,  design  and  analysis  of  experiments  i
-courses,course_name,524,524    applied  regression  analysis
-courses,course_name,524,  applied  regression  analysis  524
-courses,course_name,524,524
-courses,course_name,524,  applied  regression  analysis
-courses,course_name,530,530    statistical  computing  with  sas
-courses,course_name,530,  statistical  computing  with  sas  530
-courses,course_name,530,530
-courses,course_name,530,  statistical  computing  with  sas
-courses,course_name,531,531    statistical  computing  with  r
-courses,course_name,531,  statistical  computing  with  r  531
-courses,course_name,531,531
-courses,course_name,531,  statistical  computing  with  r
-courses,course_name,542,542    statistical  methods  for  engineers
-courses,course_name,542,  statistical  methods  for  engineers  542
-courses,course_name,542,542
-courses,course_name,542,  statistical  methods  for  engineers
-courses,course_name,570,570    selected  advanced  topics
-courses,course_name,570,  selected  advanced  topics  570
-courses,course_name,570,570
-courses,course_name,570,  selected  advanced  topics
+courses,course_num,stat150,orientation  to  the  statistics  program  introduction  to  the  discipline  of  statistics  including  the  development  of  the  discipline  professional  ethics  data  visualization  and  the  role  of  statistics  in  the  scientific  enterprise      
+courses,course_num,stat150,stat  150    introduction  to  the  discipline  of  statistics
+courses,course_num,stat150,stat    introduction  to  the  discipline  of  statistics  150
+courses,course_num,stat150,stat  150
+courses,course_num,stat150,stat    introduction  to  the  discipline  of  statistics
+courses,course_num,stat150,stat150    introduction  to  the  discipline  of  statistics
+courses,course_num,stat150,stat  introduction  to  the  discipline  of  statistics  150
+courses,course_num,stat150,stat150
+courses,course_num,stat150,stat  introduction  to  the  discipline  of  statistics
+courses,course_num,stat150,150    introduction  to  the  discipline  of  statistics
+courses,course_num,stat150,  introduction  to  the  discipline  of  statistics  150
+courses,course_num,stat150,150
+courses,course_num,stat150,  introduction  to  the  discipline  of  statistics
+courses,course_num,stat200,individual  investigation  research  studies  or  surveys  of  selected  problems    
+courses,course_num,stat200,stat  200    special  problems  for  undergraduates
+courses,course_num,stat200,stat    special  problems  for  undergraduates  200
+courses,course_num,stat200,stat  200
+courses,course_num,stat200,stat    special  problems  for  undergraduates
+courses,course_num,stat200,stat200    special  problems  for  undergraduates
+courses,course_num,stat200,stat  special  problems  for  undergraduates  200
+courses,course_num,stat200,stat200
+courses,course_num,stat200,stat  special  problems  for  undergraduates
+courses,course_num,stat200,200    special  problems  for  undergraduates
+courses,course_num,stat200,  special  problems  for  undergraduates  200
+courses,course_num,stat200,200
+courses,course_num,stat200,  special  problems  for  undergraduates
+courses,course_num,stat217,sampling  and  experimentation  descriptive  statistics  confidence  intervals  two-sample  hypothesis  tests  for  means  and  proportions  chi-square  tests  linear  and  multiple  regression  analysis  of  variance    substantial  use  of  statistical  software    
+courses,course_num,stat217,stat  217    introduction  to  statistical  concepts  and  methods
+courses,course_num,stat217,stat    introduction  to  statistical  concepts  and  methods  217
+courses,course_num,stat217,stat  217
+courses,course_num,stat217,stat    introduction  to  statistical  concepts  and  methods
+courses,course_num,stat217,stat217    introduction  to  statistical  concepts  and  methods
+courses,course_num,stat217,stat  introduction  to  statistical  concepts  and  methods  217
+courses,course_num,stat217,stat217
+courses,course_num,stat217,stat  introduction  to  statistical  concepts  and  methods
+courses,course_num,stat217,217    introduction  to  statistical  concepts  and  methods
+courses,course_num,stat217,  introduction  to  statistical  concepts  and  methods  217
+courses,course_num,stat217,217
+courses,course_num,stat217,  introduction  to  statistical  concepts  and  methods
+courses,course_num,stat218,data  collection  and  experimental  design  descriptive  statistics  confidence  intervals  parametric  and  non  parametric  one  and  two-sample  hypothesis  tests  analysis  of  variance  correlation  simple  linear  regression  chi-square  tests    applications  of  statistics  to  the  life  sciences    substantial  use  of  statistical  software    
+courses,course_num,stat218,stat  218    applied  statistics  for  the  life  sciences
+courses,course_num,stat218,stat    applied  statistics  for  the  life  sciences  218
+courses,course_num,stat218,stat  218
+courses,course_num,stat218,stat    applied  statistics  for  the  life  sciences
+courses,course_num,stat218,stat218    applied  statistics  for  the  life  sciences
+courses,course_num,stat218,stat  applied  statistics  for  the  life  sciences  218
+courses,course_num,stat218,stat218
+courses,course_num,stat218,stat  applied  statistics  for  the  life  sciences
+courses,course_num,stat218,218    applied  statistics  for  the  life  sciences
+courses,course_num,stat218,  applied  statistics  for  the  life  sciences  218
+courses,course_num,stat218,218
+courses,course_num,stat218,  applied  statistics  for  the  life  sciences
+courses,course_num,stat251,descriptive  statistics    probability  and  counting  rules    random  variables  and  probability  distributions    sampling  distributions  and  point  estimation    confidence  intervals  and  tests  of  hypotheses  for  a  single  mean  and  proportion          
+courses,course_num,stat251,stat  251    statistical  inference  for  management  i
+courses,course_num,stat251,stat    statistical  inference  for  management  i  251
+courses,course_num,stat251,stat  251
+courses,course_num,stat251,stat    statistical  inference  for  management  i
+courses,course_num,stat251,stat251    statistical  inference  for  management  i
+courses,course_num,stat251,stat  statistical  inference  for  management  i  251
+courses,course_num,stat251,stat251
+courses,course_num,stat251,stat  statistical  inference  for  management  i
+courses,course_num,stat251,251    statistical  inference  for  management  i
+courses,course_num,stat251,  statistical  inference  for  management  i  251
+courses,course_num,stat251,251
+courses,course_num,stat251,  statistical  inference  for  management  i
+courses,course_num,stat251,stat  251    statistical  inference  for  management  1
+courses,course_num,stat251,stat    statistical  inference  for  management  1  251
+courses,course_num,stat251,stat    statistical  inference  for  management  1
+courses,course_num,stat251,stat251    statistical  inference  for  management  1
+courses,course_num,stat251,stat  statistical  inference  for  management  1  251
+courses,course_num,stat251,stat  statistical  inference  for  management  1
+courses,course_num,stat251,251    statistical  inference  for  management  1
+courses,course_num,stat251,  statistical  inference  for  management  1  251
+courses,course_num,stat251,  statistical  inference  for  management  1
+courses,course_num,stat252,confidence  intervals  and  tests  of  hypotheses  for  two  means  and  two  proportions    introduction  to  anova  regression  correlation  multiple  regression  time  series  and  forecasting    statistical  quality  control    enumerative  data  analysis    substantial  use  of  statistical  software    course  may  be  offered  in  classroom-based  or  online  format          
+courses,course_num,stat252,stat  252    statistical  inference  for  management  ii
+courses,course_num,stat252,stat    statistical  inference  for  management  ii  252
+courses,course_num,stat252,stat  252
+courses,course_num,stat252,stat    statistical  inference  for  management  ii
+courses,course_num,stat252,stat252    statistical  inference  for  management  ii
+courses,course_num,stat252,stat  statistical  inference  for  management  ii  252
+courses,course_num,stat252,stat252
+courses,course_num,stat252,stat  statistical  inference  for  management  ii
+courses,course_num,stat252,252    statistical  inference  for  management  ii
+courses,course_num,stat252,  statistical  inference  for  management  ii  252
+courses,course_num,stat252,252
+courses,course_num,stat252,  statistical  inference  for  management  ii
+courses,course_num,stat252,stat  252    statistical  inference  for  management  2
+courses,course_num,stat252,stat    statistical  inference  for  management  2  252
+courses,course_num,stat252,stat    statistical  inference  for  management  2
+courses,course_num,stat252,stat252    statistical  inference  for  management  2
+courses,course_num,stat252,stat  statistical  inference  for  management  2  252
+courses,course_num,stat252,stat  statistical  inference  for  management  2
+courses,course_num,stat252,252    statistical  inference  for  management  2
+courses,course_num,stat252,  statistical  inference  for  management  2  252
+courses,course_num,stat252,  statistical  inference  for  management  2
+courses,course_num,stat270,directed  group  study  of  selected  topics    the  class  schedule  will  list  topic  selected    
+courses,course_num,stat270,stat  270    selected  topics
+courses,course_num,stat270,stat    selected  topics  270
+courses,course_num,stat270,stat  270
+courses,course_num,stat270,stat    selected  topics
+courses,course_num,stat270,stat270    selected  topics
+courses,course_num,stat270,stat  selected  topics  270
+courses,course_num,stat270,stat270
+courses,course_num,stat270,stat  selected  topics
+courses,course_num,stat270,270    selected  topics
+courses,course_num,stat270,  selected  topics  270
+courses,course_num,stat270,270
+courses,course_num,stat270,  selected  topics
+courses,course_num,stat301,introduction  to  statistics  for  mathematically  inclined  students  focused  on  process  of  statistical  investigations    observational  studies  controlled  experiments  randomization  confounding  randomization  tests  hypergeometric  distribution  descriptive  statistics  sampling  bias  binomial  distribution  significance  tests  confidence  intervals  normal  model  t-procedures  two-sample  procedures    substantial  use  of  statistical  software      
+courses,course_num,stat301,stat  301    statistics  i
+courses,course_num,stat301,stat    statistics  i  301
+courses,course_num,stat301,stat  301
+courses,course_num,stat301,stat    statistics  i
+courses,course_num,stat301,stat301    statistics  i
+courses,course_num,stat301,stat  statistics  i  301
+courses,course_num,stat301,stat301
+courses,course_num,stat301,stat  statistics  i
+courses,course_num,stat301,301    statistics  i
+courses,course_num,stat301,  statistics  i  301
+courses,course_num,stat301,301
+courses,course_num,stat301,  statistics  i
+courses,course_num,stat301,stat  301    statistics  1
+courses,course_num,stat301,stat    statistics  1  301
+courses,course_num,stat301,stat    statistics  1
+courses,course_num,stat301,stat301    statistics  1
+courses,course_num,stat301,stat  statistics  1  301
+courses,course_num,stat301,stat  statistics  1
+courses,course_num,stat301,301    statistics  1
+courses,course_num,stat301,  statistics  1  301
+courses,course_num,stat301,  statistics  1
+courses,course_num,stat302,continued  study  of  the  process  concepts  and  methods  of  statistical  investigations    association  chi-square  procedures  one-way  anova  multiple  comparisons  two-way  anova  with  interaction  simple  linear  regression  correlation  prediction  multiple  regression    substantial  use  of  statistical  software      
+courses,course_num,stat302,stat  302    statistics  ii
+courses,course_num,stat302,stat    statistics  ii  302
+courses,course_num,stat302,stat  302
+courses,course_num,stat302,stat    statistics  ii
+courses,course_num,stat302,stat302    statistics  ii
+courses,course_num,stat302,stat  statistics  ii  302
+courses,course_num,stat302,stat302
+courses,course_num,stat302,stat  statistics  ii
+courses,course_num,stat302,302    statistics  ii
+courses,course_num,stat302,  statistics  ii  302
+courses,course_num,stat302,302
+courses,course_num,stat302,  statistics  ii
+courses,course_num,stat302,stat  302    statistics  2
+courses,course_num,stat302,stat    statistics  2  302
+courses,course_num,stat302,stat    statistics  2
+courses,course_num,stat302,stat302    statistics  2
+courses,course_num,stat302,stat  statistics  2  302
+courses,course_num,stat302,stat  statistics  2
+courses,course_num,stat302,302    statistics  2
+courses,course_num,stat302,  statistics  2  302
+courses,course_num,stat302,  statistics  2
+courses,course_num,stat305,basic  probability  rules  counting  methods  conditional  probability    discrete  and  continuous  random  variables  expected  values  variance  and  covariance    properties  of  linear  combinations  of  random  variables  with  applications  to  statistical  estimators    simulation  analysis  of  random  phenomena  using  a  modern  computer  language    
+courses,course_num,stat305,stat  305    introduction  to  probability  and  simulation
+courses,course_num,stat305,stat    introduction  to  probability  and  simulation  305
+courses,course_num,stat305,stat  305
+courses,course_num,stat305,stat    introduction  to  probability  and  simulation
+courses,course_num,stat305,stat305    introduction  to  probability  and  simulation
+courses,course_num,stat305,stat  introduction  to  probability  and  simulation  305
+courses,course_num,stat305,stat305
+courses,course_num,stat305,stat  introduction  to  probability  and  simulation
+courses,course_num,stat305,305    introduction  to  probability  and  simulation
+courses,course_num,stat305,  introduction  to  probability  and  simulation  305
+courses,course_num,stat305,305
+courses,course_num,stat305,  introduction  to  probability  and  simulation
+courses,course_num,stat312,descriptive  and  graphical  methods    discrete  and  continuous  probability  distributions    one  and  two  sample  confidence  intervals  and  hypothesis  testing    single  factor  analysis  of  variance    quality  control    introduction  to  regression  and  to  experimental  design    substantial  use  of  statistical  software          
+courses,course_num,stat312,stat  312    statistical  methods  for  engineers
+courses,course_num,stat312,stat    statistical  methods  for  engineers  312
+courses,course_num,stat312,stat  312
+courses,course_num,stat312,stat    statistical  methods  for  engineers
+courses,course_num,stat312,stat312    statistical  methods  for  engineers
+courses,course_num,stat312,stat  statistical  methods  for  engineers  312
+courses,course_num,stat312,stat312
+courses,course_num,stat312,stat  statistical  methods  for  engineers
+courses,course_num,stat312,312    statistical  methods  for  engineers
+courses,course_num,stat312,  statistical  methods  for  engineers  312
+courses,course_num,stat312,312
+courses,course_num,stat312,  statistical  methods  for  engineers
+courses,course_num,stat313,analysis  of  variance  and  regression  analysis  for  students  not  majoring  in  statistics  or  mathematics    includes  one-way  classification  randomized  blocks  latin  squares  factorial  designs  multiple  regression  diagnostics  and  model  comparison          
+courses,course_num,stat313,stat  313    applied  experimental  design  and  regression  models
+courses,course_num,stat313,stat    applied  experimental  design  and  regression  models  313
+courses,course_num,stat313,stat  313
+courses,course_num,stat313,stat    applied  experimental  design  and  regression  models
+courses,course_num,stat313,stat313    applied  experimental  design  and  regression  models
+courses,course_num,stat313,stat  applied  experimental  design  and  regression  models  313
+courses,course_num,stat313,stat313
+courses,course_num,stat313,stat  applied  experimental  design  and  regression  models
+courses,course_num,stat313,313    applied  experimental  design  and  regression  models
+courses,course_num,stat313,  applied  experimental  design  and  regression  models  313
+courses,course_num,stat313,313
+courses,course_num,stat313,  applied  experimental  design  and  regression  models
+courses,course_num,stat314,statistical  methods  for  sensory  analysis  and  food  product  development    discrimination  testing:    paired  duo-trio  triangle    two-way  anova  ^k  fractional  factorial  response  surface  mixture  designs    quality  and  process  control    
+courses,course_num,stat314,stat  314    statistical  methods  for  food  science
+courses,course_num,stat314,stat    statistical  methods  for  food  science  314
+courses,course_num,stat314,stat  314
+courses,course_num,stat314,stat    statistical  methods  for  food  science
+courses,course_num,stat314,stat314    statistical  methods  for  food  science
+courses,course_num,stat314,stat  statistical  methods  for  food  science  314
+courses,course_num,stat314,stat314
+courses,course_num,stat314,stat  statistical  methods  for  food  science
+courses,course_num,stat314,314    statistical  methods  for  food  science
+courses,course_num,stat314,  statistical  methods  for  food  science  314
+courses,course_num,stat314,314
+courses,course_num,stat314,  statistical  methods  for  food  science
+courses,course_num,stat321,tabular  and  graphical  methods  for  data  summary  numerical  summary  measures  probability  concepts  and  properties  discrete  and  continuous  probability  distributions  expected  values  statistics  and  their  sampling  distributions  point  estimation  confidence  intervals  for  a  mean  and  proportion    use  of  statistical  software          
+courses,course_num,stat321,stat  321    probability  and  statistics  for  engineers  and  scientists
+courses,course_num,stat321,stat    probability  and  statistics  for  engineers  and  scientists  321
+courses,course_num,stat321,stat  321
+courses,course_num,stat321,stat    probability  and  statistics  for  engineers  and  scientists
+courses,course_num,stat321,stat321    probability  and  statistics  for  engineers  and  scientists
+courses,course_num,stat321,stat  probability  and  statistics  for  engineers  and  scientists  321
+courses,course_num,stat321,stat321
+courses,course_num,stat321,stat  probability  and  statistics  for  engineers  and  scientists
+courses,course_num,stat321,321    probability  and  statistics  for  engineers  and  scientists
+courses,course_num,stat321,  probability  and  statistics  for  engineers  and  scientists  321
+courses,course_num,stat321,321
+courses,course_num,stat321,  probability  and  statistics  for  engineers  and  scientists
+courses,course_num,stat323,principles  construction  and  analysis  of  experimental  designs    completely  randomized  randomized  complete  block  latin  squares  graeco  latin  squares  factorial  and  nested  designs    fixed  and  random  effects  expected  mean  squares  multiple  comparisons  and  analysis  of  covariance      
+courses,course_num,stat323,stat  323    design  and  analysis  of  experiments  i
+courses,course_num,stat323,stat    design  and  analysis  of  experiments  i  323
+courses,course_num,stat323,stat  323
+courses,course_num,stat323,stat    design  and  analysis  of  experiments  i
+courses,course_num,stat323,stat323    design  and  analysis  of  experiments  i
+courses,course_num,stat323,stat  design  and  analysis  of  experiments  i  323
+courses,course_num,stat323,stat323
+courses,course_num,stat323,stat  design  and  analysis  of  experiments  i
+courses,course_num,stat323,323    design  and  analysis  of  experiments  i
+courses,course_num,stat323,  design  and  analysis  of  experiments  i  323
+courses,course_num,stat323,323
+courses,course_num,stat323,  design  and  analysis  of  experiments  i
+courses,course_num,stat323,stat  323    design  and  analysis  of  experiments  1
+courses,course_num,stat323,stat    design  and  analysis  of  experiments  1  323
+courses,course_num,stat323,stat    design  and  analysis  of  experiments  1
+courses,course_num,stat323,stat323    design  and  analysis  of  experiments  1
+courses,course_num,stat323,stat  design  and  analysis  of  experiments  1  323
+courses,course_num,stat323,stat  design  and  analysis  of  experiments  1
+courses,course_num,stat323,323    design  and  analysis  of  experiments  1
+courses,course_num,stat323,  design  and  analysis  of  experiments  1  323
+courses,course_num,stat323,  design  and  analysis  of  experiments  1
+courses,course_num,stat324,linear  regression  including  indicator  variables  influence  diagnostics  assumption  analysis  selection  of  'best  subset'  nonstandard  regression  models  logistic  regression  nonlinear  regression  models    
+courses,course_num,stat324,stat  324    applied  regression  analysis
+courses,course_num,stat324,stat    applied  regression  analysis  324
+courses,course_num,stat324,stat  324
+courses,course_num,stat324,stat    applied  regression  analysis
+courses,course_num,stat324,stat324    applied  regression  analysis
+courses,course_num,stat324,stat  applied  regression  analysis  324
+courses,course_num,stat324,stat324
+courses,course_num,stat324,stat  applied  regression  analysis
+courses,course_num,stat324,324    applied  regression  analysis
+courses,course_num,stat324,  applied  regression  analysis  324
+courses,course_num,stat324,324
+courses,course_num,stat324,  applied  regression  analysis
+courses,course_num,stat330,data  acquisition  cleaning  and  management  using  sas;  reading  data  into  sas  from  various  sources  recoding  variables  subsetting  and  merging  data  exporting  results  in  other  formats    graphical  procedures  basic  descriptive  and  inferential  statistics    introduction  to  sas  macros      
+courses,course_num,stat330,stat  330    statistical  computing  with  sas
+courses,course_num,stat330,stat    statistical  computing  with  sas  330
+courses,course_num,stat330,stat  330
+courses,course_num,stat330,stat    statistical  computing  with  sas
+courses,course_num,stat330,stat330    statistical  computing  with  sas
+courses,course_num,stat330,stat  statistical  computing  with  sas  330
+courses,course_num,stat330,stat330
+courses,course_num,stat330,stat  statistical  computing  with  sas
+courses,course_num,stat330,330    statistical  computing  with  sas
+courses,course_num,stat330,  statistical  computing  with  sas  330
+courses,course_num,stat330,330
+courses,course_num,stat330,  statistical  computing  with  sas
+courses,course_num,stat331,data  acquisition  cleaning  and  management  in  r;  use  of  regular  expressions;  functional  and  object-oriented  programming;  graphical  descriptive  and  inferential  statistical  methods;  random  number  generation;  monte  carlo  methods  including  resampling  randomization  and  simulation      
+courses,course_num,stat331,stat  331    statistical  computing  with  r
+courses,course_num,stat331,stat    statistical  computing  with  r  331
+courses,course_num,stat331,stat  331
+courses,course_num,stat331,stat    statistical  computing  with  r
+courses,course_num,stat331,stat331    statistical  computing  with  r
+courses,course_num,stat331,stat  statistical  computing  with  r  331
+courses,course_num,stat331,stat331
+courses,course_num,stat331,stat  statistical  computing  with  r
+courses,course_num,stat331,331    statistical  computing  with  r
+courses,course_num,stat331,  statistical  computing  with  r  331
+courses,course_num,stat331,331
+courses,course_num,stat331,  statistical  computing  with  r
+courses,course_num,stat334,linear  models  in  algebraic  and  matrix  form  diagnostics  transformations  polynomial  models  categorical  predictors  model  selection  correlated  errors  logistic  regression    
+courses,course_num,stat334,stat  334    applied  linear  models
+courses,course_num,stat334,stat    applied  linear  models  334
+courses,course_num,stat334,stat  334
+courses,course_num,stat334,stat    applied  linear  models
+courses,course_num,stat334,stat334    applied  linear  models
+courses,course_num,stat334,stat  applied  linear  models  334
+courses,course_num,stat334,stat334
+courses,course_num,stat334,stat  applied  linear  models
+courses,course_num,stat334,334    applied  linear  models
+courses,course_num,stat334,  applied  linear  models  334
+courses,course_num,stat334,334
+courses,course_num,stat334,  applied  linear  models
+courses,course_num,stat350,random  events  random  variables  and  random  processes  with  emphasis  on  probabilistic  treatment  of  signals  and  noise    specific  topics  include:    sample  spaces  probability  distributions  independence  moments  covariance  time/ensemble  averages  stationarity  common  processes  correlation  and  spectral  functions          
+courses,course_num,stat350,stat  350    probability  and  random  processes  for  engineers
+courses,course_num,stat350,stat    probability  and  random  processes  for  engineers  350
+courses,course_num,stat350,stat  350
+courses,course_num,stat350,stat    probability  and  random  processes  for  engineers
+courses,course_num,stat350,stat350    probability  and  random  processes  for  engineers
+courses,course_num,stat350,stat  probability  and  random  processes  for  engineers  350
+courses,course_num,stat350,stat350
+courses,course_num,stat350,stat  probability  and  random  processes  for  engineers
+courses,course_num,stat350,350    probability  and  random  processes  for  engineers
+courses,course_num,stat350,  probability  and  random  processes  for  engineers  350
+courses,course_num,stat350,350
+courses,course_num,stat350,  probability  and  random  processes  for  engineers
+courses,course_num,stat365,written  communication  of  statistical  ideas  and  content    analyze  data  using  appropriate  methods  from  previous  statistics  courses    writing  technical  reports  with  appropriate  graphs  and  tables    strategies  to  discern  relevant  and  necessary  information  to  communicate  data  ideas  and  results  to  different  audiences      
+courses,course_num,stat365,stat  365    statistical  communication
+courses,course_num,stat365,stat    statistical  communication  365
+courses,course_num,stat365,stat  365
+courses,course_num,stat365,stat    statistical  communication
+courses,course_num,stat365,stat365    statistical  communication
+courses,course_num,stat365,stat  statistical  communication  365
+courses,course_num,stat365,stat365
+courses,course_num,stat365,stat  statistical  communication
+courses,course_num,stat365,365    statistical  communication
+courses,course_num,stat365,  statistical  communication  365
+courses,course_num,stat365,365
+courses,course_num,stat365,  statistical  communication
+courses,course_num,stat400,individual  investigation  research  studies  or  surveys  of  selected  problems    
+courses,course_num,stat400,stat  400    special  problems  for  advanced  undergraduates
+courses,course_num,stat400,stat    special  problems  for  advanced  undergraduates  400
+courses,course_num,stat400,stat  400
+courses,course_num,stat400,stat    special  problems  for  advanced  undergraduates
+courses,course_num,stat400,stat400    special  problems  for  advanced  undergraduates
+courses,course_num,stat400,stat  special  problems  for  advanced  undergraduates  400
+courses,course_num,stat400,stat400
+courses,course_num,stat400,stat  special  problems  for  advanced  undergraduates
+courses,course_num,stat400,400    special  problems  for  advanced  undergraduates
+courses,course_num,stat400,  special  problems  for  advanced  undergraduates  400
+courses,course_num,stat400,400
+courses,course_num,stat400,  special  problems  for  advanced  undergraduates
+courses,course_num,stat405,advanced  probability  models  their  simulation  and  application    poisson  processes  markov  chains  random  walks  and  continuous-time  markov  processes    monte  carlo  integration  and  simulation  methods  including  markov  chain  monte  carlo  and  gibbs  sampling      
+courses,course_num,stat405,stat  405    applied  probability  models
+courses,course_num,stat405,stat    applied  probability  models  405
+courses,course_num,stat405,stat  405
+courses,course_num,stat405,stat    applied  probability  models
+courses,course_num,stat405,stat405    applied  probability  models
+courses,course_num,stat405,stat  applied  probability  models  405
+courses,course_num,stat405,stat405
+courses,course_num,stat405,stat  applied  probability  models
+courses,course_num,stat405,405    applied  probability  models
+courses,course_num,stat405,  applied  probability  models  405
+courses,course_num,stat405,405
+courses,course_num,stat405,  applied  probability  models
+courses,course_num,stat410,topics  related  to  content  pedagogy  technology  and  assessment  for  teaching  statistics  in  grades  -  in  accordance  with  current  standards  and  research  for  teaching  statistics  including  the  common  core  state  standards  for  mathematics      
+courses,course_num,stat410,stat  410    statistics  education:  pedagogy  content  technology  and  assessment
+courses,course_num,stat410,stat    statistics  education:  pedagogy  content  technology  and  assessment  410
+courses,course_num,stat410,stat  410
+courses,course_num,stat410,stat    statistics  education:  pedagogy  content  technology  and  assessment
+courses,course_num,stat410,stat410    statistics  education:  pedagogy  content  technology  and  assessment
+courses,course_num,stat410,stat  statistics  education:  pedagogy  content  technology  and  assessment  410
+courses,course_num,stat410,stat410
+courses,course_num,stat410,stat  statistics  education:  pedagogy  content  technology  and  assessment
+courses,course_num,stat410,410    statistics  education:  pedagogy  content  technology  and  assessment
+courses,course_num,stat410,  statistics  education:  pedagogy  content  technology  and  assessment  410
+courses,course_num,stat410,410
+courses,course_num,stat410,  statistics  education:  pedagogy  content  technology  and  assessment
+courses,course_num,stat414,overview  of  multilevel  and  mixed  models  including  hierarchical  data  intraclass  correlation  fixed  vs    random  coefficients  variance  components  comparisons  to  traditional  analyses    use  of  statistical  software  for  implementation  of  methods      
+courses,course_num,stat414,stat  414    multilevel  and  mixed  modeling
+courses,course_num,stat414,stat    multilevel  and  mixed  modeling  414
+courses,course_num,stat414,stat  414
+courses,course_num,stat414,stat    multilevel  and  mixed  modeling
+courses,course_num,stat414,stat414    multilevel  and  mixed  modeling
+courses,course_num,stat414,stat  multilevel  and  mixed  modeling  414
+courses,course_num,stat414,stat414
+courses,course_num,stat414,stat  multilevel  and  mixed  modeling
+courses,course_num,stat414,414    multilevel  and  mixed  modeling
+courses,course_num,stat414,  multilevel  and  mixed  modeling  414
+courses,course_num,stat414,414
+courses,course_num,stat414,  multilevel  and  mixed  modeling
+courses,course_num,stat415,bayes'  theorem  prior  and  posterior  distributions  likelihood  functions  markov  chain  monte  carlo  methods  hierarchical  modeling    bayesian  data  analysis  comparison  of  bayesian  and  classical  (frequentist)  approaches      
+courses,course_num,stat415,stat  415    bayesian  reasoning  and  methods
+courses,course_num,stat415,stat    bayesian  reasoning  and  methods  415
+courses,course_num,stat415,stat  415
+courses,course_num,stat415,stat    bayesian  reasoning  and  methods
+courses,course_num,stat415,stat415    bayesian  reasoning  and  methods
+courses,course_num,stat415,stat  bayesian  reasoning  and  methods  415
+courses,course_num,stat415,stat415
+courses,course_num,stat415,stat  bayesian  reasoning  and  methods
+courses,course_num,stat415,415    bayesian  reasoning  and  methods
+courses,course_num,stat415,  bayesian  reasoning  and  methods  415
+courses,course_num,stat415,415
+courses,course_num,stat415,  bayesian  reasoning  and  methods
+courses,course_num,stat416,time  series  components  descriptive  smoothing  methods  regression  models  for  time  series  data  forecasting  via  exponential  smoothing  evaluation  of  forecasts  autocorrelation  arima  models  and  box-jenkins  methods  combining  forecasts  frequency  domain  analysis  filtering      
+courses,course_num,stat416,stat  416    statistical  analysis  of  time  series
+courses,course_num,stat416,stat    statistical  analysis  of  time  series  416
+courses,course_num,stat416,stat  416
+courses,course_num,stat416,stat    statistical  analysis  of  time  series
+courses,course_num,stat416,stat416    statistical  analysis  of  time  series
+courses,course_num,stat416,stat  statistical  analysis  of  time  series  416
+courses,course_num,stat416,stat416
+courses,course_num,stat416,stat  statistical  analysis  of  time  series
+courses,course_num,stat416,416    statistical  analysis  of  time  series
+courses,course_num,stat416,  statistical  analysis  of  time  series  416
+courses,course_num,stat416,416
+courses,course_num,stat416,  statistical  analysis  of  time  series
+courses,course_num,stat417,parametric  and  nonparametric  methods  for  analyzing  survival  data    topics  include  kaplan-meier  and  nelson-aalen  estimates  cox  regression  models  accelerated  failure  time  models    use  of  statistical  software  to  implement  methods  throughout  course      
+courses,course_num,stat417,stat  417    survival  analysis  methods
+courses,course_num,stat417,stat    survival  analysis  methods  417
+courses,course_num,stat417,stat  417
+courses,course_num,stat417,stat    survival  analysis  methods
+courses,course_num,stat417,stat417    survival  analysis  methods
+courses,course_num,stat417,stat  survival  analysis  methods  417
+courses,course_num,stat417,stat417
+courses,course_num,stat417,stat  survival  analysis  methods
+courses,course_num,stat417,417    survival  analysis  methods
+courses,course_num,stat417,  survival  analysis  methods  417
+courses,course_num,stat417,417
+courses,course_num,stat417,  survival  analysis  methods
+courses,course_num,stat418,discrete  multivariate  statistics  including  analysis  of  cross-classified  data  log-linear  models  for  multidimensional  contingency  tables  goodness  of  fit  statistics  measures  of  association  model  selection  and  hypothesis  testing      
+courses,course_num,stat418,stat  418    categorical  data  analysis
+courses,course_num,stat418,stat    categorical  data  analysis  418
+courses,course_num,stat418,stat  418
+courses,course_num,stat418,stat    categorical  data  analysis
+courses,course_num,stat418,stat418    categorical  data  analysis
+courses,course_num,stat418,stat  categorical  data  analysis  418
+courses,course_num,stat418,stat418
+courses,course_num,stat418,stat  categorical  data  analysis
+courses,course_num,stat418,418    categorical  data  analysis
+courses,course_num,stat418,  categorical  data  analysis  418
+courses,course_num,stat418,418
+courses,course_num,stat418,  categorical  data  analysis
+courses,course_num,stat419,continuous  multivariate  statistics    multivariate  linear  model  principal  components  and  factor  analysis  discriminant  analysis  clustering  classification  and  canonical  correlation    use  of  statistical  software  throughout  the  course      
+courses,course_num,stat419,stat  419    applied  multivariate  statistics
+courses,course_num,stat419,stat    applied  multivariate  statistics  419
+courses,course_num,stat419,stat  419
+courses,course_num,stat419,stat    applied  multivariate  statistics
+courses,course_num,stat419,stat419    applied  multivariate  statistics
+courses,course_num,stat419,stat  applied  multivariate  statistics  419
+courses,course_num,stat419,stat419
+courses,course_num,stat419,stat  applied  multivariate  statistics
+courses,course_num,stat419,419    applied  multivariate  statistics
+courses,course_num,stat419,  applied  multivariate  statistics  419
+courses,course_num,stat419,419
+courses,course_num,stat419,  applied  multivariate  statistics
+courses,course_num,stat421,survey  planning  execution  and  analysis    principles  of  survey  research  including  non-sampling  and  sampling  error  topics    survey  sample  designs  including  simple  random  systematic  stratified  cluster  and  multi-stage    estimation  procedures  and  sample  size  calculations      
+courses,course_num,stat421,stat  421    survey  sampling  and  methodology
+courses,course_num,stat421,stat    survey  sampling  and  methodology  421
+courses,course_num,stat421,stat  421
+courses,course_num,stat421,stat    survey  sampling  and  methodology
+courses,course_num,stat421,stat421    survey  sampling  and  methodology
+courses,course_num,stat421,stat  survey  sampling  and  methodology  421
+courses,course_num,stat421,stat421
+courses,course_num,stat421,stat  survey  sampling  and  methodology
+courses,course_num,stat421,421    survey  sampling  and  methodology
+courses,course_num,stat421,  survey  sampling  and  methodology  421
+courses,course_num,stat421,421
+courses,course_num,stat421,  survey  sampling  and  methodology
+courses,course_num,stat423,continuation  of  'stat  '    k  factorial  designs  k  factorial  designs  balanced  and  partially  balanced  incomplete  block  designs  nested  designs  split-plot  designs  response  surface  methodology  confounding  repeated  measures  and  other  design  approaches      
+courses,course_num,stat423,stat  423    design  and  analysis  of  experiments  ii
+courses,course_num,stat423,stat    design  and  analysis  of  experiments  ii  423
+courses,course_num,stat423,stat  423
+courses,course_num,stat423,stat    design  and  analysis  of  experiments  ii
+courses,course_num,stat423,stat423    design  and  analysis  of  experiments  ii
+courses,course_num,stat423,stat  design  and  analysis  of  experiments  ii  423
+courses,course_num,stat423,stat423
+courses,course_num,stat423,stat  design  and  analysis  of  experiments  ii
+courses,course_num,stat423,423    design  and  analysis  of  experiments  ii
+courses,course_num,stat423,  design  and  analysis  of  experiments  ii  423
+courses,course_num,stat423,423
+courses,course_num,stat423,  design  and  analysis  of  experiments  ii
+courses,course_num,stat423,stat  423    design  and  analysis  of  experiments  2
+courses,course_num,stat423,stat    design  and  analysis  of  experiments  2  423
+courses,course_num,stat423,stat    design  and  analysis  of  experiments  2
+courses,course_num,stat423,stat423    design  and  analysis  of  experiments  2
+courses,course_num,stat423,stat  design  and  analysis  of  experiments  2  423
+courses,course_num,stat423,stat  design  and  analysis  of  experiments  2
+courses,course_num,stat423,423    design  and  analysis  of  experiments  2
+courses,course_num,stat423,  design  and  analysis  of  experiments  2  423
+courses,course_num,stat423,  design  and  analysis  of  experiments  2
+courses,course_num,stat425,rigorous  development  of  probability  theory    probability  axioms  combinatorial  methods  conditional  and  marginal  probability  independence  random  variables  univariate  and  multivariate  probability  distributions  conditional  distributions  transformations  order  statistics  expectation  and  variance    use  of  statistical  simulation  throughout  the  course      
+courses,course_num,stat425,stat  425    probability  theory
+courses,course_num,stat425,stat    probability  theory  425
+courses,course_num,stat425,stat  425
+courses,course_num,stat425,stat    probability  theory
+courses,course_num,stat425,stat425    probability  theory
+courses,course_num,stat425,stat  probability  theory  425
+courses,course_num,stat425,stat425
+courses,course_num,stat425,stat  probability  theory
+courses,course_num,stat425,425    probability  theory
+courses,course_num,stat425,  probability  theory  425
+courses,course_num,stat425,425
+courses,course_num,stat425,  probability  theory
+courses,course_num,stat426,continuation  of  'stat  '    properties  of  statistics  obtained  from  samples    sample  mean  properties  convergence  in  probability  law  of  large  numbers  and  central  limit  theorem    selected  probability  distributions    theory  of  estimation    sampling  distribution  of  estimators      
+courses,course_num,stat426,stat  426    estimation  and  sampling  theory
+courses,course_num,stat426,stat    estimation  and  sampling  theory  426
+courses,course_num,stat426,stat  426
+courses,course_num,stat426,stat    estimation  and  sampling  theory
+courses,course_num,stat426,stat426    estimation  and  sampling  theory
+courses,course_num,stat426,stat  estimation  and  sampling  theory  426
+courses,course_num,stat426,stat426
+courses,course_num,stat426,stat  estimation  and  sampling  theory
+courses,course_num,stat426,426    estimation  and  sampling  theory
+courses,course_num,stat426,  estimation  and  sampling  theory  426
+courses,course_num,stat426,426
+courses,course_num,stat426,  estimation  and  sampling  theory
+courses,course_num,stat427,continuation  of  'stat  '    the  theory  of  hypothesis  testing  and  its  applications    power  and  uniformly  most  powerful  tests    categorical  data  and  nonparametric  methods    other  selected  topics      
+courses,course_num,stat427,stat  427    mathematical  statistics
+courses,course_num,stat427,stat    mathematical  statistics  427
+courses,course_num,stat427,stat  427
+courses,course_num,stat427,stat    mathematical  statistics
+courses,course_num,stat427,stat427    mathematical  statistics
+courses,course_num,stat427,stat  mathematical  statistics  427
+courses,course_num,stat427,stat427
+courses,course_num,stat427,stat  mathematical  statistics
+courses,course_num,stat427,427    mathematical  statistics
+courses,course_num,stat427,  mathematical  statistics  427
+courses,course_num,stat427,427
+courses,course_num,stat427,  mathematical  statistics
+courses,course_num,stat431,advanced  techniques  for  efficient  use  of  computers  to  perform  statistical  computations  and  to  analyze  large  amounts  of  data    includes  version  control  systems;  tools  supporting  reproducibility;  functional  programming;  randomization  and  bootstrapping;  dynamic  data  visualizations;  and  r  package  development      
+courses,course_num,stat431,stat  431    advanced  statistical  computing  with  r
+courses,course_num,stat431,stat    advanced  statistical  computing  with  r  431
+courses,course_num,stat431,stat  431
+courses,course_num,stat431,stat    advanced  statistical  computing  with  r
+courses,course_num,stat431,stat431    advanced  statistical  computing  with  r
+courses,course_num,stat431,stat  advanced  statistical  computing  with  r  431
+courses,course_num,stat431,stat431
+courses,course_num,stat431,stat  advanced  statistical  computing  with  r
+courses,course_num,stat431,431    advanced  statistical  computing  with  r
+courses,course_num,stat431,  advanced  statistical  computing  with  r  431
+courses,course_num,stat431,431
+courses,course_num,stat431,  advanced  statistical  computing  with  r
+courses,course_num,stat434,modern  methods  in  predictive  modeling  and  classification    splines  smoothing  splines  ridge  regression  lasso  regression  and  classification  trees  generalized  additive  models  logistic  regression  and  linear  discriminant  analysis    model  assessment  and  selection  using  cross  validation  bootstrapping  aic  and  bic      
+courses,course_num,stat434,stat  434    statistical  learning:  methods  and  applications
+courses,course_num,stat434,stat    statistical  learning:  methods  and  applications  434
+courses,course_num,stat434,stat  434
+courses,course_num,stat434,stat    statistical  learning:  methods  and  applications
+courses,course_num,stat434,stat434    statistical  learning:  methods  and  applications
+courses,course_num,stat434,stat  statistical  learning:  methods  and  applications  434
+courses,course_num,stat434,stat434
+courses,course_num,stat434,stat  statistical  learning:  methods  and  applications
+courses,course_num,stat434,434    statistical  learning:  methods  and  applications
+courses,course_num,stat434,  statistical  learning:  methods  and  applications  434
+courses,course_num,stat434,434
+courses,course_num,stat434,  statistical  learning:  methods  and  applications
+courses,course_num,stat440,programming  data  management  and  data  analysis  in  preparation  for  the  certified  base  programmer  exam  offered  by  the  sas  institute    topics  include  accessing  data  creating  data  structures  managing  data  generating  reports  and  handling  errors      
+courses,course_num,stat440,stat  440    sas  certification  preparation
+courses,course_num,stat440,stat    sas  certification  preparation  440
+courses,course_num,stat440,stat  440
+courses,course_num,stat440,stat    sas  certification  preparation
+courses,course_num,stat440,stat440    sas  certification  preparation
+courses,course_num,stat440,stat  sas  certification  preparation  440
+courses,course_num,stat440,stat440
+courses,course_num,stat440,stat  sas  certification  preparation
+courses,course_num,stat440,440    sas  certification  preparation
+courses,course_num,stat440,  sas  certification  preparation  440
+courses,course_num,stat440,440
+courses,course_num,stat440,  sas  certification  preparation
+courses,course_num,stat441,programming  topics  in  preparation  for  the  certified  advanced  programmer  exam  offered  by  the  sas  institute    accessing  data  using  proc  sql  macro  processing  applications  for  indexes  data  look-up  techniques  including  array  processing  hash  objects  and  combining/merging      
+courses,course_num,stat441,stat  441    sas  advanced  certification  preparation
+courses,course_num,stat441,stat    sas  advanced  certification  preparation  441
+courses,course_num,stat441,stat  441
+courses,course_num,stat441,stat    sas  advanced  certification  preparation
+courses,course_num,stat441,stat441    sas  advanced  certification  preparation
+courses,course_num,stat441,stat  sas  advanced  certification  preparation  441
+courses,course_num,stat441,stat441
+courses,course_num,stat441,stat  sas  advanced  certification  preparation
+courses,course_num,stat441,441    sas  advanced  certification  preparation
+courses,course_num,stat441,  sas  advanced  certification  preparation  441
+courses,course_num,stat441,441
+courses,course_num,stat441,  sas  advanced  certification  preparation
+courses,course_num,stat461,selection  and  completion  of  a  project  under  faculty  supervision  projects  typical  of  problems  which  graduates  must  solve  in  their  fields  of  employment  project  results  are  presented  in  a  formal  report  minimum    hours  total  time
+courses,course_num,stat461,stat  461    senior  project  i
+courses,course_num,stat461,stat    senior  project  i  461
+courses,course_num,stat461,stat  461
+courses,course_num,stat461,stat    senior  project  i
+courses,course_num,stat461,stat461    senior  project  i
+courses,course_num,stat461,stat  senior  project  i  461
+courses,course_num,stat461,stat461
+courses,course_num,stat461,stat  senior  project  i
+courses,course_num,stat461,461    senior  project  i
+courses,course_num,stat461,  senior  project  i  461
+courses,course_num,stat461,461
+courses,course_num,stat461,  senior  project  i
+courses,course_num,stat461,stat  461    senior  project  1
+courses,course_num,stat461,stat    senior  project  1  461
+courses,course_num,stat461,stat    senior  project  1
+courses,course_num,stat461,stat461    senior  project  1
+courses,course_num,stat461,stat  senior  project  1  461
+courses,course_num,stat461,stat  senior  project  1
+courses,course_num,stat461,461    senior  project  1
+courses,course_num,stat461,  senior  project  1  461
+courses,course_num,stat461,  senior  project  1
+courses,course_num,stat462,selection  and  completion  of  a  project  under  faculty  supervision    projects  typical  of  problems  which  graduates  must  solve  in  their  fields  of  employment    project  results  are  presented  in  a  formal  report    minimum    hours  total  time
+courses,course_num,stat462,stat  462    senior  project  ii
+courses,course_num,stat462,stat    senior  project  ii  462
+courses,course_num,stat462,stat  462
+courses,course_num,stat462,stat    senior  project  ii
+courses,course_num,stat462,stat462    senior  project  ii
+courses,course_num,stat462,stat  senior  project  ii  462
+courses,course_num,stat462,stat462
+courses,course_num,stat462,stat  senior  project  ii
+courses,course_num,stat462,462    senior  project  ii
+courses,course_num,stat462,  senior  project  ii  462
+courses,course_num,stat462,462
+courses,course_num,stat462,  senior  project  ii
+courses,course_num,stat462,stat  462    senior  project  2
+courses,course_num,stat462,stat    senior  project  2  462
+courses,course_num,stat462,stat    senior  project  2
+courses,course_num,stat462,stat462    senior  project  2
+courses,course_num,stat462,stat  senior  project  2  462
+courses,course_num,stat462,stat  senior  project  2
+courses,course_num,stat462,462    senior  project  2
+courses,course_num,stat462,  senior  project  2  462
+courses,course_num,stat462,  senior  project  2
+courses,course_num,stat465,blending  of  the  theoretical  and  practical  aspects  of  statistical  consulting    development  of  tools  necessary  to  conduct  effective  consulting  sessions  present  oral  arguments  and  written  reports  work  collaboratively  to  solve  problems  and  utilize  professional  publications  in  statistics      
+courses,course_num,stat465,stat  465    statistical  consulting
+courses,course_num,stat465,stat    statistical  consulting  465
+courses,course_num,stat465,stat  465
+courses,course_num,stat465,stat    statistical  consulting
+courses,course_num,stat465,stat465    statistical  consulting
+courses,course_num,stat465,stat  statistical  consulting  465
+courses,course_num,stat465,stat465
+courses,course_num,stat465,stat  statistical  consulting
+courses,course_num,stat465,465    statistical  consulting
+courses,course_num,stat465,  statistical  consulting  465
+courses,course_num,stat465,465
+courses,course_num,stat465,  statistical  consulting
+courses,course_num,stat470,directed  group  study  of  selected  topics  for  advanced  students    open  to  undergraduate  and  graduate  students    the  class  schedule  will  list  topic  selected    
+courses,course_num,stat470,stat  470    selected  advanced  topics
+courses,course_num,stat470,stat    selected  advanced  topics  470
+courses,course_num,stat470,stat  470
+courses,course_num,stat470,stat    selected  advanced  topics
+courses,course_num,stat470,stat470    selected  advanced  topics
+courses,course_num,stat470,stat  selected  advanced  topics  470
+courses,course_num,stat470,stat470
+courses,course_num,stat470,stat  selected  advanced  topics
+courses,course_num,stat470,470    selected  advanced  topics
+courses,course_num,stat470,  selected  advanced  topics  470
+courses,course_num,stat470,470
+courses,course_num,stat470,  selected  advanced  topics
+courses,course_num,stat485,part-time  work  experience  in  business  industry  government  and  other  areas  of  student  career  interest    positions  are  paid  and  usually  require  relocation  and  registration  in  course  for  two  consecutive  quarters    formal  report  and  evaluation  by  work  supervisor  required    major  credit  limited  to    units;  total  credit  limited  to    units    credit/no  credit  grading  only
+courses,course_num,stat485,stat  485    cooperative  education  experience
+courses,course_num,stat485,stat    cooperative  education  experience  485
+courses,course_num,stat485,stat  485
+courses,course_num,stat485,stat    cooperative  education  experience
+courses,course_num,stat485,stat485    cooperative  education  experience
+courses,course_num,stat485,stat  cooperative  education  experience  485
+courses,course_num,stat485,stat485
+courses,course_num,stat485,stat  cooperative  education  experience
+courses,course_num,stat485,485    cooperative  education  experience
+courses,course_num,stat485,  cooperative  education  experience  485
+courses,course_num,stat485,485
+courses,course_num,stat485,  cooperative  education  experience
+courses,course_num,stat495,full-time  work  experience  in  business  industry  government  and  other  areas  of  student  career  interest    positions  are  paid  and  usually  require  relocation  and  registration  in  course  for  two  consecutive  quarters    formal  report  and  evaluation  by  work  supervisor  required    major  credit  limited  to    units;  total  credit  limited  to    units    credit/no  credit  grading  only
+courses,course_num,stat495,stat  495    cooperative  education  experience
+courses,course_num,stat495,stat    cooperative  education  experience  495
+courses,course_num,stat495,stat  495
+courses,course_num,stat495,stat    cooperative  education  experience
+courses,course_num,stat495,stat495    cooperative  education  experience
+courses,course_num,stat495,stat  cooperative  education  experience  495
+courses,course_num,stat495,stat495
+courses,course_num,stat495,stat  cooperative  education  experience
+courses,course_num,stat495,495    cooperative  education  experience
+courses,course_num,stat495,  cooperative  education  experience  495
+courses,course_num,stat495,495
+courses,course_num,stat495,  cooperative  education  experience
+courses,course_num,stat511,statistical  methods  in  research  for  graduate  students  not  majoring  in  mathematical  sciences    probability  distributions  confidence  intervals  hypothesis  testing  contingency  tables  linear  regression  and  correlation  multiple  regression  analysis  of  variance    substantial  use  of  statistical  software      
+courses,course_num,stat511,stat  511    statistical  methods
+courses,course_num,stat511,stat    statistical  methods  511
+courses,course_num,stat511,stat  511
+courses,course_num,stat511,stat    statistical  methods
+courses,course_num,stat511,stat511    statistical  methods
+courses,course_num,stat511,stat  statistical  methods  511
+courses,course_num,stat511,stat511
+courses,course_num,stat511,stat  statistical  methods
+courses,course_num,stat511,511    statistical  methods
+courses,course_num,stat511,  statistical  methods  511
+courses,course_num,stat511,511
+courses,course_num,stat511,  statistical  methods
+courses,course_num,stat511,graduate  stat  511    statistical  methods
+courses,course_num,stat511,grad  stat    statistical  methods  511
+courses,course_num,stat511,grad  level  stat  511
+courses,course_num,stat511,graduate  level  stat    statistical  methods
+courses,course_num,stat511,masters  level  stat  511    statistical  methods
+courses,course_num,stat511,stat  statistical  methods  511  grad  level
+courses,course_num,stat511,stat511  for  grad  students
+courses,course_num,stat511,stat  statistical  methods  graduate  level
+courses,course_num,stat511,511    statistical  methods  for  grads
+courses,course_num,stat511,  statistical  methods  511  for  graduates
+courses,course_num,stat511,511
+courses,course_num,stat511,  statistical  methods  for  graduate  students
+courses,course_num,stat513,applications  of  statistics  for  graduate  students  not  majoring  in  mathematics    analysis  of  variance  including  the  one-way  classification  randomized  blocks  latin  squares  and  factorial  designs    introduction  to  multiple  regression  and  to  analysis  of  covariance    substantial  use  of  statistical  software          
+courses,course_num,stat513,stat  513    applied  experimental  design  and  regression  models
+courses,course_num,stat513,stat    applied  experimental  design  and  regression  models  513
+courses,course_num,stat513,stat  513
+courses,course_num,stat513,stat    applied  experimental  design  and  regression  models
+courses,course_num,stat513,stat513    applied  experimental  design  and  regression  models
+courses,course_num,stat513,stat  applied  experimental  design  and  regression  models  513
+courses,course_num,stat513,stat513
+courses,course_num,stat513,stat  applied  experimental  design  and  regression  models
+courses,course_num,stat513,513    applied  experimental  design  and  regression  models
+courses,course_num,stat513,  applied  experimental  design  and  regression  models  513
+courses,course_num,stat513,513
+courses,course_num,stat513,  applied  experimental  design  and  regression  models
+courses,course_num,stat513,graduate  stat  513    applied  experimental  design  and  regression  models
+courses,course_num,stat513,grad  stat    applied  experimental  design  and  regression  models  513
+courses,course_num,stat513,grad  level  stat  513
+courses,course_num,stat513,graduate  level  stat    applied  experimental  design  and  regression  models
+courses,course_num,stat513,masters  level  stat  513    applied  experimental  design  and  regression  models
+courses,course_num,stat513,stat  applied  experimental  design  and  regression  models  513  grad  level
+courses,course_num,stat513,stat513  for  grad  students
+courses,course_num,stat513,stat  applied  experimental  design  and  regression  models  graduate  level
+courses,course_num,stat513,513    applied  experimental  design  and  regression  models  for  grads
+courses,course_num,stat513,  applied  experimental  design  and  regression  models  513  for  graduates
+courses,course_num,stat513,513
+courses,course_num,stat513,  applied  experimental  design  and  regression  models  for  graduate  students
+courses,course_num,stat523,principles  construction  and  analysis  of  experimental  designs    completely  randomized  randomized  complete  block  latin  squares  graeco-latin  squares  factorial  and  nested  designs    fixed  and  random  effects  expected  mean  squares  multiple  comparisons  and  analysis  of  covariance    
+courses,course_num,stat523,stat  523    design  and  analysis  of  experiments  i
+courses,course_num,stat523,stat    design  and  analysis  of  experiments  i  523
+courses,course_num,stat523,stat  523
+courses,course_num,stat523,stat    design  and  analysis  of  experiments  i
+courses,course_num,stat523,stat523    design  and  analysis  of  experiments  i
+courses,course_num,stat523,stat  design  and  analysis  of  experiments  i  523
+courses,course_num,stat523,stat523
+courses,course_num,stat523,stat  design  and  analysis  of  experiments  i
+courses,course_num,stat523,523    design  and  analysis  of  experiments  i
+courses,course_num,stat523,  design  and  analysis  of  experiments  i  523
+courses,course_num,stat523,523
+courses,course_num,stat523,  design  and  analysis  of  experiments  i
+courses,course_num,stat523,stat  523    design  and  analysis  of  experiments  1
+courses,course_num,stat523,stat    design  and  analysis  of  experiments  1  523
+courses,course_num,stat523,stat    design  and  analysis  of  experiments  1
+courses,course_num,stat523,stat523    design  and  analysis  of  experiments  1
+courses,course_num,stat523,stat  design  and  analysis  of  experiments  1  523
+courses,course_num,stat523,stat  design  and  analysis  of  experiments  1
+courses,course_num,stat523,523    design  and  analysis  of  experiments  1
+courses,course_num,stat523,  design  and  analysis  of  experiments  1  523
+courses,course_num,stat523,  design  and  analysis  of  experiments  1
+courses,course_num,stat523,graduate  stat  523    design  and  analysis  of  experiments  1
+courses,course_num,stat523,grad  stat    design  and  analysis  of  experiments  1  523
+courses,course_num,stat523,grad  level  stat  523
+courses,course_num,stat523,graduate  level  stat    design  and  analysis  of  experiments  1
+courses,course_num,stat523,masters  level  stat  523    design  and  analysis  of  experiments  1
+courses,course_num,stat523,stat  design  and  analysis  of  experiments  1  523  grad  level
+courses,course_num,stat523,stat523  for  grad  students
+courses,course_num,stat523,stat  design  and  analysis  of  experiments  1  graduate  level
+courses,course_num,stat523,523    design  and  analysis  of  experiments  1  for  grads
+courses,course_num,stat523,  design  and  analysis  of  experiments  1  523  for  graduates
+courses,course_num,stat523,523
+courses,course_num,stat523,  design  and  analysis  of  experiments  1  for  graduate  students
+courses,course_num,stat524,linear  regression  including  indicator  variables  influence  diagnostics  assumption  analysis  selection  of  'best  subset'  nonstandard  regression  models  logistic  regression  nonlinear  regression  models    
+courses,course_num,stat524,stat  524    applied  regression  analysis
+courses,course_num,stat524,stat    applied  regression  analysis  524
+courses,course_num,stat524,stat  524
+courses,course_num,stat524,stat    applied  regression  analysis
+courses,course_num,stat524,stat524    applied  regression  analysis
+courses,course_num,stat524,stat  applied  regression  analysis  524
+courses,course_num,stat524,stat524
+courses,course_num,stat524,stat  applied  regression  analysis
+courses,course_num,stat524,524    applied  regression  analysis
+courses,course_num,stat524,  applied  regression  analysis  524
+courses,course_num,stat524,524
+courses,course_num,stat524,  applied  regression  analysis
+courses,course_num,stat524,graduate  stat  524    applied  regression  analysis
+courses,course_num,stat524,grad  stat    applied  regression  analysis  524
+courses,course_num,stat524,grad  level  stat  524
+courses,course_num,stat524,graduate  level  stat    applied  regression  analysis
+courses,course_num,stat524,masters  level  stat  524    applied  regression  analysis
+courses,course_num,stat524,stat  applied  regression  analysis  524  grad  level
+courses,course_num,stat524,stat524  for  grad  students
+courses,course_num,stat524,stat  applied  regression  analysis  graduate  level
+courses,course_num,stat524,524    applied  regression  analysis  for  grads
+courses,course_num,stat524,  applied  regression  analysis  524  for  graduates
+courses,course_num,stat524,524
+courses,course_num,stat524,  applied  regression  analysis  for  graduate  students
+courses,course_num,stat530,techniques  available  to  the  statistician  for  efficient  use  of  computers  to  perform  statistical  computations  and  to  analyze  large  amounts  of  data    use  of  the  sas  software  system    includes  data  preparation  report  writing  basic  statistical  methods  and  a  research  project    
+courses,course_num,stat530,stat  530    statistical  computing  with  sas
+courses,course_num,stat530,stat    statistical  computing  with  sas  530
+courses,course_num,stat530,stat  530
+courses,course_num,stat530,stat    statistical  computing  with  sas
+courses,course_num,stat530,stat530    statistical  computing  with  sas
+courses,course_num,stat530,stat  statistical  computing  with  sas  530
+courses,course_num,stat530,stat530
+courses,course_num,stat530,stat  statistical  computing  with  sas
+courses,course_num,stat530,530    statistical  computing  with  sas
+courses,course_num,stat530,  statistical  computing  with  sas  530
+courses,course_num,stat530,530
+courses,course_num,stat530,  statistical  computing  with  sas
+courses,course_num,stat530,graduate  stat  530    statistical  computing  with  sas
+courses,course_num,stat530,grad  stat    statistical  computing  with  sas  530
+courses,course_num,stat530,grad  level  stat  530
+courses,course_num,stat530,graduate  level  stat    statistical  computing  with  sas
+courses,course_num,stat530,masters  level  stat  530    statistical  computing  with  sas
+courses,course_num,stat530,stat  statistical  computing  with  sas  530  grad  level
+courses,course_num,stat530,stat530  for  grad  students
+courses,course_num,stat530,stat  statistical  computing  with  sas  graduate  level
+courses,course_num,stat530,530    statistical  computing  with  sas  for  grads
+courses,course_num,stat530,  statistical  computing  with  sas  530  for  graduates
+courses,course_num,stat530,530
+courses,course_num,stat530,  statistical  computing  with  sas  for  graduate  students
+courses,course_num,stat531,obtain  manage  and  clean  data;  use  of  regular  expressions;  functional  and  object-oriented  programming;  graphical  descriptive  and  inferential  statistical  methods;  random  number  generation;  monte  carlo  methods  including  resampling  randomization  and  simulation    
+courses,course_num,stat531,stat  531    statistical  computing  with  r
+courses,course_num,stat531,stat    statistical  computing  with  r  531
+courses,course_num,stat531,stat  531
+courses,course_num,stat531,stat    statistical  computing  with  r
+courses,course_num,stat531,stat531    statistical  computing  with  r
+courses,course_num,stat531,stat  statistical  computing  with  r  531
+courses,course_num,stat531,stat531
+courses,course_num,stat531,stat  statistical  computing  with  r
+courses,course_num,stat531,531    statistical  computing  with  r
+courses,course_num,stat531,  statistical  computing  with  r  531
+courses,course_num,stat531,531
+courses,course_num,stat531,  statistical  computing  with  r
+courses,course_num,stat531,graduate  stat  531    statistical  computing  with  r
+courses,course_num,stat531,grad  stat    statistical  computing  with  r  531
+courses,course_num,stat531,grad  level  stat  531
+courses,course_num,stat531,graduate  level  stat    statistical  computing  with  r
+courses,course_num,stat531,masters  level  stat  531    statistical  computing  with  r
+courses,course_num,stat531,stat  statistical  computing  with  r  531  grad  level
+courses,course_num,stat531,stat531  for  grad  students
+courses,course_num,stat531,stat  statistical  computing  with  r  graduate  level
+courses,course_num,stat531,531    statistical  computing  with  r  for  grads
+courses,course_num,stat531,  statistical  computing  with  r  531  for  graduates
+courses,course_num,stat531,531
+courses,course_num,stat531,  statistical  computing  with  r  for  graduate  students
+courses,course_num,stat542,descriptive  and  graphical  methods    discrete  and  continuous  probability  distributions    one  and  two  sample  confidence  intervals  and  hypothesis  testing    single  factor  analysis  of  variance    quality  control    introduction  to  regression  and  to  experimental  design    substantial  use  of  statistical  software    
+courses,course_num,stat542,stat  542    statistical  methods  for  engineers
+courses,course_num,stat542,stat    statistical  methods  for  engineers  542
+courses,course_num,stat542,stat  542
+courses,course_num,stat542,stat    statistical  methods  for  engineers
+courses,course_num,stat542,stat542    statistical  methods  for  engineers
+courses,course_num,stat542,stat  statistical  methods  for  engineers  542
+courses,course_num,stat542,stat542
+courses,course_num,stat542,stat  statistical  methods  for  engineers
+courses,course_num,stat542,542    statistical  methods  for  engineers
+courses,course_num,stat542,  statistical  methods  for  engineers  542
+courses,course_num,stat542,542
+courses,course_num,stat542,  statistical  methods  for  engineers
+courses,course_num,stat542,graduate  stat  542    statistical  methods  for  engineers
+courses,course_num,stat542,grad  stat    statistical  methods  for  engineers  542
+courses,course_num,stat542,grad  level  stat  542
+courses,course_num,stat542,graduate  level  stat    statistical  methods  for  engineers
+courses,course_num,stat542,masters  level  stat  542    statistical  methods  for  engineers
+courses,course_num,stat542,stat  statistical  methods  for  engineers  542  grad  level
+courses,course_num,stat542,stat542  for  grad  students
+courses,course_num,stat542,stat  statistical  methods  for  engineers  graduate  level
+courses,course_num,stat542,542    statistical  methods  for  engineers  for  grads
+courses,course_num,stat542,  statistical  methods  for  engineers  542  for  graduates
+courses,course_num,stat542,542
+courses,course_num,stat542,  statistical  methods  for  engineers  for  graduate  students
+courses,course_num,stat570,directed  group  study  of  selected  topics  for  graduate  students    open  to  undergraduate  and  graduate  students    the  class  schedule  will  list  topic  selected    
+courses,course_num,stat570,stat  570    selected  advanced  topics
+courses,course_num,stat570,stat    selected  advanced  topics  570
+courses,course_num,stat570,stat  570
+courses,course_num,stat570,stat    selected  advanced  topics
+courses,course_num,stat570,stat570    selected  advanced  topics
+courses,course_num,stat570,stat  selected  advanced  topics  570
+courses,course_num,stat570,stat570
+courses,course_num,stat570,stat  selected  advanced  topics
+courses,course_num,stat570,570    selected  advanced  topics
+courses,course_num,stat570,  selected  advanced  topics  570
+courses,course_num,stat570,570
+courses,course_num,stat570,  selected  advanced  topics
+courses,course_num,stat570,graduate  stat  570    selected  advanced  topics
+courses,course_num,stat570,grad  stat    selected  advanced  topics  570
+courses,course_num,stat570,grad  level  stat  570
+courses,course_num,stat570,graduate  level  stat    selected  advanced  topics
+courses,course_num,stat570,masters  level  stat  570    selected  advanced  topics
+courses,course_num,stat570,stat  selected  advanced  topics  570  grad  level
+courses,course_num,stat570,stat570  for  grad  students
+courses,course_num,stat570,stat  selected  advanced  topics  graduate  level
+courses,course_num,stat570,570    selected  advanced  topics  for  grads
+courses,course_num,stat570,  selected  advanced  topics  570  for  graduates
+courses,course_num,stat570,570
+courses,course_num,stat570,  selected  advanced  topics  for  graduate  students
+courses,term,sp,this  quarter
+courses,term,su,next  quarter
+courses,term,sp,now
+courses,term,su,next  summer
+courses,term,f,next  fall
+courses,term,w,next  winter
+courses,term,sp,next  spring
+courses,term,sp,today
 courses,term,w,w
 courses,term,w,winter
 courses,term,w,w19
@@ -687,13 +1349,9 @@ faculty,faculty_last_name,zwarg,noah
 polyratings,faculty_last_name,rees,rees
 polyratings,faculty_last_name,rees,dr.rees
 polyratings,faculty_last_name,rees,professorrees
-polyratings,faculty_last_name,rees,mr.rees
-polyratings,faculty_last_name,rees,mrs.rees
 polyratings,faculty_last_name,rees,rees ,mark
 polyratings,faculty_last_name,rees,markrees
 polyratings,faculty_last_name,rees,mark
-polyratings,faculty_last_name,rees,mr.mark
-polyratings,faculty_last_name,rees,mrs.mark
 polyratings,faculty_last_name,rees,professor  mark
 polyratings,faculty_last_name,rees,dr.markrees
 polyratings,faculty_last_name,rees,mr.markrees
@@ -702,13 +1360,9 @@ polyratings,faculty_last_name,rees,professor  markrees
 polyratings,faculty_last_name,hughes,hughes
 polyratings,faculty_last_name,hughes,dr.hughes
 polyratings,faculty_last_name,hughes,professorhughes
-polyratings,faculty_last_name,hughes,mr.hughes
-polyratings,faculty_last_name,hughes,mrs.hughes
 polyratings,faculty_last_name,hughes,hughes ,gary
 polyratings,faculty_last_name,hughes,garyhughes
 polyratings,faculty_last_name,hughes,gary
-polyratings,faculty_last_name,hughes,mr.gary
-polyratings,faculty_last_name,hughes,mrs.gary
 polyratings,faculty_last_name,hughes,professor  gary
 polyratings,faculty_last_name,hughes,dr.garyhughes
 polyratings,faculty_last_name,hughes,mr.garyhughes
@@ -717,13 +1371,9 @@ polyratings,faculty_last_name,hughes,professor  garyhughes
 polyratings,faculty_last_name,rossman,rossman
 polyratings,faculty_last_name,rossman,dr.rossman
 polyratings,faculty_last_name,rossman,professorrossman
-polyratings,faculty_last_name,rossman,mr.rossman
-polyratings,faculty_last_name,rossman,mrs.rossman
 polyratings,faculty_last_name,rossman,rossman ,allan
 polyratings,faculty_last_name,rossman,allanrossman
 polyratings,faculty_last_name,rossman,allan
-polyratings,faculty_last_name,rossman,mr.allan
-polyratings,faculty_last_name,rossman,mrs.allan
 polyratings,faculty_last_name,rossman,professor  allan
 polyratings,faculty_last_name,rossman,dr.allanrossman
 polyratings,faculty_last_name,rossman,mr.allanrossman
@@ -732,13 +1382,9 @@ polyratings,faculty_last_name,rossman,professor  allanrossman
 polyratings,faculty_last_name,dekhtyar,dekhtyar
 polyratings,faculty_last_name,dekhtyar,dr.dekhtyar
 polyratings,faculty_last_name,dekhtyar,professordekhtyar
-polyratings,faculty_last_name,dekhtyar,mr.dekhtyar
-polyratings,faculty_last_name,dekhtyar,mrs.dekhtyar
 polyratings,faculty_last_name,dekhtyar,dekhtyar ,olga
 polyratings,faculty_last_name,dekhtyar,olgadekhtyar
 polyratings,faculty_last_name,dekhtyar,olga
-polyratings,faculty_last_name,dekhtyar,mr.olga
-polyratings,faculty_last_name,dekhtyar,mrs.olga
 polyratings,faculty_last_name,dekhtyar,professor  olga
 polyratings,faculty_last_name,dekhtyar,dr.olgadekhtyar
 polyratings,faculty_last_name,dekhtyar,mr.olgadekhtyar
@@ -747,13 +1393,9 @@ polyratings,faculty_last_name,dekhtyar,professor  olgadekhtyar
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,dr.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,professorschroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mr.schroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mrs.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz ,madeline
 polyratings,faculty_last_name,schroth-glanz,madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,madeline
-polyratings,faculty_last_name,schroth-glanz,mr.madeline
-polyratings,faculty_last_name,schroth-glanz,mrs.madeline
 polyratings,faculty_last_name,schroth-glanz,professor  madeline
 polyratings,faculty_last_name,schroth-glanz,dr.madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,mr.madelineschroth-glanz
@@ -762,13 +1404,9 @@ polyratings,faculty_last_name,schroth-glanz,professor  madelineschroth-glanz
 polyratings,faculty_last_name,smith,smith
 polyratings,faculty_last_name,smith,dr.smith
 polyratings,faculty_last_name,smith,professorsmith
-polyratings,faculty_last_name,smith,mr.smith
-polyratings,faculty_last_name,smith,mrs.smith
 polyratings,faculty_last_name,smith,smith ,heather
 polyratings,faculty_last_name,smith,heathersmith
 polyratings,faculty_last_name,smith,heather
-polyratings,faculty_last_name,smith,mr.heather
-polyratings,faculty_last_name,smith,mrs.heather
 polyratings,faculty_last_name,smith,professor  heather
 polyratings,faculty_last_name,smith,dr.heathersmith
 polyratings,faculty_last_name,smith,mr.heathersmith
@@ -777,13 +1415,9 @@ polyratings,faculty_last_name,smith,professor  heathersmith
 polyratings,faculty_last_name,ottesen,ottesen
 polyratings,faculty_last_name,ottesen,dr.ottesen
 polyratings,faculty_last_name,ottesen,professorottesen
-polyratings,faculty_last_name,ottesen,mr.ottesen
-polyratings,faculty_last_name,ottesen,mrs.ottesen
 polyratings,faculty_last_name,ottesen,ottesen ,rebecca
 polyratings,faculty_last_name,ottesen,rebeccaottesen
 polyratings,faculty_last_name,ottesen,rebecca
-polyratings,faculty_last_name,ottesen,mr.rebecca
-polyratings,faculty_last_name,ottesen,mrs.rebecca
 polyratings,faculty_last_name,ottesen,professor  rebecca
 polyratings,faculty_last_name,ottesen,dr.rebeccaottesen
 polyratings,faculty_last_name,ottesen,mr.rebeccaottesen
@@ -792,13 +1426,9 @@ polyratings,faculty_last_name,ottesen,professor  rebeccaottesen
 polyratings,faculty_last_name,ignatova,ignatova
 polyratings,faculty_last_name,ignatova,dr.ignatova
 polyratings,faculty_last_name,ignatova,professorignatova
-polyratings,faculty_last_name,ignatova,mr.ignatova
-polyratings,faculty_last_name,ignatova,mrs.ignatova
 polyratings,faculty_last_name,ignatova,ignatova ,lina
 polyratings,faculty_last_name,ignatova,linaignatova
 polyratings,faculty_last_name,ignatova,lina
-polyratings,faculty_last_name,ignatova,mr.lina
-polyratings,faculty_last_name,ignatova,mrs.lina
 polyratings,faculty_last_name,ignatova,professor  lina
 polyratings,faculty_last_name,ignatova,dr.linaignatova
 polyratings,faculty_last_name,ignatova,mr.linaignatova
@@ -807,13 +1437,9 @@ polyratings,faculty_last_name,ignatova,professor  linaignatova
 polyratings,faculty_last_name,ubersax,ubersax
 polyratings,faculty_last_name,ubersax,dr.ubersax
 polyratings,faculty_last_name,ubersax,professorubersax
-polyratings,faculty_last_name,ubersax,mr.ubersax
-polyratings,faculty_last_name,ubersax,mrs.ubersax
 polyratings,faculty_last_name,ubersax,ubersax ,john
 polyratings,faculty_last_name,ubersax,johnubersax
 polyratings,faculty_last_name,ubersax,john
-polyratings,faculty_last_name,ubersax,mr.john
-polyratings,faculty_last_name,ubersax,mrs.john
 polyratings,faculty_last_name,ubersax,professor  john
 polyratings,faculty_last_name,ubersax,dr.johnubersax
 polyratings,faculty_last_name,ubersax,mr.johnubersax
@@ -822,13 +1448,9 @@ polyratings,faculty_last_name,ubersax,professor  johnubersax
 polyratings,faculty_last_name,devore,devore
 polyratings,faculty_last_name,devore,dr.devore
 polyratings,faculty_last_name,devore,professordevore
-polyratings,faculty_last_name,devore,mr.devore
-polyratings,faculty_last_name,devore,mrs.devore
 polyratings,faculty_last_name,devore,devore ,jay
 polyratings,faculty_last_name,devore,jaydevore
 polyratings,faculty_last_name,devore,jay
-polyratings,faculty_last_name,devore,mr.jay
-polyratings,faculty_last_name,devore,mrs.jay
 polyratings,faculty_last_name,devore,professor  jay
 polyratings,faculty_last_name,devore,dr.jaydevore
 polyratings,faculty_last_name,devore,mr.jaydevore
@@ -837,13 +1459,9 @@ polyratings,faculty_last_name,devore,professor  jaydevore
 polyratings,faculty_last_name,sun,sun
 polyratings,faculty_last_name,sun,dr.sun
 polyratings,faculty_last_name,sun,professorsun
-polyratings,faculty_last_name,sun,mr.sun
-polyratings,faculty_last_name,sun,mrs.sun
 polyratings,faculty_last_name,sun,sun ,dennis
 polyratings,faculty_last_name,sun,dennissun
 polyratings,faculty_last_name,sun,dennis
-polyratings,faculty_last_name,sun,mr.dennis
-polyratings,faculty_last_name,sun,mrs.dennis
 polyratings,faculty_last_name,sun,professor  dennis
 polyratings,faculty_last_name,sun,dr.dennissun
 polyratings,faculty_last_name,sun,mr.dennissun
@@ -852,13 +1470,9 @@ polyratings,faculty_last_name,sun,professor  dennissun
 polyratings,faculty_last_name,aziz,aziz
 polyratings,faculty_last_name,aziz,dr.aziz
 polyratings,faculty_last_name,aziz,professoraziz
-polyratings,faculty_last_name,aziz,mr.aziz
-polyratings,faculty_last_name,aziz,mrs.aziz
 polyratings,faculty_last_name,aziz,aziz ,mohammad
 polyratings,faculty_last_name,aziz,mohammadaziz
 polyratings,faculty_last_name,aziz,mohammad
-polyratings,faculty_last_name,aziz,mr.mohammad
-polyratings,faculty_last_name,aziz,mrs.mohammad
 polyratings,faculty_last_name,aziz,professor  mohammad
 polyratings,faculty_last_name,aziz,dr.mohammadaziz
 polyratings,faculty_last_name,aziz,mr.mohammadaziz
@@ -867,13 +1481,9 @@ polyratings,faculty_last_name,aziz,professor  mohammadaziz
 polyratings,faculty_last_name,devore,devore
 polyratings,faculty_last_name,devore,dr.devore
 polyratings,faculty_last_name,devore,professordevore
-polyratings,faculty_last_name,devore,mr.devore
-polyratings,faculty_last_name,devore,mrs.devore
 polyratings,faculty_last_name,devore,devore ,jay
 polyratings,faculty_last_name,devore,jaydevore
 polyratings,faculty_last_name,devore,jay
-polyratings,faculty_last_name,devore,mr.jay
-polyratings,faculty_last_name,devore,mrs.jay
 polyratings,faculty_last_name,devore,professor  jay
 polyratings,faculty_last_name,devore,dr.jaydevore
 polyratings,faculty_last_name,devore,mr.jaydevore
@@ -882,13 +1492,9 @@ polyratings,faculty_last_name,devore,professor  jaydevore
 polyratings,faculty_last_name,schaffner,schaffner
 polyratings,faculty_last_name,schaffner,dr.schaffner
 polyratings,faculty_last_name,schaffner,professorschaffner
-polyratings,faculty_last_name,schaffner,mr.schaffner
-polyratings,faculty_last_name,schaffner,mrs.schaffner
 polyratings,faculty_last_name,schaffner,schaffner ,andrew
 polyratings,faculty_last_name,schaffner,andrewschaffner
 polyratings,faculty_last_name,schaffner,andrew
-polyratings,faculty_last_name,schaffner,mr.andrew
-polyratings,faculty_last_name,schaffner,mrs.andrew
 polyratings,faculty_last_name,schaffner,professor  andrew
 polyratings,faculty_last_name,schaffner,dr.andrewschaffner
 polyratings,faculty_last_name,schaffner,mr.andrewschaffner
@@ -897,13 +1503,9 @@ polyratings,faculty_last_name,schaffner,professor  andrewschaffner
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,dr.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,professorschroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mr.schroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mrs.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz ,madeline
 polyratings,faculty_last_name,schroth-glanz,madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,madeline
-polyratings,faculty_last_name,schroth-glanz,mr.madeline
-polyratings,faculty_last_name,schroth-glanz,mrs.madeline
 polyratings,faculty_last_name,schroth-glanz,professor  madeline
 polyratings,faculty_last_name,schroth-glanz,dr.madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,mr.madelineschroth-glanz
@@ -912,13 +1514,9 @@ polyratings,faculty_last_name,schroth-glanz,professor  madelineschroth-glanz
 polyratings,faculty_last_name,dekhtyar,dekhtyar
 polyratings,faculty_last_name,dekhtyar,dr.dekhtyar
 polyratings,faculty_last_name,dekhtyar,professordekhtyar
-polyratings,faculty_last_name,dekhtyar,mr.dekhtyar
-polyratings,faculty_last_name,dekhtyar,mrs.dekhtyar
 polyratings,faculty_last_name,dekhtyar,dekhtyar ,olga
 polyratings,faculty_last_name,dekhtyar,olgadekhtyar
 polyratings,faculty_last_name,dekhtyar,olga
-polyratings,faculty_last_name,dekhtyar,mr.olga
-polyratings,faculty_last_name,dekhtyar,mrs.olga
 polyratings,faculty_last_name,dekhtyar,professor  olga
 polyratings,faculty_last_name,dekhtyar,dr.olgadekhtyar
 polyratings,faculty_last_name,dekhtyar,mr.olgadekhtyar
@@ -927,13 +1525,9 @@ polyratings,faculty_last_name,dekhtyar,professor  olgadekhtyar
 polyratings,faculty_last_name,mcgaughey,mcgaughey
 polyratings,faculty_last_name,mcgaughey,dr.mcgaughey
 polyratings,faculty_last_name,mcgaughey,professormcgaughey
-polyratings,faculty_last_name,mcgaughey,mr.mcgaughey
-polyratings,faculty_last_name,mcgaughey,mrs.mcgaughey
 polyratings,faculty_last_name,mcgaughey,mcgaughey ,karen
 polyratings,faculty_last_name,mcgaughey,karenmcgaughey
 polyratings,faculty_last_name,mcgaughey,karen
-polyratings,faculty_last_name,mcgaughey,mr.karen
-polyratings,faculty_last_name,mcgaughey,mrs.karen
 polyratings,faculty_last_name,mcgaughey,professor  karen
 polyratings,faculty_last_name,mcgaughey,dr.karenmcgaughey
 polyratings,faculty_last_name,mcgaughey,mr.karenmcgaughey
@@ -942,13 +1536,9 @@ polyratings,faculty_last_name,mcgaughey,professor  karenmcgaughey
 polyratings,faculty_last_name,ubersax,ubersax
 polyratings,faculty_last_name,ubersax,dr.ubersax
 polyratings,faculty_last_name,ubersax,professorubersax
-polyratings,faculty_last_name,ubersax,mr.ubersax
-polyratings,faculty_last_name,ubersax,mrs.ubersax
 polyratings,faculty_last_name,ubersax,ubersax ,john
 polyratings,faculty_last_name,ubersax,johnubersax
 polyratings,faculty_last_name,ubersax,john
-polyratings,faculty_last_name,ubersax,mr.john
-polyratings,faculty_last_name,ubersax,mrs.john
 polyratings,faculty_last_name,ubersax,professor  john
 polyratings,faculty_last_name,ubersax,dr.johnubersax
 polyratings,faculty_last_name,ubersax,mr.johnubersax
@@ -957,13 +1547,9 @@ polyratings,faculty_last_name,ubersax,professor  johnubersax
 polyratings,faculty_last_name,balakrishnan,balakrishnan
 polyratings,faculty_last_name,balakrishnan,dr.balakrishnan
 polyratings,faculty_last_name,balakrishnan,professorbalakrishnan
-polyratings,faculty_last_name,balakrishnan,mr.balakrishnan
-polyratings,faculty_last_name,balakrishnan,mrs.balakrishnan
 polyratings,faculty_last_name,balakrishnan,balakrishnan ,jerald
 polyratings,faculty_last_name,balakrishnan,jeraldbalakrishnan
 polyratings,faculty_last_name,balakrishnan,jerald
-polyratings,faculty_last_name,balakrishnan,mr.jerald
-polyratings,faculty_last_name,balakrishnan,mrs.jerald
 polyratings,faculty_last_name,balakrishnan,professor  jerald
 polyratings,faculty_last_name,balakrishnan,dr.jeraldbalakrishnan
 polyratings,faculty_last_name,balakrishnan,mr.jeraldbalakrishnan
@@ -972,13 +1558,9 @@ polyratings,faculty_last_name,balakrishnan,professor  jeraldbalakrishnan
 polyratings,faculty_last_name,pollard,pollard
 polyratings,faculty_last_name,pollard,dr.pollard
 polyratings,faculty_last_name,pollard,professorpollard
-polyratings,faculty_last_name,pollard,mr.pollard
-polyratings,faculty_last_name,pollard,mrs.pollard
 polyratings,faculty_last_name,pollard,pollard ,richard
 polyratings,faculty_last_name,pollard,richardpollard
 polyratings,faculty_last_name,pollard,richard
-polyratings,faculty_last_name,pollard,mr.richard
-polyratings,faculty_last_name,pollard,mrs.richard
 polyratings,faculty_last_name,pollard,professor  richard
 polyratings,faculty_last_name,pollard,dr.richardpollard
 polyratings,faculty_last_name,pollard,mr.richardpollard
@@ -987,13 +1569,9 @@ polyratings,faculty_last_name,pollard,professor  richardpollard
 polyratings,faculty_last_name,walker,walker
 polyratings,faculty_last_name,walker,dr.walker
 polyratings,faculty_last_name,walker,professorwalker
-polyratings,faculty_last_name,walker,mr.walker
-polyratings,faculty_last_name,walker,mrs.walker
 polyratings,faculty_last_name,walker,walker ,john
 polyratings,faculty_last_name,walker,johnwalker
 polyratings,faculty_last_name,walker,john
-polyratings,faculty_last_name,walker,mr.john
-polyratings,faculty_last_name,walker,mrs.john
 polyratings,faculty_last_name,walker,professor  john
 polyratings,faculty_last_name,walker,dr.johnwalker
 polyratings,faculty_last_name,walker,mr.johnwalker
@@ -1002,13 +1580,9 @@ polyratings,faculty_last_name,walker,professor  johnwalker
 polyratings,faculty_last_name,pennelly,pennelly
 polyratings,faculty_last_name,pennelly,dr.pennelly
 polyratings,faculty_last_name,pennelly,professorpennelly
-polyratings,faculty_last_name,pennelly,mr.pennelly
-polyratings,faculty_last_name,pennelly,mrs.pennelly
 polyratings,faculty_last_name,pennelly,pennelly ,les
 polyratings,faculty_last_name,pennelly,lespennelly
 polyratings,faculty_last_name,pennelly,les
-polyratings,faculty_last_name,pennelly,mr.les
-polyratings,faculty_last_name,pennelly,mrs.les
 polyratings,faculty_last_name,pennelly,professor  les
 polyratings,faculty_last_name,pennelly,dr.lespennelly
 polyratings,faculty_last_name,pennelly,mr.lespennelly
@@ -1017,13 +1591,9 @@ polyratings,faculty_last_name,pennelly,professor  lespennelly
 polyratings,faculty_last_name,balakrishnan,balakrishnan
 polyratings,faculty_last_name,balakrishnan,dr.balakrishnan
 polyratings,faculty_last_name,balakrishnan,professorbalakrishnan
-polyratings,faculty_last_name,balakrishnan,mr.balakrishnan
-polyratings,faculty_last_name,balakrishnan,mrs.balakrishnan
 polyratings,faculty_last_name,balakrishnan,balakrishnan ,jerald
 polyratings,faculty_last_name,balakrishnan,jeraldbalakrishnan
 polyratings,faculty_last_name,balakrishnan,jerald
-polyratings,faculty_last_name,balakrishnan,mr.jerald
-polyratings,faculty_last_name,balakrishnan,mrs.jerald
 polyratings,faculty_last_name,balakrishnan,professor  jerald
 polyratings,faculty_last_name,balakrishnan,dr.jeraldbalakrishnan
 polyratings,faculty_last_name,balakrishnan,mr.jeraldbalakrishnan
@@ -1032,13 +1602,9 @@ polyratings,faculty_last_name,balakrishnan,professor  jeraldbalakrishnan
 polyratings,faculty_last_name,pennelly,pennelly
 polyratings,faculty_last_name,pennelly,dr.pennelly
 polyratings,faculty_last_name,pennelly,professorpennelly
-polyratings,faculty_last_name,pennelly,mr.pennelly
-polyratings,faculty_last_name,pennelly,mrs.pennelly
 polyratings,faculty_last_name,pennelly,pennelly ,les
 polyratings,faculty_last_name,pennelly,lespennelly
 polyratings,faculty_last_name,pennelly,les
-polyratings,faculty_last_name,pennelly,mr.les
-polyratings,faculty_last_name,pennelly,mrs.les
 polyratings,faculty_last_name,pennelly,professor  les
 polyratings,faculty_last_name,pennelly,dr.lespennelly
 polyratings,faculty_last_name,pennelly,mr.lespennelly
@@ -1047,13 +1613,9 @@ polyratings,faculty_last_name,pennelly,professor  lespennelly
 polyratings,faculty_last_name,coleman,coleman
 polyratings,faculty_last_name,coleman,dr.coleman
 polyratings,faculty_last_name,coleman,professorcoleman
-polyratings,faculty_last_name,coleman,mr.coleman
-polyratings,faculty_last_name,coleman,mrs.coleman
 polyratings,faculty_last_name,coleman,coleman ,john
 polyratings,faculty_last_name,coleman,johncoleman
 polyratings,faculty_last_name,coleman,john
-polyratings,faculty_last_name,coleman,mr.john
-polyratings,faculty_last_name,coleman,mrs.john
 polyratings,faculty_last_name,coleman,professor  john
 polyratings,faculty_last_name,coleman,dr.johncoleman
 polyratings,faculty_last_name,coleman,mr.johncoleman
@@ -1062,13 +1624,9 @@ polyratings,faculty_last_name,coleman,professor  johncoleman
 polyratings,faculty_last_name,lund,lund
 polyratings,faculty_last_name,lund,dr.lund
 polyratings,faculty_last_name,lund,professorlund
-polyratings,faculty_last_name,lund,mr.lund
-polyratings,faculty_last_name,lund,mrs.lund
 polyratings,faculty_last_name,lund,lund ,ulric
 polyratings,faculty_last_name,lund,ulriclund
 polyratings,faculty_last_name,lund,ulric
-polyratings,faculty_last_name,lund,mr.ulric
-polyratings,faculty_last_name,lund,mrs.ulric
 polyratings,faculty_last_name,lund,professor  ulric
 polyratings,faculty_last_name,lund,dr.ulriclund
 polyratings,faculty_last_name,lund,mr.ulriclund
@@ -1077,13 +1635,9 @@ polyratings,faculty_last_name,lund,professor  ulriclund
 polyratings,faculty_last_name,hughes,hughes
 polyratings,faculty_last_name,hughes,dr.hughes
 polyratings,faculty_last_name,hughes,professorhughes
-polyratings,faculty_last_name,hughes,mr.hughes
-polyratings,faculty_last_name,hughes,mrs.hughes
 polyratings,faculty_last_name,hughes,hughes ,gary
 polyratings,faculty_last_name,hughes,garyhughes
 polyratings,faculty_last_name,hughes,gary
-polyratings,faculty_last_name,hughes,mr.gary
-polyratings,faculty_last_name,hughes,mrs.gary
 polyratings,faculty_last_name,hughes,professor  gary
 polyratings,faculty_last_name,hughes,dr.garyhughes
 polyratings,faculty_last_name,hughes,mr.garyhughes
@@ -1092,13 +1646,9 @@ polyratings,faculty_last_name,hughes,professor  garyhughes
 polyratings,faculty_last_name,smidt,smidt
 polyratings,faculty_last_name,smidt,dr.smidt
 polyratings,faculty_last_name,smidt,professorsmidt
-polyratings,faculty_last_name,smidt,mr.smidt
-polyratings,faculty_last_name,smidt,mrs.smidt
 polyratings,faculty_last_name,smidt,smidt ,robert
 polyratings,faculty_last_name,smidt,robertsmidt
 polyratings,faculty_last_name,smidt,robert
-polyratings,faculty_last_name,smidt,mr.robert
-polyratings,faculty_last_name,smidt,mrs.robert
 polyratings,faculty_last_name,smidt,professor  robert
 polyratings,faculty_last_name,smidt,dr.robertsmidt
 polyratings,faculty_last_name,smidt,mr.robertsmidt
@@ -1107,13 +1657,9 @@ polyratings,faculty_last_name,smidt,professor  robertsmidt
 polyratings,faculty_last_name,smidt,smidt
 polyratings,faculty_last_name,smidt,dr.smidt
 polyratings,faculty_last_name,smidt,professorsmidt
-polyratings,faculty_last_name,smidt,mr.smidt
-polyratings,faculty_last_name,smidt,mrs.smidt
 polyratings,faculty_last_name,smidt,smidt ,robert
 polyratings,faculty_last_name,smidt,robertsmidt
 polyratings,faculty_last_name,smidt,robert
-polyratings,faculty_last_name,smidt,mr.robert
-polyratings,faculty_last_name,smidt,mrs.robert
 polyratings,faculty_last_name,smidt,professor  robert
 polyratings,faculty_last_name,smidt,dr.robertsmidt
 polyratings,faculty_last_name,smidt,mr.robertsmidt
@@ -1122,13 +1668,9 @@ polyratings,faculty_last_name,smidt,professor  robertsmidt
 polyratings,faculty_last_name,frame,frame
 polyratings,faculty_last_name,frame,dr.frame
 polyratings,faculty_last_name,frame,professorframe
-polyratings,faculty_last_name,frame,mr.frame
-polyratings,faculty_last_name,frame,mrs.frame
 polyratings,faculty_last_name,frame,frame ,samuel
 polyratings,faculty_last_name,frame,samuelframe
 polyratings,faculty_last_name,frame,samuel
-polyratings,faculty_last_name,frame,mr.samuel
-polyratings,faculty_last_name,frame,mrs.samuel
 polyratings,faculty_last_name,frame,professor  samuel
 polyratings,faculty_last_name,frame,dr.samuelframe
 polyratings,faculty_last_name,frame,mr.samuelframe
@@ -1137,13 +1679,9 @@ polyratings,faculty_last_name,frame,professor  samuelframe
 polyratings,faculty_last_name,walker,walker
 polyratings,faculty_last_name,walker,dr.walker
 polyratings,faculty_last_name,walker,professorwalker
-polyratings,faculty_last_name,walker,mr.walker
-polyratings,faculty_last_name,walker,mrs.walker
 polyratings,faculty_last_name,walker,walker ,john
 polyratings,faculty_last_name,walker,johnwalker
 polyratings,faculty_last_name,walker,john
-polyratings,faculty_last_name,walker,mr.john
-polyratings,faculty_last_name,walker,mrs.john
 polyratings,faculty_last_name,walker,professor  john
 polyratings,faculty_last_name,walker,dr.johnwalker
 polyratings,faculty_last_name,walker,mr.johnwalker
@@ -1152,13 +1690,9 @@ polyratings,faculty_last_name,walker,professor  johnwalker
 polyratings,faculty_last_name,mirahmad,mirahmad
 polyratings,faculty_last_name,mirahmad,dr.mirahmad
 polyratings,faculty_last_name,mirahmad,professormirahmad
-polyratings,faculty_last_name,mirahmad,mr.mirahmad
-polyratings,faculty_last_name,mirahmad,mrs.mirahmad
 polyratings,faculty_last_name,mirahmad,mirahmad ,mortazavi  izadi
 polyratings,faculty_last_name,mirahmad,mortazavi  izadimirahmad
 polyratings,faculty_last_name,mirahmad,mortazavi  izadi
-polyratings,faculty_last_name,mirahmad,mr.mortazavi  izadi
-polyratings,faculty_last_name,mirahmad,mrs.mortazavi  izadi
 polyratings,faculty_last_name,mirahmad,professor  mortazavi  izadi
 polyratings,faculty_last_name,mirahmad,dr.mortazavi  izadimirahmad
 polyratings,faculty_last_name,mirahmad,mr.mortazavi  izadimirahmad
@@ -1167,13 +1701,9 @@ polyratings,faculty_last_name,mirahmad,professor  mortazavi  izadimirahmad
 polyratings,faculty_last_name,rein,rein
 polyratings,faculty_last_name,rein,dr.rein
 polyratings,faculty_last_name,rein,professorrein
-polyratings,faculty_last_name,rein,mr.rein
-polyratings,faculty_last_name,rein,mrs.rein
 polyratings,faculty_last_name,rein,rein ,steve
 polyratings,faculty_last_name,rein,steverein
 polyratings,faculty_last_name,rein,steve
-polyratings,faculty_last_name,rein,mr.steve
-polyratings,faculty_last_name,rein,mrs.steve
 polyratings,faculty_last_name,rein,professor  steve
 polyratings,faculty_last_name,rein,dr.steverein
 polyratings,faculty_last_name,rein,mr.steverein
@@ -1182,13 +1712,9 @@ polyratings,faculty_last_name,rein,professor  steverein
 polyratings,faculty_last_name,frame,frame
 polyratings,faculty_last_name,frame,dr.frame
 polyratings,faculty_last_name,frame,professorframe
-polyratings,faculty_last_name,frame,mr.frame
-polyratings,faculty_last_name,frame,mrs.frame
 polyratings,faculty_last_name,frame,frame ,samuel
 polyratings,faculty_last_name,frame,samuelframe
 polyratings,faculty_last_name,frame,samuel
-polyratings,faculty_last_name,frame,mr.samuel
-polyratings,faculty_last_name,frame,mrs.samuel
 polyratings,faculty_last_name,frame,professor  samuel
 polyratings,faculty_last_name,frame,dr.samuelframe
 polyratings,faculty_last_name,frame,mr.samuelframe
@@ -1197,13 +1723,9 @@ polyratings,faculty_last_name,frame,professor  samuelframe
 polyratings,faculty_last_name,carlton,carlton
 polyratings,faculty_last_name,carlton,dr.carlton
 polyratings,faculty_last_name,carlton,professorcarlton
-polyratings,faculty_last_name,carlton,mr.carlton
-polyratings,faculty_last_name,carlton,mrs.carlton
 polyratings,faculty_last_name,carlton,carlton ,matt
 polyratings,faculty_last_name,carlton,mattcarlton
 polyratings,faculty_last_name,carlton,matt
-polyratings,faculty_last_name,carlton,mr.matt
-polyratings,faculty_last_name,carlton,mrs.matt
 polyratings,faculty_last_name,carlton,professor  matt
 polyratings,faculty_last_name,carlton,dr.mattcarlton
 polyratings,faculty_last_name,carlton,mr.mattcarlton
@@ -1212,13 +1734,9 @@ polyratings,faculty_last_name,carlton,professor  mattcarlton
 polyratings,faculty_last_name,ignatova,ignatova
 polyratings,faculty_last_name,ignatova,dr.ignatova
 polyratings,faculty_last_name,ignatova,professorignatova
-polyratings,faculty_last_name,ignatova,mr.ignatova
-polyratings,faculty_last_name,ignatova,mrs.ignatova
 polyratings,faculty_last_name,ignatova,ignatova ,lina
 polyratings,faculty_last_name,ignatova,linaignatova
 polyratings,faculty_last_name,ignatova,lina
-polyratings,faculty_last_name,ignatova,mr.lina
-polyratings,faculty_last_name,ignatova,mrs.lina
 polyratings,faculty_last_name,ignatova,professor  lina
 polyratings,faculty_last_name,ignatova,dr.linaignatova
 polyratings,faculty_last_name,ignatova,mr.linaignatova
@@ -1227,13 +1745,9 @@ polyratings,faculty_last_name,ignatova,professor  linaignatova
 polyratings,faculty_last_name,coleman,coleman
 polyratings,faculty_last_name,coleman,dr.coleman
 polyratings,faculty_last_name,coleman,professorcoleman
-polyratings,faculty_last_name,coleman,mr.coleman
-polyratings,faculty_last_name,coleman,mrs.coleman
 polyratings,faculty_last_name,coleman,coleman ,john
 polyratings,faculty_last_name,coleman,johncoleman
 polyratings,faculty_last_name,coleman,john
-polyratings,faculty_last_name,coleman,mr.john
-polyratings,faculty_last_name,coleman,mrs.john
 polyratings,faculty_last_name,coleman,professor  john
 polyratings,faculty_last_name,coleman,dr.johncoleman
 polyratings,faculty_last_name,coleman,mr.johncoleman
@@ -1242,13 +1756,9 @@ polyratings,faculty_last_name,coleman,professor  johncoleman
 polyratings,faculty_last_name,aziz,aziz
 polyratings,faculty_last_name,aziz,dr.aziz
 polyratings,faculty_last_name,aziz,professoraziz
-polyratings,faculty_last_name,aziz,mr.aziz
-polyratings,faculty_last_name,aziz,mrs.aziz
 polyratings,faculty_last_name,aziz,aziz ,mohammad
 polyratings,faculty_last_name,aziz,mohammadaziz
 polyratings,faculty_last_name,aziz,mohammad
-polyratings,faculty_last_name,aziz,mr.mohammad
-polyratings,faculty_last_name,aziz,mrs.mohammad
 polyratings,faculty_last_name,aziz,professor  mohammad
 polyratings,faculty_last_name,aziz,dr.mohammadaziz
 polyratings,faculty_last_name,aziz,mr.mohammadaziz
@@ -1257,13 +1767,9 @@ polyratings,faculty_last_name,aziz,professor  mohammadaziz
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,dr.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,professorschroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mr.schroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mrs.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz ,madeline
 polyratings,faculty_last_name,schroth-glanz,madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,madeline
-polyratings,faculty_last_name,schroth-glanz,mr.madeline
-polyratings,faculty_last_name,schroth-glanz,mrs.madeline
 polyratings,faculty_last_name,schroth-glanz,professor  madeline
 polyratings,faculty_last_name,schroth-glanz,dr.madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,mr.madelineschroth-glanz
@@ -1272,13 +1778,9 @@ polyratings,faculty_last_name,schroth-glanz,professor  madelineschroth-glanz
 polyratings,faculty_last_name,schaffner,schaffner
 polyratings,faculty_last_name,schaffner,dr.schaffner
 polyratings,faculty_last_name,schaffner,professorschaffner
-polyratings,faculty_last_name,schaffner,mr.schaffner
-polyratings,faculty_last_name,schaffner,mrs.schaffner
 polyratings,faculty_last_name,schaffner,schaffner ,andrew
 polyratings,faculty_last_name,schaffner,andrewschaffner
 polyratings,faculty_last_name,schaffner,andrew
-polyratings,faculty_last_name,schaffner,mr.andrew
-polyratings,faculty_last_name,schaffner,mrs.andrew
 polyratings,faculty_last_name,schaffner,professor  andrew
 polyratings,faculty_last_name,schaffner,dr.andrewschaffner
 polyratings,faculty_last_name,schaffner,mr.andrewschaffner
@@ -1287,543 +1789,578 @@ polyratings,faculty_last_name,schaffner,professor  andrewschaffner
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,dr.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,professorschroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mr.schroth-glanz
-polyratings,faculty_last_name,schroth-glanz,mrs.schroth-glanz
 polyratings,faculty_last_name,schroth-glanz,schroth-glanz ,madeline
 polyratings,faculty_last_name,schroth-glanz,madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,madeline
-polyratings,faculty_last_name,schroth-glanz,mr.madeline
-polyratings,faculty_last_name,schroth-glanz,mrs.madeline
 polyratings,faculty_last_name,schroth-glanz,professor  madeline
 polyratings,faculty_last_name,schroth-glanz,dr.madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,mr.madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,mrs.madelineschroth-glanz
 polyratings,faculty_last_name,schroth-glanz,professor  madelineschroth-glanz
-sections,course_num,427,mathematical    statistics
-sections,course_num,427,statistics    427    mathematical    statistics
-sections,course_num,010-0115,erhart    agriculture    room    0115
-sections,course_num,010-0115,erhart    agriculture  
-sections,course_num,010-0115,erhart
-sections,course_num,010-0115,erhartagriculture
-sections,course_room,010-0115,010-0115
-sections,course_num,427,mathematical    statistics
-sections,course_num,427,statistics    427    mathematical    statistics
-sections,course_num,010-0115,erhart    agriculture    room    0115
-sections,course_num,010-0115,erhart    agriculture  
-sections,course_num,010-0115,erhart
-sections,course_num,010-0115,erhartagriculture
-sections,course_room,010-0115,010-0115
-sections,course_num,419,applied    multivariate    statistics
-sections,course_num,419,statistics    419    applied    multivariate    statistics
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,419,applied    multivariate    statistics
-sections,course_num,419,statistics    419    applied    multivariate    statistics
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,302,statistics    ii
-sections,course_num,302,statistics    302    statistics    ii
-sections,course_num,186-c203,construction    innovations    center    room    c203
-sections,course_num,186-c203,construction    innovations    center  
-sections,course_num,186-c203,construction
-sections,course_num,186-c203,constructioninnovations
-sections,course_room,186-c203,186-c203
-sections,course_num,302,statistics    ii
-sections,course_num,302,statistics    302    statistics    ii
-sections,course_num,186-c203,construction    innovations    center    room    c203
-sections,course_num,186-c203,construction    innovations    center  
-sections,course_num,186-c203,construction
-sections,course_num,186-c203,constructioninnovations
-sections,course_room,186-c203,186-c203
-sections,course_num,365,statistical    communication
-sections,course_num,365,statistics    365    statistical    communication
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,365,statistical    communication
-sections,course_num,365,statistics    365    statistical    communication
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,021-0237,engineering    west    room    0237
-sections,course_num,021-0237,engineering    west  
-sections,course_num,021-0237,engineering
-sections,course_num,021-0237,engineeringwest
-sections,course_room,021-0237,021-0237
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,021-0237,engineering    west    room    0237
-sections,course_num,021-0237,engineering    west  
-sections,course_num,021-0237,engineering
-sections,course_num,021-0237,engineeringwest
-sections,course_room,021-0237,021-0237
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,021-0237,engineering    west    room    0237
-sections,course_num,021-0237,engineering    west  
-sections,course_num,021-0237,engineering
-sections,course_num,021-0237,engineeringwest
-sections,course_room,021-0237,021-0237
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,021-0237,engineering    west    room    0237
-sections,course_num,021-0237,engineering    west  
-sections,course_num,021-0237,engineering
-sections,course_num,021-0237,engineeringwest
-sections,course_room,021-0237,021-0237
-sections,course_num,434,statistical    learning:    methods    and    applications
-sections,course_num,434,statistics    434    statistical    learning:    methods    and    applications
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,science,452    data    science    capstone    ii
-sections,course_num,science,data    science    452    data    science    capstone    ii
-sections,course_num,014-0257,pilling    building    room    0257
-sections,course_num,014-0257,pilling    building  
-sections,course_num,014-0257,pilling
-sections,course_num,014-0257,pillingbuilding
-sections,course_room,014-0257,014-0257
-sections,course_num,science,452    data    science    capstone    ii
-sections,course_num,science,data    science    452    data    science    capstone    ii
-sections,course_num,014-0257,pilling    building    room    0257
-sections,course_num,014-0257,pilling    building  
-sections,course_num,014-0257,pilling
-sections,course_num,014-0257,pillingbuilding
-sections,course_room,014-0257,014-0257
-sections,course_num,350,probability    and    random    processes    for    engineers
-sections,course_num,350,statistics    350    probability    and    random    processes    for    engineers
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,350,probability    and    random    processes    for    engineers
-sections,course_num,350,statistics    350    probability    and    random    processes    for    engineers
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,313,applied    experimental    design    and    regression    models
-sections,course_num,313,statistics    313    applied    experimental    design    and    regression    models
-sections,course_num,014-0247,pilling    building    room    0247
-sections,course_num,014-0247,pilling    building  
-sections,course_num,014-0247,pilling
-sections,course_num,014-0247,pillingbuilding
-sections,course_room,014-0247,014-0247
-sections,course_num,313,applied    experimental    design    and    regression    models
-sections,course_num,313,statistics    313    applied    experimental    design    and    regression    models
-sections,course_num,014-0247,pilling    building    room    0247
-sections,course_num,014-0247,pilling    building  
-sections,course_num,014-0247,pilling
-sections,course_num,014-0247,pillingbuilding
-sections,course_room,014-0247,014-0247
-sections,course_num,313,applied    experimental    design    and    regression    models
-sections,course_num,313,statistics    313    applied    experimental    design    and    regression    models
-sections,course_num,035-0111b,kennedy    library    room    0111b
-sections,course_num,035-0111b,kennedy    library  
-sections,course_num,035-0111b,kennedy
-sections,course_num,035-0111b,kennedylibrary
-sections,course_room,035-0111b,035-0111b
-sections,course_num,313,applied    experimental    design    and    regression    models
-sections,course_num,313,statistics    313    applied    experimental    design    and    regression    models
-sections,course_num,035-0111b,kennedy    library    room    0111b
-sections,course_num,035-0111b,kennedy    library  
-sections,course_num,035-0111b,kennedy
-sections,course_num,035-0111b,kennedylibrary
-sections,course_room,035-0111b,035-0111b
-sections,course_num,313,applied    experimental    design    and    regression    models
-sections,course_num,313,statistics    313    applied    experimental    design    and    regression    models
-sections,course_num,014-0247,pilling    building    room    0247
-sections,course_num,014-0247,pilling    building  
-sections,course_num,014-0247,pilling
-sections,course_num,014-0247,pillingbuilding
-sections,course_room,014-0247,014-0247
-sections,course_num,313,applied    experimental    design    and    regression    models
-sections,course_num,313,statistics    313    applied    experimental    design    and    regression    models
-sections,course_num,035-0111b,kennedy    library    room    0111b
-sections,course_num,035-0111b,kennedy    library  
-sections,course_num,035-0111b,kennedy
-sections,course_num,035-0111b,kennedylibrary
-sections,course_room,035-0111b,035-0111b
-sections,course_num,513,applied    experimental    design    and    regression    models
-sections,course_num,513,statistics    513    applied    experimental    design    and    regression    models
-sections,course_num,010-0111,erhart    agriculture    room    0111
-sections,course_num,010-0111,erhart    agriculture  
-sections,course_num,010-0111,erhart
-sections,course_num,010-0111,erhartagriculture
-sections,course_room,010-0111,010-0111
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,513,applied    experimental    design    and    regression    models
-sections,course_num,513,statistics    513    applied    experimental    design    and    regression    models
-sections,course_num,035-0111b,kennedy    library    room    0111b
-sections,course_num,035-0111b,kennedy    library  
-sections,course_num,035-0111b,kennedy
-sections,course_num,035-0111b,kennedylibrary
-sections,course_room,035-0111b,035-0111b
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,405,applied    probability    models
-sections,course_num,405,statistics    405    applied    probability    models
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,014-0251,pilling    building    room    0251
-sections,course_num,014-0251,pilling    building  
-sections,course_num,014-0251,pilling
-sections,course_num,014-0251,pillingbuilding
-sections,course_room,014-0251,014-0251
-sections,course_num,423,design    and    analysis    of    experiments    ii
-sections,course_num,423,statistics    423    design    and    analysis    of    experiments    ii
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,410,statistics    education:    pedagogy    content    technology    and    assessment
-sections,course_num,410,statistics    410    statistics    education:    pedagogy    content    technology    and    assessment
-sections,course_num,005-0226,architecture    &amp;    environmental    design    room    0226
-sections,course_num,005-0226,architecture    &amp;    environmental    design  
-sections,course_num,005-0226,architecture
-sections,course_num,005-0226,architecture&amp;
-sections,course_room,005-0226,005-0226
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,038-0204,mathematics    and    science    room    0204
-sections,course_num,038-0204,mathematics    and    science  
-sections,course_num,038-0204,mathematics
-sections,course_num,038-0204,mathematicsand
-sections,course_room,038-0204,038-0204
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,180-0265,baker    center    for    science    room    0265
-sections,course_num,180-0265,baker    center    for    science  
-sections,course_num,180-0265,baker
-sections,course_num,180-0265,bakercenter
-sections,course_room,180-0265,180-0265
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,038-0204,mathematics    and    science    room    0204
-sections,course_num,038-0204,mathematics    and    science  
-sections,course_num,038-0204,mathematics
-sections,course_num,038-0204,mathematicsand
-sections,course_room,038-0204,038-0204
-sections,course_num,302,statistics    ii
-sections,course_num,302,statistics    302    statistics    ii
-sections,course_num,010-0223,erhart    agriculture    room    0223
-sections,course_num,010-0223,erhart    agriculture  
-sections,course_num,010-0223,erhart
-sections,course_num,010-0223,erhartagriculture
-sections,course_room,010-0223,010-0223
-sections,course_num,334,applied    linear    models
-sections,course_num,334,statistics    334    applied    linear    models
-sections,course_num,021-0238,engineering    west    room    0238
-sections,course_num,021-0238,engineering    west  
-sections,course_num,021-0238,engineering
-sections,course_num,021-0238,engineeringwest
-sections,course_room,021-0238,021-0238
-sections,course_num,334,applied    linear    models
-sections,course_num,334,statistics    334    applied    linear    models
-sections,course_num,021-0238,engineering    west    room    0238
-sections,course_num,021-0238,engineering    west  
-sections,course_num,021-0238,engineering
-sections,course_num,021-0238,engineeringwest
-sections,course_room,021-0238,021-0238
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,014-0252,pilling    building    room    0252
-sections,course_num,014-0252,pilling    building  
-sections,course_num,014-0252,pilling
-sections,course_num,014-0252,pillingbuilding
-sections,course_room,014-0252,014-0252
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,462,senior    project    ii
-sections,course_num,462,statistics    462    senior    project    ii
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,589,educational    research    methods
-sections,course_num,589,education    589    educational    research    methods
-sections,course_num,002-0126,cotchett    education    room    0126
-sections,course_num,002-0126,cotchett    education  
-sections,course_num,002-0126,cotchett
-sections,course_num,002-0126,cotchetteducation
-sections,course_room,002-0126,002-0126
-sections,course_num,589,educational    research    methods
-sections,course_num,589,education    589    educational    research    methods
-sections,course_num,002-0126,cotchett    education    room    0126
-sections,course_num,002-0126,cotchett    education  
-sections,course_num,002-0126,cotchett
-sections,course_num,002-0126,cotchetteducation
-sections,course_room,002-0126,002-0126
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,217,introduction    to    statistical    concepts    and    methods
-sections,course_num,217,statistics    217    introduction    to    statistical    concepts    and    methods
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,589,educational    research    methods
-sections,course_num,589,education    589    educational    research    methods
-sections,course_num,002-0126,cotchett    education    room    0126
-sections,course_num,002-0126,cotchett    education  
-sections,course_num,002-0126,cotchett
-sections,course_num,002-0126,cotchetteducation
-sections,course_room,002-0126,002-0126
-sections,course_num,589,educational    research    methods
-sections,course_num,589,education    589    educational    research    methods
-sections,course_num,002-0126,cotchett    education    room    0126
-sections,course_num,002-0126,cotchett    education  
-sections,course_num,002-0126,cotchett
-sections,course_num,002-0126,cotchetteducation
-sections,course_room,002-0126,002-0126
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,010-0126,erhart    agriculture    room    0126
-sections,course_num,010-0126,erhart    agriculture  
-sections,course_num,010-0126,erhart
-sections,course_num,010-0126,erhartagriculture
-sections,course_room,010-0126,010-0126
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,010-0126,erhart    agriculture    room    0126
-sections,course_num,010-0126,erhart    agriculture  
-sections,course_num,010-0126,erhart
-sections,course_num,010-0126,erhartagriculture
-sections,course_room,010-0126,010-0126
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,010-0126,erhart    agriculture    room    0126
-sections,course_num,010-0126,erhart    agriculture  
-sections,course_num,010-0126,erhart
-sections,course_num,010-0126,erhartagriculture
-sections,course_room,010-0126,010-0126
-sections,course_num,218,applied    statistics    for    the    life    sciences
-sections,course_num,218,statistics    218    applied    statistics    for    the    life    sciences
-sections,course_num,010-0126,erhart    agriculture    room    0126
-sections,course_num,010-0126,erhart    agriculture  
-sections,course_num,010-0126,erhart
-sections,course_num,010-0126,erhartagriculture
-sections,course_room,010-0126,010-0126
-sections,course_num,441,sas    advanced    certification    preparation
-sections,course_num,441,statistics    441    sas    advanced    certification    preparation
-sections,course_num,010-0204,erhart    agriculture    room    0204
-sections,course_num,010-0204,erhart    agriculture  
-sections,course_num,010-0204,erhart
-sections,course_num,010-0204,erhartagriculture
-sections,course_room,010-0204,010-0204
-sections,course_num,251,statistical    inference    for    management    i
-sections,course_num,251,statistics    251    statistical    inference    for    management    i
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,251,statistical    inference    for    management    i
-sections,course_num,251,statistics    251    statistical    inference    for    management    i
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,251,statistical    inference    for    management    i
-sections,course_num,251,statistics    251    statistical    inference    for    management    i
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,251,statistical    inference    for    management    i
-sections,course_num,251,statistics    251    statistical    inference    for    management    i
-sections,course_num,014-0250,pilling    building    room    0250
-sections,course_num,014-0250,pilling    building  
-sections,course_num,014-0250,pilling
-sections,course_num,014-0250,pillingbuilding
-sections,course_room,014-0250,014-0250
-sections,course_num,462,senior    project    ii
-sections,course_num,462,statistics    462    senior    project    ii
-sections,course_num,038-0123,mathematics    and    science    room    0123
-sections,course_num,038-0123,mathematics    and    science  
-sections,course_num,038-0123,mathematics
-sections,course_num,038-0123,mathematicsand
-sections,course_room,038-0123,038-0123
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,020-0139,engineering    east    room    0139
-sections,course_num,020-0139,engineering    east  
-sections,course_num,020-0139,engineering
-sections,course_num,020-0139,engineeringeast
-sections,course_room,020-0139,020-0139
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,020-0139,engineering    east    room    0139
-sections,course_num,020-0139,engineering    east  
-sections,course_num,020-0139,engineering
-sections,course_num,020-0139,engineeringeast
-sections,course_room,020-0139,020-0139
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,020-0139,engineering    east    room    0139
-sections,course_num,020-0139,engineering    east  
-sections,course_num,020-0139,engineering
-sections,course_num,020-0139,engineeringeast
-sections,course_room,020-0139,020-0139
-sections,course_num,252,statistical    inference    for    management    ii
-sections,course_num,252,statistics    252    statistical    inference    for    management    ii
-sections,course_num,020-0139,engineering    east    room    0139
-sections,course_num,020-0139,engineering    east  
-sections,course_num,020-0139,engineering
-sections,course_num,020-0139,engineeringeast
-sections,course_room,020-0139,020-0139
-sections,course_num,251,statistical    inference    for    management    i
-sections,course_num,251,statistics    251    statistical    inference    for    management    i
-sections,course_num,186-c203,construction    innovations    center    room    c203
-sections,course_num,186-c203,construction    innovations    center  
-sections,course_num,186-c203,construction
-sections,course_num,186-c203,constructioninnovations
-sections,course_room,186-c203,186-c203
-sections,course_num,251,statistical    inference    for    management    i
-sections,course_num,251,statistics    251    statistical    inference    for    management    i
-sections,course_num,186-c203,construction    innovations    center    room    c203
-sections,course_num,186-c203,construction    innovations    center  
-sections,course_num,186-c203,construction
-sections,course_num,186-c203,constructioninnovations
-sections,course_room,186-c203,186-c203
+sections,course_num,stat427,mathematical    statistics
+sections,course_num,stat427,statistics    427    mathematical    statistics
+sections,course_room,010-0115,erhart    agriculture    room    0115
+sections,course_room,010-0115,erhart    agriculture  
+sections,course_room,010-0115,erhart
+sections,course_room,010-0115,erhartagriculture
+sections,course_num,stat427,mathematical    statistics
+sections,course_num,stat427,statistics    427    mathematical    statistics
+sections,course_room,010-0115,erhart    agriculture    room    0115
+sections,course_room,010-0115,erhart    agriculture  
+sections,course_room,010-0115,erhart
+sections,course_room,010-0115,erhartagriculture
+sections,course_num,stat419,applied    multivariate    statistics
+sections,course_num,stat419,statistics    419    applied    multivariate    statistics
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat419,applied    multivariate    statistics
+sections,course_num,stat419,statistics    419    applied    multivariate    statistics
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat302,statistics    ii
+sections,course_num,stat302,statistics    302    statistics    ii
+sections,course_room,186-c203,construction    innovations    center    room    c203
+sections,course_room,186-c203,construction    innovations    center  
+sections,course_room,186-c203,construction
+sections,course_room,186-c203,constructioninnovations
+sections,course_num,stat302,statistics    ii
+sections,course_num,stat302,statistics    302    statistics    ii
+sections,course_room,186-c203,construction    innovations    center    room    c203
+sections,course_room,186-c203,construction    innovations    center  
+sections,course_room,186-c203,construction
+sections,course_room,186-c203,constructioninnovations
+sections,course_num,stat365,statistical    communication
+sections,course_num,stat365,statistics    365    statistical    communication
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat365,statistical    communication
+sections,course_num,stat365,statistics    365    statistical    communication
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,021-0237,engineering    west    room    0237
+sections,course_room,021-0237,engineering    west  
+sections,course_room,021-0237,engineering
+sections,course_room,021-0237,engineeringwest
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,021-0237,engineering    west    room    0237
+sections,course_room,021-0237,engineering    west  
+sections,course_room,021-0237,engineering
+sections,course_room,021-0237,engineeringwest
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,021-0237,engineering    west    room    0237
+sections,course_room,021-0237,engineering    west  
+sections,course_room,021-0237,engineering
+sections,course_room,021-0237,engineeringwest
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,021-0237,engineering    west    room    0237
+sections,course_room,021-0237,engineering    west  
+sections,course_room,021-0237,engineering
+sections,course_room,021-0237,engineeringwest
+sections,course_num,stat434,statistical    learning:    methods    and    applications
+sections,course_num,stat434,statistics    434    statistical    learning:    methods    and    applications
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,statscience,452    data    science    capstone    ii
+sections,course_num,statscience,data    science    452    data    science    capstone    ii
+sections,course_room,014-0257,pilling    building    room    0257
+sections,course_room,014-0257,pilling    building  
+sections,course_room,014-0257,pilling
+sections,course_room,014-0257,pillingbuilding
+sections,course_num,statscience,452    data    science    capstone    ii
+sections,course_num,statscience,data    science    452    data    science    capstone    ii
+sections,course_room,014-0257,pilling    building    room    0257
+sections,course_room,014-0257,pilling    building  
+sections,course_room,014-0257,pilling
+sections,course_room,014-0257,pillingbuilding
+sections,course_num,stat350,probability    and    random    processes    for    engineers
+sections,course_num,stat350,statistics    350    probability    and    random    processes    for    engineers
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat350,probability    and    random    processes    for    engineers
+sections,course_num,stat350,statistics    350    probability    and    random    processes    for    engineers
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat313,applied    experimental    design    and    regression    models
+sections,course_num,stat313,statistics    313    applied    experimental    design    and    regression    models
+sections,course_room,035-0111b,kennedy    library    room    0111b
+sections,course_room,035-0111b,kennedy    library  
+sections,course_room,035-0111b,kennedy
+sections,course_room,035-0111b,kennedylibrary
+sections,course_num,stat313,applied    experimental    design    and    regression    models
+sections,course_num,stat313,statistics    313    applied    experimental    design    and    regression    models
+sections,course_room,035-0111b,kennedy    library    room    0111b
+sections,course_room,035-0111b,kennedy    library  
+sections,course_room,035-0111b,kennedy
+sections,course_room,035-0111b,kennedylibrary
+sections,course_num,stat313,applied    experimental    design    and    regression    models
+sections,course_num,stat313,statistics    313    applied    experimental    design    and    regression    models
+sections,course_room,014-0247,pilling    building    room    0247
+sections,course_room,014-0247,pilling    building  
+sections,course_room,014-0247,pilling
+sections,course_room,014-0247,pillingbuilding
+sections,course_num,stat313,applied    experimental    design    and    regression    models
+sections,course_num,stat313,statistics    313    applied    experimental    design    and    regression    models
+sections,course_room,014-0247,pilling    building    room    0247
+sections,course_room,014-0247,pilling    building  
+sections,course_room,014-0247,pilling
+sections,course_room,014-0247,pillingbuilding
+sections,course_num,stat313,applied    experimental    design    and    regression    models
+sections,course_num,stat313,statistics    313    applied    experimental    design    and    regression    models
+sections,course_room,035-0111b,kennedy    library    room    0111b
+sections,course_room,035-0111b,kennedy    library  
+sections,course_room,035-0111b,kennedy
+sections,course_room,035-0111b,kennedylibrary
+sections,course_num,stat313,applied    experimental    design    and    regression    models
+sections,course_num,stat313,statistics    313    applied    experimental    design    and    regression    models
+sections,course_room,014-0247,pilling    building    room    0247
+sections,course_room,014-0247,pilling    building  
+sections,course_room,014-0247,pilling
+sections,course_room,014-0247,pillingbuilding
+sections,course_num,stat513,applied    experimental    design    and    regression    models
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,applied    experimental    design    and    regression    models  graduate
+sections,course_num,stat513,applied    experimental    design    and    regression    models  graduate  level
+sections,course_num,stat513,applied    experimental    design    and    regression    models  grad
+sections,course_num,stat513,applied    experimental    design    and    regression    models  grad  level
+sections,course_num,stat513,graduate  applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  applied    experimental    design    and    regression    models
+sections,course_num,stat513,graduate  level  applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  level  applied    experimental    design    and    regression    models
+sections,course_num,stat513,masters  level  applied    experimental    design    and    regression    models
+sections,course_num,stat513,applied    experimental    design    and    regression    models  masters
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  graduate
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  graduate  level
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  grad
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  grad  level
+sections,course_num,stat513,graduate  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,graduate  level  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  level  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,masters  level  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  masters
+sections,course_room,010-0111,erhart    agriculture    room    0111
+sections,course_room,010-0111,erhart    agriculture  
+sections,course_room,010-0111,erhart
+sections,course_room,010-0111,erhartagriculture
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat513,applied    experimental    design    and    regression    models
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,applied    experimental    design    and    regression    models  graduate
+sections,course_num,stat513,applied    experimental    design    and    regression    models  graduate  level
+sections,course_num,stat513,applied    experimental    design    and    regression    models  grad
+sections,course_num,stat513,applied    experimental    design    and    regression    models  grad  level
+sections,course_num,stat513,graduate  applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  applied    experimental    design    and    regression    models
+sections,course_num,stat513,graduate  level  applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  level  applied    experimental    design    and    regression    models
+sections,course_num,stat513,masters  level  applied    experimental    design    and    regression    models
+sections,course_num,stat513,applied    experimental    design    and    regression    models  masters
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  graduate
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  graduate  level
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  grad
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  grad  level
+sections,course_num,stat513,graduate  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,graduate  level  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,grad  level  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,masters  level  statistics    513    applied    experimental    design    and    regression    models
+sections,course_num,stat513,statistics    513    applied    experimental    design    and    regression    models  masters
+sections,course_room,035-0111b,kennedy    library    room    0111b
+sections,course_room,035-0111b,kennedy    library  
+sections,course_room,035-0111b,kennedy
+sections,course_room,035-0111b,kennedylibrary
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat405,applied    probability    models
+sections,course_num,stat405,statistics    405    applied    probability    models
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,014-0251,pilling    building    room    0251
+sections,course_room,014-0251,pilling    building  
+sections,course_room,014-0251,pilling
+sections,course_room,014-0251,pillingbuilding
+sections,course_num,stat423,design    and    analysis    of    experiments    ii
+sections,course_num,stat423,statistics    423    design    and    analysis    of    experiments    ii
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat410,statistics    education:    pedagogy    content    technology    and    assessment
+sections,course_num,stat410,statistics    410    statistics    education:    pedagogy    content    technology    and    assessment
+sections,course_room,005-0226,architecture    &amp;    environmental    design    room    0226
+sections,course_room,005-0226,architecture    &amp;    environmental    design  
+sections,course_room,005-0226,architecture
+sections,course_room,005-0226,architecture&amp;
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,038-0204,mathematics    and    science    room    0204
+sections,course_room,038-0204,mathematics    and    science  
+sections,course_room,038-0204,mathematics
+sections,course_room,038-0204,mathematicsand
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,180-0265,baker    center    for    science    room    0265
+sections,course_room,180-0265,baker    center    for    science  
+sections,course_room,180-0265,baker
+sections,course_room,180-0265,bakercenter
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,038-0204,mathematics    and    science    room    0204
+sections,course_room,038-0204,mathematics    and    science  
+sections,course_room,038-0204,mathematics
+sections,course_room,038-0204,mathematicsand
+sections,course_num,stat302,statistics    ii
+sections,course_num,stat302,statistics    302    statistics    ii
+sections,course_room,010-0223,erhart    agriculture    room    0223
+sections,course_room,010-0223,erhart    agriculture  
+sections,course_room,010-0223,erhart
+sections,course_room,010-0223,erhartagriculture
+sections,course_num,stat334,applied    linear    models
+sections,course_num,stat334,statistics    334    applied    linear    models
+sections,course_room,021-0238,engineering    west    room    0238
+sections,course_room,021-0238,engineering    west  
+sections,course_room,021-0238,engineering
+sections,course_room,021-0238,engineeringwest
+sections,course_num,stat334,applied    linear    models
+sections,course_num,stat334,statistics    334    applied    linear    models
+sections,course_room,021-0238,engineering    west    room    0238
+sections,course_room,021-0238,engineering    west  
+sections,course_room,021-0238,engineering
+sections,course_room,021-0238,engineeringwest
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,014-0252,pilling    building    room    0252
+sections,course_room,014-0252,pilling    building  
+sections,course_room,014-0252,pilling
+sections,course_room,014-0252,pillingbuilding
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat462,senior    project    ii
+sections,course_num,stat462,statistics    462    senior    project    ii
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat589,educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods
+sections,course_num,stat589,educational    research    methods  graduate
+sections,course_num,stat589,educational    research    methods  graduate  level
+sections,course_num,stat589,educational    research    methods  grad
+sections,course_num,stat589,educational    research    methods  grad  level
+sections,course_num,stat589,graduate  educational    research    methods
+sections,course_num,stat589,grad  educational    research    methods
+sections,course_num,stat589,graduate  level  educational    research    methods
+sections,course_num,stat589,grad  level  educational    research    methods
+sections,course_num,stat589,masters  level  educational    research    methods
+sections,course_num,stat589,educational    research    methods  masters
+sections,course_num,stat589,education    589    educational    research    methods  graduate
+sections,course_num,stat589,education    589    educational    research    methods  graduate  level
+sections,course_num,stat589,education    589    educational    research    methods  grad
+sections,course_num,stat589,education    589    educational    research    methods  grad  level
+sections,course_num,stat589,graduate  education    589    educational    research    methods
+sections,course_num,stat589,grad  education    589    educational    research    methods
+sections,course_num,stat589,graduate  level  education    589    educational    research    methods
+sections,course_num,stat589,grad  level  education    589    educational    research    methods
+sections,course_num,stat589,masters  level  education    589    educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods  masters
+sections,course_room,002-0126,cotchett    education    room    0126
+sections,course_room,002-0126,cotchett    education  
+sections,course_room,002-0126,cotchett
+sections,course_room,002-0126,cotchetteducation
+sections,course_num,stat589,educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods
+sections,course_num,stat589,educational    research    methods  graduate
+sections,course_num,stat589,educational    research    methods  graduate  level
+sections,course_num,stat589,educational    research    methods  grad
+sections,course_num,stat589,educational    research    methods  grad  level
+sections,course_num,stat589,graduate  educational    research    methods
+sections,course_num,stat589,grad  educational    research    methods
+sections,course_num,stat589,graduate  level  educational    research    methods
+sections,course_num,stat589,grad  level  educational    research    methods
+sections,course_num,stat589,masters  level  educational    research    methods
+sections,course_num,stat589,educational    research    methods  masters
+sections,course_num,stat589,education    589    educational    research    methods  graduate
+sections,course_num,stat589,education    589    educational    research    methods  graduate  level
+sections,course_num,stat589,education    589    educational    research    methods  grad
+sections,course_num,stat589,education    589    educational    research    methods  grad  level
+sections,course_num,stat589,graduate  education    589    educational    research    methods
+sections,course_num,stat589,grad  education    589    educational    research    methods
+sections,course_num,stat589,graduate  level  education    589    educational    research    methods
+sections,course_num,stat589,grad  level  education    589    educational    research    methods
+sections,course_num,stat589,masters  level  education    589    educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods  masters
+sections,course_room,002-0126,cotchett    education    room    0126
+sections,course_room,002-0126,cotchett    education  
+sections,course_room,002-0126,cotchett
+sections,course_room,002-0126,cotchetteducation
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat217,introduction    to    statistical    concepts    and    methods
+sections,course_num,stat217,statistics    217    introduction    to    statistical    concepts    and    methods
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat589,educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods
+sections,course_num,stat589,educational    research    methods  graduate
+sections,course_num,stat589,educational    research    methods  graduate  level
+sections,course_num,stat589,educational    research    methods  grad
+sections,course_num,stat589,educational    research    methods  grad  level
+sections,course_num,stat589,graduate  educational    research    methods
+sections,course_num,stat589,grad  educational    research    methods
+sections,course_num,stat589,graduate  level  educational    research    methods
+sections,course_num,stat589,grad  level  educational    research    methods
+sections,course_num,stat589,masters  level  educational    research    methods
+sections,course_num,stat589,educational    research    methods  masters
+sections,course_num,stat589,education    589    educational    research    methods  graduate
+sections,course_num,stat589,education    589    educational    research    methods  graduate  level
+sections,course_num,stat589,education    589    educational    research    methods  grad
+sections,course_num,stat589,education    589    educational    research    methods  grad  level
+sections,course_num,stat589,graduate  education    589    educational    research    methods
+sections,course_num,stat589,grad  education    589    educational    research    methods
+sections,course_num,stat589,graduate  level  education    589    educational    research    methods
+sections,course_num,stat589,grad  level  education    589    educational    research    methods
+sections,course_num,stat589,masters  level  education    589    educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods  masters
+sections,course_room,002-0126,cotchett    education    room    0126
+sections,course_room,002-0126,cotchett    education  
+sections,course_room,002-0126,cotchett
+sections,course_room,002-0126,cotchetteducation
+sections,course_num,stat589,educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods
+sections,course_num,stat589,educational    research    methods  graduate
+sections,course_num,stat589,educational    research    methods  graduate  level
+sections,course_num,stat589,educational    research    methods  grad
+sections,course_num,stat589,educational    research    methods  grad  level
+sections,course_num,stat589,graduate  educational    research    methods
+sections,course_num,stat589,grad  educational    research    methods
+sections,course_num,stat589,graduate  level  educational    research    methods
+sections,course_num,stat589,grad  level  educational    research    methods
+sections,course_num,stat589,masters  level  educational    research    methods
+sections,course_num,stat589,educational    research    methods  masters
+sections,course_num,stat589,education    589    educational    research    methods  graduate
+sections,course_num,stat589,education    589    educational    research    methods  graduate  level
+sections,course_num,stat589,education    589    educational    research    methods  grad
+sections,course_num,stat589,education    589    educational    research    methods  grad  level
+sections,course_num,stat589,graduate  education    589    educational    research    methods
+sections,course_num,stat589,grad  education    589    educational    research    methods
+sections,course_num,stat589,graduate  level  education    589    educational    research    methods
+sections,course_num,stat589,grad  level  education    589    educational    research    methods
+sections,course_num,stat589,masters  level  education    589    educational    research    methods
+sections,course_num,stat589,education    589    educational    research    methods  masters
+sections,course_room,002-0126,cotchett    education    room    0126
+sections,course_room,002-0126,cotchett    education  
+sections,course_room,002-0126,cotchett
+sections,course_room,002-0126,cotchetteducation
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,010-0126,erhart    agriculture    room    0126
+sections,course_room,010-0126,erhart    agriculture  
+sections,course_room,010-0126,erhart
+sections,course_room,010-0126,erhartagriculture
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,010-0126,erhart    agriculture    room    0126
+sections,course_room,010-0126,erhart    agriculture  
+sections,course_room,010-0126,erhart
+sections,course_room,010-0126,erhartagriculture
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,010-0126,erhart    agriculture    room    0126
+sections,course_room,010-0126,erhart    agriculture  
+sections,course_room,010-0126,erhart
+sections,course_room,010-0126,erhartagriculture
+sections,course_num,stat218,applied    statistics    for    the    life    sciences
+sections,course_num,stat218,statistics    218    applied    statistics    for    the    life    sciences
+sections,course_room,010-0126,erhart    agriculture    room    0126
+sections,course_room,010-0126,erhart    agriculture  
+sections,course_room,010-0126,erhart
+sections,course_room,010-0126,erhartagriculture
+sections,course_num,stat441,sas    advanced    certification    preparation
+sections,course_num,stat441,statistics    441    sas    advanced    certification    preparation
+sections,course_room,010-0204,erhart    agriculture    room    0204
+sections,course_room,010-0204,erhart    agriculture  
+sections,course_room,010-0204,erhart
+sections,course_room,010-0204,erhartagriculture
+sections,course_num,stat251,statistical    inference    for    management    i
+sections,course_num,stat251,statistics    251    statistical    inference    for    management    i
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat251,statistical    inference    for    management    i
+sections,course_num,stat251,statistics    251    statistical    inference    for    management    i
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat251,statistical    inference    for    management    i
+sections,course_num,stat251,statistics    251    statistical    inference    for    management    i
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat251,statistical    inference    for    management    i
+sections,course_num,stat251,statistics    251    statistical    inference    for    management    i
+sections,course_room,014-0250,pilling    building    room    0250
+sections,course_room,014-0250,pilling    building  
+sections,course_room,014-0250,pilling
+sections,course_room,014-0250,pillingbuilding
+sections,course_num,stat462,senior    project    ii
+sections,course_num,stat462,statistics    462    senior    project    ii
+sections,course_room,038-0123,mathematics    and    science    room    0123
+sections,course_room,038-0123,mathematics    and    science  
+sections,course_room,038-0123,mathematics
+sections,course_room,038-0123,mathematicsand
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,020-0139,engineering    east    room    0139
+sections,course_room,020-0139,engineering    east  
+sections,course_room,020-0139,engineering
+sections,course_room,020-0139,engineeringeast
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,020-0139,engineering    east    room    0139
+sections,course_room,020-0139,engineering    east  
+sections,course_room,020-0139,engineering
+sections,course_room,020-0139,engineeringeast
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,020-0139,engineering    east    room    0139
+sections,course_room,020-0139,engineering    east  
+sections,course_room,020-0139,engineering
+sections,course_room,020-0139,engineeringeast
+sections,course_num,stat252,statistical    inference    for    management    ii
+sections,course_num,stat252,statistics    252    statistical    inference    for    management    ii
+sections,course_room,020-0139,engineering    east    room    0139
+sections,course_room,020-0139,engineering    east  
+sections,course_room,020-0139,engineering
+sections,course_room,020-0139,engineeringeast
+sections,course_num,stat251,statistical    inference    for    management    i
+sections,course_num,stat251,statistics    251    statistical    inference    for    management    i
+sections,course_room,186-c203,construction    innovations    center    room    c203
+sections,course_room,186-c203,construction    innovations    center  
+sections,course_room,186-c203,construction
+sections,course_room,186-c203,constructioninnovations
 sections,course_type,lecture,lecture
 sections,course_type,lecture,lec
 sections,course_type,laboratory,laboratory
@@ -1852,3 +2389,77 @@ sections,course_days,thursday,thurs
 sections,course_days,thursday,thursday
 sections,course_days,thursday,th
 sections,course_days,thursday,tr
+sections,course_days,friday,fri
+sections,course_days,friday,friday
+sections,course_days,friday,f
+sections,course_days,friday,fr
+datacourses,course_num,data301,introduction  to  the  field  of  data  science  and  the  workflow  of  a  data  scientist    types  of  data  (tabular  textual  sparse  structured  temporal  geospatial)  basic  data  management  and  manipulation  simple  summaries  and  visualization          laboratory
+datacourses,course_num,data301,data  301    introduction  to  data  science
+datacourses,course_num,data301,data    introduction  to  data  science  301
+datacourses,course_num,data301,data  301
+datacourses,course_num,data301,data    introduction  to  data  science
+datacourses,course_num,data301,data301    introduction  to  data  science
+datacourses,course_num,data301,data  introduction  to  data  science  301
+datacourses,course_num,data301,data301
+datacourses,course_num,data301,data  introduction  to  data  science
+datacourses,course_num,data301,301    introduction  to  data  science
+datacourses,course_num,data301,  introduction  to  data  science  301
+datacourses,course_num,data301,301
+datacourses,course_num,data301,  introduction  to  data  science
+datacourses,course_num,data401,principles  of  data  science  and  big  data  analytics    volume  velocity  and  variety  of  data    acquisition  processing  and  cleaning  of  large  data-sets    analytics  for  big  data          laboratory
+datacourses,course_num,data401,data  401    advanced  topics  in  data  science
+datacourses,course_num,data401,data    advanced  topics  in  data  science  401
+datacourses,course_num,data401,data  401
+datacourses,course_num,data401,data    advanced  topics  in  data  science
+datacourses,course_num,data401,data401    advanced  topics  in  data  science
+datacourses,course_num,data401,data  advanced  topics  in  data  science  401
+datacourses,course_num,data401,data401
+datacourses,course_num,data401,data  advanced  topics  in  data  science
+datacourses,course_num,data401,401    advanced  topics  in  data  science
+datacourses,course_num,data401,  advanced  topics  in  data  science  401
+datacourses,course_num,data401,401
+datacourses,course_num,data401,  advanced  topics  in  data  science
+datacourses,course_num,data451,working  with  clients  to  develop  data-driven  solutions  for  systems  to  be  constructed  in  'data  '    specification  and  design  requirements  elicitation  techniques  research  and  data  gathering  methods;  project  planning  time  and  budget  estimating;  project  team  organization    ethics  and  professionalism      laboratories
+datacourses,course_num,data451,data  451    data  science  capstone  i
+datacourses,course_num,data451,data    data  science  capstone  i  451
+datacourses,course_num,data451,data  451
+datacourses,course_num,data451,data    data  science  capstone  i
+datacourses,course_num,data451,data451    data  science  capstone  i
+datacourses,course_num,data451,data  data  science  capstone  i  451
+datacourses,course_num,data451,data451
+datacourses,course_num,data451,data  data  science  capstone  i
+datacourses,course_num,data451,451    data  science  capstone  i
+datacourses,course_num,data451,  data  science  capstone  i  451
+datacourses,course_num,data451,451
+datacourses,course_num,data451,  data  science  capstone  i
+datacourses,course_num,data451,data  451    data  science  capstone  1
+datacourses,course_num,data451,data    data  science  capstone  1  451
+datacourses,course_num,data451,data    data  science  capstone  1
+datacourses,course_num,data451,data451    data  science  capstone  1
+datacourses,course_num,data451,data  data  science  capstone  1  451
+datacourses,course_num,data451,data  data  science  capstone  1
+datacourses,course_num,data451,451    data  science  capstone  1
+datacourses,course_num,data451,  data  science  capstone  1  451
+datacourses,course_num,data451,  data  science  capstone  1
+datacourses,course_num,data452,team-based  design  implementation  deployment  and  delivery  of  a  system  or  analytical  methodology  that  involves  working  with  and  analyzing  large  quantities  of  data    technical  management  of  research  and  development  teams    technical  documentation  quality  assurance  integration  and  systems  testing    design  and  conduct  of  empirical  studies    visualization  and  presentation  of  results  orally  and  in  writing      laboratories
+datacourses,course_num,data452,data  452    data  science  capstone  ii
+datacourses,course_num,data452,data    data  science  capstone  ii  452
+datacourses,course_num,data452,data  452
+datacourses,course_num,data452,data    data  science  capstone  ii
+datacourses,course_num,data452,data452    data  science  capstone  ii
+datacourses,course_num,data452,data  data  science  capstone  ii  452
+datacourses,course_num,data452,data452
+datacourses,course_num,data452,data  data  science  capstone  ii
+datacourses,course_num,data452,452    data  science  capstone  ii
+datacourses,course_num,data452,  data  science  capstone  ii  452
+datacourses,course_num,data452,452
+datacourses,course_num,data452,  data  science  capstone  ii
+datacourses,course_num,data452,data  452    data  science  capstone  2
+datacourses,course_num,data452,data    data  science  capstone  2  452
+datacourses,course_num,data452,data    data  science  capstone  2
+datacourses,course_num,data452,data452    data  science  capstone  2
+datacourses,course_num,data452,data  data  science  capstone  2  452
+datacourses,course_num,data452,data  data  science  capstone  2
+datacourses,course_num,data452,452    data  science  capstone  2
+datacourses,course_num,data452,  data  science  capstone  2  452
+datacourses,course_num,data452,  data  science  capstone  2
