@@ -68,3 +68,11 @@ create table if not exists data_courses
     course_description varchar(700)
 );
 
+create table if not exists course_req
+(
+   course_num     varchar(6),
+   major_req      varchar(2),
+   major_elect    varchar(2),
+   minor_req      varchar(2)
+);
+

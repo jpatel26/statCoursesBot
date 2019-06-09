@@ -42,4 +42,5 @@ cur.execute("LOAD DATA LOCAL INFILE 'sections.csv' INTO TABLE sections FIELDS TE
 cur.execute("LOAD DATA LOCAL INFILE 'courseprof.csv' INTO TABLE faculty_courses FIELDS TERMINATED BY ','")
 cur.execute("LOAD DATA LOCAL INFILE 'result.csv' INTO TABLE syn FIELDS TERMINATED BY ','")
 cur.execute("LOAD DATA LOCAL INFILE 'datacourses.csv' INTO TABLE data_courses FIELDS TERMINATED BY ','")
+cur.execute("LOAD DATA LOCAL INFILE 'course_req.csv' INTO TABLE course_req FIELDS TERMINATED BY ','")
 
