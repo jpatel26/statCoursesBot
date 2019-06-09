@@ -57,3 +57,14 @@ create table if not exists faculty_courses
     course_num        varchar(60),
     primarykey        varchar(10)
 );
+create table if not exists data_courses
+(
+    course_num         varchar(5),
+    course_title       varchar(100),
+    course_units       varchar(5),
+    course_area        varchar(10),
+    course_term        varchar(10),
+    course_pre         varchar(200),
+    course_description varchar(700)
+);
+

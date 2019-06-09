@@ -13,16 +13,18 @@ db = mdb.connect(config.host, config.user, config.passwd,config.db)
 cur = db.cursor()
 
 # Delete old tables
-for line in open("delete_tables.sql"):
-   if line == '':
-      break;
-   cur.execute(line)
+os.system("mysql -u jpatel26466 -pjpatel26db466 -D jpatel26466 <delete_tables.sql;")
+#for line in open("delete_tables.sql"):
+#   if line == '':
+#      break;
+#   cur.execute(line)
 
 # Make new tables
-for line in open("make_tables.sql"):
-   if line == '':
-      break;
-   cur.execute(line)
+os.system("mysql -u jpatel26466 -pjpatel26db466 -D jpatel26466 <make_tables.sql;")
+#for line in open("make_tables.sql"):
+#   if line == '':
+#      break;
+#   cur.execute(line)
 
 # Load courses table
 os.system('python3 make_courses_csv.py')
@@ -39,4 +41,5 @@ cur.execute("LOAD DATA LOCAL INFILE 'schedules.csv' INTO TABLE faculty FIELDS TE
 cur.execute("LOAD DATA LOCAL INFILE 'sections.csv' INTO TABLE sections FIELDS TERMINATED BY ','")
 cur.execute("LOAD DATA LOCAL INFILE 'courseprof.csv' INTO TABLE faculty_courses FIELDS TERMINATED BY ','")
 cur.execute("LOAD DATA LOCAL INFILE 'result.csv' INTO TABLE syn FIELDS TERMINATED BY ','")
+cur.execute("LOAD DATA LOCAL INFILE 'datacourses.csv' INTO TABLE data_courses FIELDS TERMINATED BY ','")
 
