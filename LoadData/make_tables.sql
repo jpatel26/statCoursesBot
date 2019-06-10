@@ -7,7 +7,7 @@ create table if not exists syn
 );
 create table if not exists courses
 (
-    course_num         varchar(5),
+    course_num         varchar(10),
     course_title       varchar(100),
     course_units       varchar(5),
     course_area        varchar(10),
@@ -49,17 +49,17 @@ create table if not exists sections
     course_location varchar(60),
     course_room     varchar(13),
     primarykey      varchar(6),
-    course_num      varchar(6)
+    course_num      varchar(10)
 );
 create table if not exists faculty_courses
 (
     faculty_last_name varchar(30),
-    course_num        varchar(60),
+    course_num        varchar(10),
     primarykey        varchar(10)
 );
 create table if not exists data_courses
 (
-    course_num         varchar(5),
+    course_num         varchar(10),
     course_title       varchar(100),
     course_units       varchar(5),
     course_area        varchar(10),
@@ -70,7 +70,7 @@ create table if not exists data_courses
 
 create table if not exists course_req
 (
-   course_num     varchar(6),
+   course_num     varchar(10),
    major_req      varchar(2),
    major_elect    varchar(2),
    minor_req      varchar(2)

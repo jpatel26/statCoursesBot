@@ -74,20 +74,20 @@ for c in courses:
          else:
             classes[cl] = ['n', 'n', 'y']
 
-print(classes)
 vals = list(classes.values())
 
 stat_df = pd.DataFrame.from_records(vals)
 
-keys = [i.split()[1] for i in list(classes.keys())]
+#keys = [i.split()[1] for i in list(classes.keys())]
+#keys = list(classes.keys())
+keys = ["data" + i.split()[1] for i in list(classes.keys())]
+keys = [i.lower().replace(' ','') for i in keys]
 stat_df["course_num"] = pd.Series(keys)
 stat_df.columns = ['major_req', 'major_elect', 'minor', 'course_num']
 
 cols = stat_df.columns.tolist()
 cols = cols[-1:] + cols[:-1]
 stat_df = stat_df[cols]
-
-print(stat_df)
 
 
 stat_df.to_csv("course_req.csv", index=False, header=False)

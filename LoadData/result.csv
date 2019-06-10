@@ -2394,12 +2394,6 @@ sections,course_days,friday,friday
 sections,course_days,friday,f
 sections,course_days,friday,fr
 datacourses,course_num,data301,introduction  to  the  field  of  data  science  and  the  workflow  of  a  data  scientist    types  of  data  (tabular  textual  sparse  structured  temporal  geospatial)  basic  data  management  and  manipulation  simple  summaries  and  visualization          laboratory
-datacourses,course_num,data301,data  301    introduction  to  data  science
-datacourses,course_num,data301,data    introduction  to  data  science  301
-datacourses,course_num,data301,data  301
-datacourses,course_num,data301,data    introduction  to  data  science
-datacourses,course_num,data301,data301    introduction  to  data  science
-datacourses,course_num,data301,data  introduction  to  data  science  301
 datacourses,course_num,data301,data301
 datacourses,course_num,data301,data  introduction  to  data  science
 datacourses,course_num,data301,301    introduction  to  data  science
@@ -2407,12 +2401,6 @@ datacourses,course_num,data301,  introduction  to  data  science  301
 datacourses,course_num,data301,301
 datacourses,course_num,data301,  introduction  to  data  science
 datacourses,course_num,data401,principles  of  data  science  and  big  data  analytics    volume  velocity  and  variety  of  data    acquisition  processing  and  cleaning  of  large  data-sets    analytics  for  big  data          laboratory
-datacourses,course_num,data401,data  401    advanced  topics  in  data  science
-datacourses,course_num,data401,data    advanced  topics  in  data  science  401
-datacourses,course_num,data401,data  401
-datacourses,course_num,data401,data    advanced  topics  in  data  science
-datacourses,course_num,data401,data401    advanced  topics  in  data  science
-datacourses,course_num,data401,data  advanced  topics  in  data  science  401
 datacourses,course_num,data401,data401
 datacourses,course_num,data401,data  advanced  topics  in  data  science
 datacourses,course_num,data401,401    advanced  topics  in  data  science
@@ -2420,46 +2408,22 @@ datacourses,course_num,data401,  advanced  topics  in  data  science  401
 datacourses,course_num,data401,401
 datacourses,course_num,data401,  advanced  topics  in  data  science
 datacourses,course_num,data451,working  with  clients  to  develop  data-driven  solutions  for  systems  to  be  constructed  in  'data  '    specification  and  design  requirements  elicitation  techniques  research  and  data  gathering  methods;  project  planning  time  and  budget  estimating;  project  team  organization    ethics  and  professionalism      laboratories
-datacourses,course_num,data451,data  451    data  science  capstone  i
-datacourses,course_num,data451,data    data  science  capstone  i  451
-datacourses,course_num,data451,data  451
-datacourses,course_num,data451,data    data  science  capstone  i
-datacourses,course_num,data451,data451    data  science  capstone  i
-datacourses,course_num,data451,data  data  science  capstone  i  451
 datacourses,course_num,data451,data451
 datacourses,course_num,data451,data  data  science  capstone  i
 datacourses,course_num,data451,451    data  science  capstone  i
 datacourses,course_num,data451,  data  science  capstone  i  451
 datacourses,course_num,data451,451
 datacourses,course_num,data451,  data  science  capstone  i
-datacourses,course_num,data451,data  451    data  science  capstone  1
-datacourses,course_num,data451,data    data  science  capstone  1  451
-datacourses,course_num,data451,data    data  science  capstone  1
-datacourses,course_num,data451,data451    data  science  capstone  1
-datacourses,course_num,data451,data  data  science  capstone  1  451
-datacourses,course_num,data451,data  data  science  capstone  1
 datacourses,course_num,data451,451    data  science  capstone  1
 datacourses,course_num,data451,  data  science  capstone  1  451
 datacourses,course_num,data451,  data  science  capstone  1
 datacourses,course_num,data452,team-based  design  implementation  deployment  and  delivery  of  a  system  or  analytical  methodology  that  involves  working  with  and  analyzing  large  quantities  of  data    technical  management  of  research  and  development  teams    technical  documentation  quality  assurance  integration  and  systems  testing    design  and  conduct  of  empirical  studies    visualization  and  presentation  of  results  orally  and  in  writing      laboratories
-datacourses,course_num,data452,data  452    data  science  capstone  ii
-datacourses,course_num,data452,data    data  science  capstone  ii  452
-datacourses,course_num,data452,data  452
-datacourses,course_num,data452,data    data  science  capstone  ii
-datacourses,course_num,data452,data452    data  science  capstone  ii
-datacourses,course_num,data452,data  data  science  capstone  ii  452
 datacourses,course_num,data452,data452
 datacourses,course_num,data452,data  data  science  capstone  ii
 datacourses,course_num,data452,452    data  science  capstone  ii
 datacourses,course_num,data452,  data  science  capstone  ii  452
 datacourses,course_num,data452,452
 datacourses,course_num,data452,  data  science  capstone  ii
-datacourses,course_num,data452,data  452    data  science  capstone  2
-datacourses,course_num,data452,data    data  science  capstone  2  452
-datacourses,course_num,data452,data    data  science  capstone  2
-datacourses,course_num,data452,data452    data  science  capstone  2
-datacourses,course_num,data452,data  data  science  capstone  2  452
-datacourses,course_num,data452,data  data  science  capstone  2
 datacourses,course_num,data452,452    data  science  capstone  2
 datacourses,course_num,data452,  data  science  capstone  2  452
 datacourses,course_num,data452,  data  science  capstone  2
