@@ -3,7 +3,8 @@
 ```
 ./load_data.py
 ```
-all of the other files are called by that executable\
+all of the other files are called by executable
+
 
 2. Run Bot
 ```
