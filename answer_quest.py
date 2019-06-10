@@ -10,21 +10,31 @@ cursor = con.cursor(pymysql.cursors.DictCursor)
 
 df = pd.read_csv('bot_questions.csv')
 
-def answer(qid, var):
-   #[0, 1, 2, 3, 24, 25, 26, 28, 29, 30, 31, 32, 33]
+def resolve(l):
+   li = [int(i[-3:]) for i in l]
+   li.sort()
+   return "stat" + str(li[0])
 
-   q = df.loc[qid, 'query']
+
+def answer(qid, var):
+
+   q = df.loc[df.answerId == qid, 'query']
+   if (len(q)) > 1:
+      q = q.loc[0]
+   q = str(q)
    q = q.replace("[", "~")
    q = q.replace("]", "~")
    q = q.split('~')
-   q = q[0] + var + q[2]
+   q = q[0] + var + q[2] + ";"
    
    cursor.execute(q)
    c = cursor.fetchall()
 
-   ans = df.loc[qid, 'primary']
-   ans = ans.replace("[", "~")
-   ans = ans.replace("]", "~")
+   ans = df.loc[df.answerId == qid, 'primary']
+   if (len(ans)) > 1:
+      ans = ans.loc[0]
+   ans = ans.replace("[", "~[")
+   ans = ans.replace("]", "]~")
    ans = ans.split('~')
    
    fin = []
@@ -42,6 +52,4 @@ def answer(qid, var):
    fin = "".join(fin)
    print(fin)
 
- 
-   
-answer(48, "stat331")
+answer(1, "stat324")
