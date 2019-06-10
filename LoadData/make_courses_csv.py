@@ -31,7 +31,9 @@ for c in courses:
    credits = title.find("span", {"class" : "courseblockhours"})
    course_units.append((str(credits.string.strip())[:-6]).lower())
    tmp_title = str(title)[12:16]
-   course_num.append(tmp_title.replace(",", '').lower())
+   number = "stat" + tmp_title.replace(",",'').lower()
+   newstr = number[:4] + number[5:]
+   course_num.append(newstr)
    jank = str(title)[17:]
    text = jank.partition(".")[0]
    course_title.append(text.replace(",", '').replace('"', '').lower())
@@ -99,7 +101,7 @@ def make_entry(Canon, Syn):
    tmp = []
    tmp.append('courses')
    tmp.append('course_num')
-   tmp.append("stat" + str(int(Canon)))
+   tmp.append(str(Canon))
    tmp.append(Syn)
    if (str(Syn).isspace()):
       return
@@ -120,55 +122,56 @@ for index, row in syn.iterrows():
 
    make_entry(row[0], text.lower().replace('.','')) # add course descriptions
 
-   make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
-   make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
-   make_entry(row[0], "stat " + str(int(row[0])))
+   number = str(row[0])[4:]
+   make_entry(row[0], "stat " + (number + " " + str(row[1])))
+   make_entry(row[0], "stat " + (str(row[1]) + " " + number))
+   make_entry(row[0], "stat " + number)
    make_entry(row[0], "stat " + (str(row[1])))
-   make_entry(row[0], "stat" + (str(int(row[0])) + " " + str(row[1])))
-   make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))))
-   make_entry(row[0], "stat" + str(int(row[0])))
+   make_entry(row[0], "stat" + (number + " " + str(row[1])))
+   make_entry(row[0], "stat" + (str(row[1]) + " " + number))
+   make_entry(row[0], "stat" + number)
    make_entry(row[0], "stat" + (str(row[1])))
-   make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
-   make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
-   make_entry(row[0], int(row[0]))
+   make_entry(row[0], (number + " " + str(row[1])))
+   make_entry(row[0], (str(row[1]) + " " + number))
+   make_entry(row[0], number)
    make_entry(row[0], (str(row[1])))
 
    if str(row[1])[-2:] == "ii":
       row[1] = str(row[1]).replace("ii", "2")
-      make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat " + (number + " " + str(row[1])))
+      make_entry(row[0], "stat " + (str(row[1]) + " " + number))
       make_entry(row[0], "stat " + (str(row[1])))
-      make_entry(row[0], "stat" + (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat" + (number + " " + str(row[1])))
+      make_entry(row[0], "stat" + (str(row[1]) + " " + number))
       make_entry(row[0], "stat" + (str(row[1])))
-      make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], (number + " " + str(row[1])))
+      make_entry(row[0], (str(row[1]) + " " + number))
       make_entry(row[0], (str(row[1])))
    elif str(row[1])[-1] == "i":
       row[1] = str(row[1])[:-1] + "1"
-      make_entry(row[0], "stat " + (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], "stat " + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat " + (number + " " + str(row[1])))
+      make_entry(row[0], "stat " + (str(row[1]) + " " + number))
       make_entry(row[0], "stat " + (str(row[1])))
-      make_entry(row[0], "stat" + (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], "stat" + (number + " " + str(row[1])))
+      make_entry(row[0], "stat" + (str(row[1]) + " " + number))
       make_entry(row[0], "stat" + (str(row[1])))
-      make_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      make_entry(row[0], (number + " " + str(row[1])))
+      make_entry(row[0], (str(row[1]) + " " + number))
       make_entry(row[0], (str(row[1])))
 
 
-   if int(row[0]) >= 500:
-      make_entry(row[0], "graduate stat " + (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], "grad stat " + (str(row[1]) + " " + str(int(row[0]))))
-      make_entry(row[0], "grad level stat " + str(int(row[0])))
+   if int(str(row[0])[4:]) >= 500:
+      make_entry(row[0], "graduate stat " + (number + " " + str(row[1])))
+      make_entry(row[0], "grad stat " + (str(row[1]) + " " + number))
+      make_entry(row[0], "grad level stat " + number)
       make_entry(row[0], "graduate level stat " + (str(row[1])))
-      make_entry(row[0], "masters level stat " + (str(int(row[0])) + " " + str(row[1])))
-      make_entry(row[0], "stat" + (str(row[1]) + " " + str(int(row[0]))) + " grad level")
-      make_entry(row[0], "stat" + str(int(row[0]))+ " for grad students")
+      make_entry(row[0], "masters level stat " + (number + " " + str(row[1])))
+      make_entry(row[0], "stat" + (str(row[1]) + " " + number + " grad level"))
+      make_entry(row[0], "stat" + number + " for grad students")
       make_entry(row[0], "stat" + (str(row[1])) + " graduate level")
-      make_entry(row[0], (str(int(row[0])) + " " + str(row[1]))+ " for grads")
-      make_entry(row[0], (str(row[1]) + " " + str(int(row[0]))) + " for graduates")
-      make_entry(row[0], int(row[0]))
+      make_entry(row[0], (number + " " + str(row[1]))+ " for grads")
+      make_entry(row[0], (str(row[1]) + " " + number + " for graduates"))
+      make_entry(row[0], number)
       make_entry(row[0], (str(row[1]))+ " for graduate students")
 
 syns.append(['courses', 'term','sp', 'this quarter'])
@@ -248,13 +251,12 @@ syns_df.to_csv("syn_courses_1.csv", index=False, header=False, escapechar=' ', q
 
 
 dsyn = pd.read_csv("datacourses.csv", header=None)
-print(dsyn)
 dsyns = []
 def dmake_entry(Canon, Syn):
    tmp = []
    tmp.append('datacourses')
    tmp.append('course_num')
-   tmp.append("data" + str(int(Canon)))
+   tmp.append(Canon)
    tmp.append(Syn)
    if (str(Syn).isspace()):
       return
@@ -273,42 +275,25 @@ for index, row in dsyn.iterrows():
    if cleantext:
       text = cleantext.group(1)
 
+   number = str(row[0])[4:]
    dmake_entry(row[0], text.lower().replace('.','')) # add course descriptions
 
-   dmake_entry(row[0], "data " + (str(int(row[0])) + " " + str(row[1])))
-   dmake_entry(row[0], "data " + (str(row[1]) + " " + str(int(row[0]))))
-   dmake_entry(row[0], "data " + str(int(row[0])))
-   dmake_entry(row[0], "data " + (str(row[1])))
-   dmake_entry(row[0], "data" + (str(int(row[0])) + " " + str(row[1])))
-   dmake_entry(row[0], "data" + (str(row[1]) + " " + str(int(row[0]))))
-   dmake_entry(row[0], "data" + str(int(row[0])))
+   dmake_entry(row[0], "data" + number)
    dmake_entry(row[0], "data" + (str(row[1])))
-   dmake_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
-   dmake_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
-   dmake_entry(row[0], int(row[0]))
+   dmake_entry(row[0], (number + " " + str(row[1])))
+   dmake_entry(row[0], (str(row[1]) + " " + number))
+   dmake_entry(row[0], number)
    dmake_entry(row[0], (str(row[1])))
 
    if str(row[1])[-2:] == "ii":
       row[1] = str(row[1]).replace("ii", "2")
-      dmake_entry(row[0], "data " + (str(int(row[0])) + " " + str(row[1])))
-      dmake_entry(row[0], "data " + (str(row[1]) + " " + str(int(row[0]))))
-      dmake_entry(row[0], "data " + (str(row[1])))
-      dmake_entry(row[0], "data" + (str(int(row[0])) + " " + str(row[1])))
-      dmake_entry(row[0], "data" + (str(row[1]) + " " + str(int(row[0]))))
-      dmake_entry(row[0], "data" + (str(row[1])))
-      dmake_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
-      dmake_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], (number + " " + str(row[1])))
+      dmake_entry(row[0], (str(row[1]) + " " + number))
       dmake_entry(row[0], (str(row[1])))
    elif str(row[1])[-1] == "i":
       row[1] = str(row[1])[:-1] + "1"
-      dmake_entry(row[0], "data " + (str(int(row[0])) + " " + str(row[1])))
-      dmake_entry(row[0], "data " + (str(row[1]) + " " + str(int(row[0]))))
-      dmake_entry(row[0], "data " + (str(row[1])))
-      dmake_entry(row[0], "data" + (str(int(row[0])) + " " + str(row[1])))
-      dmake_entry(row[0], "data" + (str(row[1]) + " " + str(int(row[0]))))
-      dmake_entry(row[0], "data" + (str(row[1])))
-      dmake_entry(row[0], (str(int(row[0])) + " " + str(row[1])))
-      dmake_entry(row[0], (str(row[1]) + " " + str(int(row[0]))))
+      dmake_entry(row[0], (number + " " + str(row[1])))
+      dmake_entry(row[0], (str(row[1]) + " " + number))
       dmake_entry(row[0], (str(row[1])))
 
 dsyns_df = pd.DataFrame(dsyns)
