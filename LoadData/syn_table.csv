@@ -929,6 +929,25 @@
 928,,,course_area,courses,,,,,,,no    credit    or    credit,,,,,cr/nc,
 929,,,course_area,courses,,,,,,,pass    or    fail,,,,,cr/nc,
 930,,,course_area,courses,,,,,,,pass/fail,,,,,cr/nc,
+931,,,course_level,unknown,,,,,,,first    year,,,,,first_year,
+932,,,course_level,unknown,,,,,,,1st    year,,,,,first_year,
+933,,,course_level,unknown,,,,,,,freshman,,,,,first_year,
+934,,,course_level,unknown,,,,,,,second    year,,,,,second_year,
+935,,,course_level,unknown,,,,,,,2nd    year,,,,,second_year,
+936,,,course_level,unknown,,,,,,,sophomore,,,,,second_year,
+937,,,course_level,unknown,,,,,,,third    year,,,,,third_year,
+938,,,course_level,unknown,,,,,,,3rd    year,,,,,third_year,
+939,,,course_level,unknown,,,,,,,junior,,,,,third_year,
+940,,,course_level,unknown,,,,,,,fourth    year,,,,,fourth_year,
+941,,,course_level,unknown,,,,,,,4th    year,,,,,fourth_year,
+942,,,course_level,unknown,,,,,,,senior,,,,,fourth_year,
+943,,,course_level,unknown,,,,,,,fifth    year,,,,,graduate,
+944,,,course_level,unknown,,,,,,,graduate,,,,,graduate,
+945,,,course_level,unknown,,,,,,,grad,,,,,graduate,
+946,,,course_level,unknown,,,,,,,masters,,,,,graduate,
+947,,,course_level,unknown,,,,,,,sixth    year,,,,,graduate,
+948,,,course_level,unknown,,,,,,,5th    year,,,,,graduate,
+949,,,course_level,unknown,,,,,,,6th    year,,,,,graduate,
 0,,,,,,,,faculty_last_name,,,,polyratings,rees,dr.rees,,,
 1,,,,,,,,faculty_last_name,,,,polyratings,rees,professorrees,,,
 2,,,,,,,,faculty_last_name,,,,polyratings,rees,markrees,,,
@@ -1754,600 +1773,304 @@
 413,zwarg,mrs.zwarg        noah        alexander,,,,,faculty,faculty_last_name,,,,,,,,,
 414,zwarg,noah,,,,,faculty,faculty_last_name,,,,,,,,,
 0,,,course_num,,,,,,,statistics        427        mathematical        statistics,,,,,sections,,stat427
-1,,,course_room,,,,,,,erhart        agriculture        room        0115,,,,,sections,,010-0115
-2,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0115
-3,,,course_room,,,,,,,erhart,,,,,sections,,010-0115
-4,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0115
-5,,,course_num,,,,,,,mathematical        statistics,,,,,sections,,stat427
-6,,,course_num,,,,,,,statistics        427        mathematical        statistics,,,,,sections,,stat427
-7,,,course_room,,,,,,,erhart        agriculture        room        0115,,,,,sections,,010-0115
-8,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0115
-9,,,course_room,,,,,,,erhart,,,,,sections,,010-0115
-10,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0115
-11,,,course_num,,,,,,,applied        multivariate        statistics,,,,,sections,,stat419
-12,,,course_num,,,,,,,statistics        419        applied        multivariate        statistics,,,,,sections,,stat419
-13,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-14,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-15,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-16,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-17,,,course_num,,,,,,,applied        multivariate        statistics,,,,,sections,,stat419
-18,,,course_num,,,,,,,statistics        419        applied        multivariate        statistics,,,,,sections,,stat419
-19,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-20,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-21,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-22,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-23,,,course_num,,,,,,,statistics        ii,,,,,sections,,stat302
-24,,,course_num,,,,,,,statistics        302        statistics        ii,,,,,sections,,stat302
-25,,,course_room,,,,,,,construction        innovations        center        room        c203,,,,,sections,,186-c203
-26,,,course_room,,,,,,,construction        innovations        center    ,,,,,sections,,186-c203
-27,,,course_room,,,,,,,construction,,,,,sections,,186-c203
-28,,,course_room,,,,,,,constructioninnovations,,,,,sections,,186-c203
-29,,,course_num,,,,,,,statistics        ii,,,,,sections,,stat302
-30,,,course_num,,,,,,,statistics        302        statistics        ii,,,,,sections,,stat302
-31,,,course_room,,,,,,,construction        innovations        center        room        c203,,,,,sections,,186-c203
-32,,,course_room,,,,,,,construction        innovations        center    ,,,,,sections,,186-c203
-33,,,course_room,,,,,,,construction,,,,,sections,,186-c203
-34,,,course_room,,,,,,,constructioninnovations,,,,,sections,,186-c203
-35,,,course_num,,,,,,,statistical        communication,,,,,sections,,stat365
-36,,,course_num,,,,,,,statistics        365        statistical        communication,,,,,sections,,stat365
-37,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-38,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-39,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-40,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-41,,,course_num,,,,,,,statistical        communication,,,,,sections,,stat365
-42,,,course_num,,,,,,,statistics        365        statistical        communication,,,,,sections,,stat365
-43,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-44,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-45,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-46,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-47,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-48,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-49,,,course_room,,,,,,,engineering        west        room        0237,,,,,sections,,021-0237
-50,,,course_room,,,,,,,engineering        west    ,,,,,sections,,021-0237
-51,,,course_room,,,,,,,engineering,,,,,sections,,021-0237
-52,,,course_room,,,,,,,engineeringwest,,,,,sections,,021-0237
-53,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-54,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-55,,,course_room,,,,,,,engineering        west        room        0237,,,,,sections,,021-0237
-56,,,course_room,,,,,,,engineering        west    ,,,,,sections,,021-0237
-57,,,course_room,,,,,,,engineering,,,,,sections,,021-0237
-58,,,course_room,,,,,,,engineeringwest,,,,,sections,,021-0237
-59,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-60,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-61,,,course_room,,,,,,,engineering        west        room        0237,,,,,sections,,021-0237
-62,,,course_room,,,,,,,engineering        west    ,,,,,sections,,021-0237
-63,,,course_room,,,,,,,engineering,,,,,sections,,021-0237
-64,,,course_room,,,,,,,engineeringwest,,,,,sections,,021-0237
-65,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-66,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-67,,,course_room,,,,,,,engineering        west        room        0237,,,,,sections,,021-0237
-68,,,course_room,,,,,,,engineering        west    ,,,,,sections,,021-0237
-69,,,course_room,,,,,,,engineering,,,,,sections,,021-0237
-70,,,course_room,,,,,,,engineeringwest,,,,,sections,,021-0237
-71,,,course_num,,,,,,,statistical        learning:        methods        and        applications,,,,,sections,,stat434
-72,,,course_num,,,,,,,statistics        434        statistical        learning:        methods        and        applications,,,,,sections,,stat434
-73,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-74,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-75,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-76,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-77,,,course_num,,,,,,,452        data        science        capstone        ii,,,,,sections,,statscience
-78,,,course_num,,,,,,,data        science        452        data        science        capstone        ii,,,,,sections,,statscience
-79,,,course_room,,,,,,,pilling        building        room        0257,,,,,sections,,014-0257
-80,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0257
-81,,,course_room,,,,,,,pilling,,,,,sections,,014-0257
-82,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0257
-83,,,course_num,,,,,,,452        data        science        capstone        ii,,,,,sections,,statscience
-84,,,course_num,,,,,,,data        science        452        data        science        capstone        ii,,,,,sections,,statscience
-85,,,course_room,,,,,,,pilling        building        room        0257,,,,,sections,,014-0257
-86,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0257
-87,,,course_room,,,,,,,pilling,,,,,sections,,014-0257
-88,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0257
-89,,,course_num,,,,,,,probability        and        random        processes        for        engineers,,,,,sections,,stat350
-90,,,course_num,,,,,,,statistics        350        probability        and        random        processes        for        engineers,,,,,sections,,stat350
-91,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-92,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-93,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-94,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-95,,,course_num,,,,,,,probability        and        random        processes        for        engineers,,,,,sections,,stat350
-96,,,course_num,,,,,,,statistics        350        probability        and        random        processes        for        engineers,,,,,sections,,stat350
-97,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-98,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-99,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-100,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-101,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
-102,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
-103,,,course_room,,,,,,,kennedy        library        room        0111b,,,,,sections,,035-0111b
-104,,,course_room,,,,,,,kennedy        library    ,,,,,sections,,035-0111b
-105,,,course_room,,,,,,,kennedy,,,,,sections,,035-0111b
-106,,,course_room,,,,,,,kennedylibrary,,,,,sections,,035-0111b
-107,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
-108,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
-109,,,course_room,,,,,,,kennedy        library        room        0111b,,,,,sections,,035-0111b
-110,,,course_room,,,,,,,kennedy        library    ,,,,,sections,,035-0111b
-111,,,course_room,,,,,,,kennedy,,,,,sections,,035-0111b
-112,,,course_room,,,,,,,kennedylibrary,,,,,sections,,035-0111b
-113,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
-114,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
-115,,,course_room,,,,,,,pilling        building        room        0247,,,,,sections,,014-0247
-116,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0247
-117,,,course_room,,,,,,,pilling,,,,,sections,,014-0247
-118,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0247
-119,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
-120,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
-121,,,course_room,,,,,,,pilling        building        room        0247,,,,,sections,,014-0247
-122,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0247
-123,,,course_room,,,,,,,pilling,,,,,sections,,014-0247
-124,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0247
-125,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
-126,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
-127,,,course_room,,,,,,,kennedy        library        room        0111b,,,,,sections,,035-0111b
-128,,,course_room,,,,,,,kennedy        library    ,,,,,sections,,035-0111b
-129,,,course_room,,,,,,,kennedy,,,,,sections,,035-0111b
-130,,,course_room,,,,,,,kennedylibrary,,,,,sections,,035-0111b
-131,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
-132,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
-133,,,course_room,,,,,,,pilling        building        room        0247,,,,,sections,,014-0247
-134,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0247
-135,,,course_room,,,,,,,pilling,,,,,sections,,014-0247
-136,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0247
-137,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat513
-138,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-139,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
-140,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
-141,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
-142,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
-143,,,course_num,,,,,,,graduate    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-144,,,course_num,,,,,,,grad    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-145,,,course_num,,,,,,,graduate    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-146,,,course_num,,,,,,,grad    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-147,,,course_num,,,,,,,masters    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-148,,,course_num,,,,,,,applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
-149,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
-150,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
-151,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
-152,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
-153,,,course_num,,,,,,,graduate    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-154,,,course_num,,,,,,,grad    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-155,,,course_num,,,,,,,graduate    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-156,,,course_num,,,,,,,grad    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-157,,,course_num,,,,,,,masters    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-158,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
-159,,,course_room,,,,,,,erhart        agriculture        room        0111,,,,,sections,,010-0111
-160,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0111
-161,,,course_room,,,,,,,erhart,,,,,sections,,010-0111
-162,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0111
-163,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-164,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-165,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-166,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-167,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-168,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-169,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-170,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-171,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-172,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-173,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-174,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-175,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat513
-176,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-177,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
-178,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
-179,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
-180,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
-181,,,course_num,,,,,,,graduate    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-182,,,course_num,,,,,,,grad    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-183,,,course_num,,,,,,,graduate    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-184,,,course_num,,,,,,,grad    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-185,,,course_num,,,,,,,masters    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
-186,,,course_num,,,,,,,applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
-187,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
-188,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
-189,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
-190,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
-191,,,course_num,,,,,,,graduate    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-192,,,course_num,,,,,,,grad    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-193,,,course_num,,,,,,,graduate    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-194,,,course_num,,,,,,,grad    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-195,,,course_num,,,,,,,masters    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
-196,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
-197,,,course_room,,,,,,,kennedy        library        room        0111b,,,,,sections,,035-0111b
-198,,,course_room,,,,,,,kennedy        library    ,,,,,sections,,035-0111b
-199,,,course_room,,,,,,,kennedy,,,,,sections,,035-0111b
-200,,,course_room,,,,,,,kennedylibrary,,,,,sections,,035-0111b
-201,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-202,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-203,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-204,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-205,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-206,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-207,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-208,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-209,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-210,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-211,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-212,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-213,,,course_num,,,,,,,applied        probability        models,,,,,sections,,stat405
-214,,,course_num,,,,,,,statistics        405        applied        probability        models,,,,,sections,,stat405
-215,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-216,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-217,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-218,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-219,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-220,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-221,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-222,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-223,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-224,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-225,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-226,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-227,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-228,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-229,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-230,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-231,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-232,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-233,,,course_room,,,,,,,pilling        building        room        0251,,,,,sections,,014-0251
-234,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0251
-235,,,course_room,,,,,,,pilling,,,,,sections,,014-0251
-236,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0251
-237,,,course_num,,,,,,,design        and        analysis        of        experiments        ii,,,,,sections,,stat423
-238,,,course_num,,,,,,,statistics        423        design        and        analysis        of        experiments        ii,,,,,sections,,stat423
-239,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-240,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-241,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-242,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-243,,,course_num,,,,,,,statistics        education:        pedagogy        content        technology        and        assessment,,,,,sections,,stat410
-244,,,course_num,,,,,,,statistics        410        statistics        education:        pedagogy        content        technology        and        assessment,,,,,sections,,stat410
-245,,,course_room,,,,,,,architecture        &amp;        environmental        design        room        0226,,,,,sections,,005-0226
-246,,,course_room,,,,,,,architecture        &amp;        environmental        design    ,,,,,sections,,005-0226
-247,,,course_room,,,,,,,architecture,,,,,sections,,005-0226
-248,,,course_room,,,,,,,architecture&amp;,,,,,sections,,005-0226
-249,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-250,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-251,,,course_room,,,,,,,mathematics        and        science        room        0204,,,,,sections,,038-0204
-252,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0204
-253,,,course_room,,,,,,,mathematics,,,,,sections,,038-0204
-254,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0204
-255,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-256,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-257,,,course_room,,,,,,,baker        center        for        science        room        0265,,,,,sections,,180-0265
-258,,,course_room,,,,,,,baker        center        for        science    ,,,,,sections,,180-0265
-259,,,course_room,,,,,,,baker,,,,,sections,,180-0265
-260,,,course_room,,,,,,,bakercenter,,,,,sections,,180-0265
-261,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-262,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-263,,,course_room,,,,,,,mathematics        and        science        room        0204,,,,,sections,,038-0204
-264,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0204
-265,,,course_room,,,,,,,mathematics,,,,,sections,,038-0204
-266,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0204
-267,,,course_num,,,,,,,statistics        ii,,,,,sections,,stat302
-268,,,course_num,,,,,,,statistics        302        statistics        ii,,,,,sections,,stat302
-269,,,course_room,,,,,,,erhart        agriculture        room        0223,,,,,sections,,010-0223
-270,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0223
-271,,,course_room,,,,,,,erhart,,,,,sections,,010-0223
-272,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0223
-273,,,course_num,,,,,,,applied        linear        models,,,,,sections,,stat334
-274,,,course_num,,,,,,,statistics        334        applied        linear        models,,,,,sections,,stat334
-275,,,course_room,,,,,,,engineering        west        room        0238,,,,,sections,,021-0238
-276,,,course_room,,,,,,,engineering        west    ,,,,,sections,,021-0238
-277,,,course_room,,,,,,,engineering,,,,,sections,,021-0238
-278,,,course_room,,,,,,,engineeringwest,,,,,sections,,021-0238
-279,,,course_num,,,,,,,applied        linear        models,,,,,sections,,stat334
-280,,,course_num,,,,,,,statistics        334        applied        linear        models,,,,,sections,,stat334
-281,,,course_room,,,,,,,engineering        west        room        0238,,,,,sections,,021-0238
-282,,,course_room,,,,,,,engineering        west    ,,,,,sections,,021-0238
-283,,,course_room,,,,,,,engineering,,,,,sections,,021-0238
-284,,,course_room,,,,,,,engineeringwest,,,,,sections,,021-0238
-285,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-286,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-287,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-288,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-289,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-290,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-291,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-292,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-293,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-294,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-295,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-296,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-297,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-298,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-299,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-300,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-301,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-302,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-303,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-304,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-305,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-306,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-307,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-308,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-309,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-310,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-311,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-312,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-313,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-314,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-315,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-316,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-317,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-318,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-319,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-320,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-321,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-322,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-323,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-324,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-325,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-326,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-327,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-328,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-329,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-330,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-331,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-332,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-333,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-334,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-335,,,course_room,,,,,,,pilling        building        room        0252,,,,,sections,,014-0252
-336,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0252
-337,,,course_room,,,,,,,pilling,,,,,sections,,014-0252
-338,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0252
-339,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-340,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-341,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-342,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-343,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-344,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-345,,,course_num,,,,,,,senior        project        ii,,,,,sections,,stat462
-346,,,course_num,,,,,,,statistics        462        senior        project        ii,,,,,sections,,stat462
-347,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-348,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-349,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-350,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-351,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-352,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-353,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-354,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-355,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-356,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-357,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
-358,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
-359,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
-360,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
-361,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
-362,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
-363,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
-364,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
-365,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
-366,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
-367,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
-368,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
-369,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
-370,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
-371,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
-372,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
-373,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
-374,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
-375,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
-376,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
-377,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
-378,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
-379,,,course_room,,,,,,,cotchett        education        room        0126,,,,,sections,,002-0126
-380,,,course_room,,,,,,,cotchett        education    ,,,,,sections,,002-0126
-381,,,course_room,,,,,,,cotchett,,,,,sections,,002-0126
-382,,,course_room,,,,,,,cotchetteducation,,,,,sections,,002-0126
-383,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
-384,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
-385,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
-386,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
-387,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
-388,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
-389,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
-390,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
-391,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
-392,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
-393,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
-394,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
-395,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
-396,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
-397,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
-398,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
-399,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
-400,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
-401,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
-402,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
-403,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
-404,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
-405,,,course_room,,,,,,,cotchett        education        room        0126,,,,,sections,,002-0126
-406,,,course_room,,,,,,,cotchett        education    ,,,,,sections,,002-0126
-407,,,course_room,,,,,,,cotchett,,,,,sections,,002-0126
-408,,,course_room,,,,,,,cotchetteducation,,,,,sections,,002-0126
-409,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-410,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-411,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-412,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-413,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-414,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-415,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-416,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
-417,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-418,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-419,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-420,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-421,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
-422,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
-423,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
-424,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
-425,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
-426,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
-427,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
-428,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
-429,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
-430,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
-431,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
-432,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
-433,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
-434,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
-435,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
-436,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
-437,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
-438,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
-439,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
-440,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
-441,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
-442,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
-443,,,course_room,,,,,,,cotchett        education        room        0126,,,,,sections,,002-0126
-444,,,course_room,,,,,,,cotchett        education    ,,,,,sections,,002-0126
-445,,,course_room,,,,,,,cotchett,,,,,sections,,002-0126
-446,,,course_room,,,,,,,cotchetteducation,,,,,sections,,002-0126
-447,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
-448,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
-449,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
-450,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
-451,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
-452,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
-453,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
-454,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
-455,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
-456,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
-457,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
-458,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
-459,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
-460,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
-461,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
-462,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
-463,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
-464,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
-465,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
-466,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
-467,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
-468,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
-469,,,course_room,,,,,,,cotchett        education        room        0126,,,,,sections,,002-0126
-470,,,course_room,,,,,,,cotchett        education    ,,,,,sections,,002-0126
-471,,,course_room,,,,,,,cotchett,,,,,sections,,002-0126
-472,,,course_room,,,,,,,cotchetteducation,,,,,sections,,002-0126
-473,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-474,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-475,,,course_room,,,,,,,erhart        agriculture        room        0126,,,,,sections,,010-0126
-476,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0126
-477,,,course_room,,,,,,,erhart,,,,,sections,,010-0126
-478,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0126
-479,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-480,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-481,,,course_room,,,,,,,erhart        agriculture        room        0126,,,,,sections,,010-0126
-482,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0126
-483,,,course_room,,,,,,,erhart,,,,,sections,,010-0126
-484,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0126
-485,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-486,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-487,,,course_room,,,,,,,erhart        agriculture        room        0126,,,,,sections,,010-0126
-488,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0126
-489,,,course_room,,,,,,,erhart,,,,,sections,,010-0126
-490,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0126
-491,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-492,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
-493,,,course_room,,,,,,,erhart        agriculture        room        0126,,,,,sections,,010-0126
-494,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0126
-495,,,course_room,,,,,,,erhart,,,,,sections,,010-0126
-496,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0126
-497,,,course_num,,,,,,,sas        advanced        certification        preparation,,,,,sections,,stat441
-498,,,course_num,,,,,,,statistics        441        sas        advanced        certification        preparation,,,,,sections,,stat441
-499,,,course_room,,,,,,,erhart        agriculture        room        0204,,,,,sections,,010-0204
-500,,,course_room,,,,,,,erhart        agriculture    ,,,,,sections,,010-0204
-501,,,course_room,,,,,,,erhart,,,,,sections,,010-0204
-502,,,course_room,,,,,,,erhartagriculture,,,,,sections,,010-0204
-503,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
-504,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
-505,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-506,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-507,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-508,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-509,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
-510,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
-511,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-512,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-513,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-514,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-515,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
-516,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
-517,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-518,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-519,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-520,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-521,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
-522,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
-523,,,course_room,,,,,,,pilling        building        room        0250,,,,,sections,,014-0250
-524,,,course_room,,,,,,,pilling        building    ,,,,,sections,,014-0250
-525,,,course_room,,,,,,,pilling,,,,,sections,,014-0250
-526,,,course_room,,,,,,,pillingbuilding,,,,,sections,,014-0250
-527,,,course_num,,,,,,,senior        project        ii,,,,,sections,,stat462
-528,,,course_num,,,,,,,statistics        462        senior        project        ii,,,,,sections,,stat462
-529,,,course_room,,,,,,,mathematics        and        science        room        0123,,,,,sections,,038-0123
-530,,,course_room,,,,,,,mathematics        and        science    ,,,,,sections,,038-0123
-531,,,course_room,,,,,,,mathematics,,,,,sections,,038-0123
-532,,,course_room,,,,,,,mathematicsand,,,,,sections,,038-0123
-533,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-534,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-535,,,course_room,,,,,,,engineering        east        room        0139,,,,,sections,,020-0139
-536,,,course_room,,,,,,,engineering        east    ,,,,,sections,,020-0139
-537,,,course_room,,,,,,,engineering,,,,,sections,,020-0139
-538,,,course_room,,,,,,,engineeringeast,,,,,sections,,020-0139
-539,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-540,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-541,,,course_room,,,,,,,engineering        east        room        0139,,,,,sections,,020-0139
-542,,,course_room,,,,,,,engineering        east    ,,,,,sections,,020-0139
-543,,,course_room,,,,,,,engineering,,,,,sections,,020-0139
-544,,,course_room,,,,,,,engineeringeast,,,,,sections,,020-0139
-545,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-546,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-547,,,course_room,,,,,,,engineering        east        room        0139,,,,,sections,,020-0139
-548,,,course_room,,,,,,,engineering        east    ,,,,,sections,,020-0139
-549,,,course_room,,,,,,,engineering,,,,,sections,,020-0139
-550,,,course_room,,,,,,,engineeringeast,,,,,sections,,020-0139
-551,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
-552,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
-553,,,course_room,,,,,,,engineering        east        room        0139,,,,,sections,,020-0139
-554,,,course_room,,,,,,,engineering        east    ,,,,,sections,,020-0139
-555,,,course_room,,,,,,,engineering,,,,,sections,,020-0139
-556,,,course_room,,,,,,,engineeringeast,,,,,sections,,020-0139
-557,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
-558,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
-559,,,course_room,,,,,,,construction        innovations        center        room        c203,,,,,sections,,186-c203
-560,,,course_room,,,,,,,construction        innovations        center    ,,,,,sections,,186-c203
-561,,,course_room,,,,,,,construction,,,,,sections,,186-c203
-562,,,course_room,,,,,,,constructioninnovations,,,,,sections,,186-c203
-563,,,course_type,,,,,,,lecture,,,,,sections,,lecture
-564,,,course_type,,,,,,,lec,,,,,sections,,lecture
-565,,,course_type,,,,,,,laboratory,,,,,sections,,laboratory
-566,,,course_type,,,,,,,lab,,,,,sections,,laboratory
-567,,,course_type,,,,,,,lecs,,,,,sections,,lecture
-568,,,course_type,,,,,,,lectures,,,,,sections,,lecture
-569,,,course_type,,,,,,,labs,,,,,sections,,laboratory
-570,,,course_type,,,,,,,independent        study,,,,,sections,,independent        study
-571,,,course_type,,,,,,,ind,,,,,sections,,independent        study
-572,,,course_type,,,,,,,activity,,,,,sections,,activity
-573,,,course_type,,,,,,,activities,,,,,sections,,activity
-574,,,course_type,,,,,,,independent    studies,,,,,sections,,intependent    study
-575,,,course_type,,,,,,,seminar,,,,,sections,,seminar
-576,,,course_type,,,,,,,seminars,,,,,sections,,seminar
-577,,,course_days,,,,,,,monday,,,,,sections,,monday
-578,,,course_days,,,,,,,m,,,,,sections,,monday
-579,,,course_days,,,,,,,mon,,,,,sections,,monday
-580,,,course_days,,,,,,,tuesday,,,,,sections,,tuesday
-581,,,course_days,,,,,,,t,,,,,sections,,tuesday
-582,,,course_days,,,,,,,tues,,,,,sections,,tuesday
-583,,,course_days,,,,,,,tu,,,,,sections,,tuesday
-584,,,course_days,,,,,,,wednesday,,,,,sections,,wednesday
-585,,,course_days,,,,,,,wed,,,,,sections,,wednesday
-586,,,course_days,,,,,,,w,,,,,sections,,wednesday
-587,,,course_days,,,,,,,thurs,,,,,sections,,thursday
-588,,,course_days,,,,,,,thursday,,,,,sections,,thursday
-589,,,course_days,,,,,,,th,,,,,sections,,thursday
-590,,,course_days,,,,,,,tr,,,,,sections,,thursday
-591,,,course_days,,,,,,,fri,,,,,sections,,friday
-592,,,course_days,,,,,,,friday,,,,,sections,,friday
-593,,,course_days,,,,,,,f,,,,,sections,,friday
-594,,,course_days,,,,,,,fr,,,,,sections,,friday
+1,,,course_num,,,,,,,mathematical        statistics,,,,,sections,,stat427
+2,,,course_num,,,,,,,statistics        427        mathematical        statistics,,,,,sections,,stat427
+3,,,course_num,,,,,,,applied        multivariate        statistics,,,,,sections,,stat419
+4,,,course_num,,,,,,,statistics        419        applied        multivariate        statistics,,,,,sections,,stat419
+5,,,course_num,,,,,,,applied        multivariate        statistics,,,,,sections,,stat419
+6,,,course_num,,,,,,,statistics        419        applied        multivariate        statistics,,,,,sections,,stat419
+7,,,course_num,,,,,,,statistics        ii,,,,,sections,,stat302
+8,,,course_num,,,,,,,statistics        302        statistics        ii,,,,,sections,,stat302
+9,,,course_num,,,,,,,statistics        ii,,,,,sections,,stat302
+10,,,course_num,,,,,,,statistics        302        statistics        ii,,,,,sections,,stat302
+11,,,course_num,,,,,,,statistical        communication,,,,,sections,,stat365
+12,,,course_num,,,,,,,statistics        365        statistical        communication,,,,,sections,,stat365
+13,,,course_num,,,,,,,statistical        communication,,,,,sections,,stat365
+14,,,course_num,,,,,,,statistics        365        statistical        communication,,,,,sections,,stat365
+15,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+16,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+17,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+18,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+19,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+20,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+21,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+22,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+23,,,course_num,,,,,,,statistical        learning:        methods        and        applications,,,,,sections,,stat434
+24,,,course_num,,,,,,,statistics        434        statistical        learning:        methods        and        applications,,,,,sections,,stat434
+25,,,course_num,,,,,,,452        data        science        capstone        ii,,,,,sections,,statscience
+26,,,course_num,,,,,,,data        science        452        data        science        capstone        ii,,,,,sections,,statscience
+27,,,course_num,,,,,,,452        data        science        capstone        ii,,,,,sections,,statscience
+28,,,course_num,,,,,,,data        science        452        data        science        capstone        ii,,,,,sections,,statscience
+29,,,course_num,,,,,,,probability        and        random        processes        for        engineers,,,,,sections,,stat350
+30,,,course_num,,,,,,,statistics        350        probability        and        random        processes        for        engineers,,,,,sections,,stat350
+31,,,course_num,,,,,,,probability        and        random        processes        for        engineers,,,,,sections,,stat350
+32,,,course_num,,,,,,,statistics        350        probability        and        random        processes        for        engineers,,,,,sections,,stat350
+33,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
+34,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
+35,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
+36,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
+37,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
+38,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
+39,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
+40,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
+41,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
+42,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
+43,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat313
+44,,,course_num,,,,,,,statistics        313        applied        experimental        design        and        regression        models,,,,,sections,,stat313
+45,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat513
+46,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+47,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
+48,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
+49,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
+50,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
+51,,,course_num,,,,,,,graduate    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+52,,,course_num,,,,,,,grad    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+53,,,course_num,,,,,,,graduate    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+54,,,course_num,,,,,,,grad    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+55,,,course_num,,,,,,,masters    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+56,,,course_num,,,,,,,applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
+57,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
+58,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
+59,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
+60,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
+61,,,course_num,,,,,,,graduate    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+62,,,course_num,,,,,,,grad    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+63,,,course_num,,,,,,,graduate    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+64,,,course_num,,,,,,,grad    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+65,,,course_num,,,,,,,masters    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+66,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
+67,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+68,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+69,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+70,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+71,,,course_num,,,,,,,applied        experimental        design        and        regression        models,,,,,sections,,stat513
+72,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+73,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
+74,,,course_num,,,,,,,applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
+75,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
+76,,,course_num,,,,,,,applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
+77,,,course_num,,,,,,,graduate    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+78,,,course_num,,,,,,,grad    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+79,,,course_num,,,,,,,graduate    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+80,,,course_num,,,,,,,grad    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+81,,,course_num,,,,,,,masters    level    applied        experimental        design        and        regression        models,,,,,sections,,stat513
+82,,,course_num,,,,,,,applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
+83,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate,,,,,sections,,stat513
+84,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    graduate    level,,,,,sections,,stat513
+85,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad,,,,,sections,,stat513
+86,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    grad    level,,,,,sections,,stat513
+87,,,course_num,,,,,,,graduate    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+88,,,course_num,,,,,,,grad    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+89,,,course_num,,,,,,,graduate    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+90,,,course_num,,,,,,,grad    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+91,,,course_num,,,,,,,masters    level    statistics        513        applied        experimental        design        and        regression        models,,,,,sections,,stat513
+92,,,course_num,,,,,,,statistics        513        applied        experimental        design        and        regression        models    masters,,,,,sections,,stat513
+93,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+94,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+95,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+96,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+97,,,course_num,,,,,,,applied        probability        models,,,,,sections,,stat405
+98,,,course_num,,,,,,,statistics        405        applied        probability        models,,,,,sections,,stat405
+99,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+100,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+101,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+102,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+103,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+104,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+105,,,course_num,,,,,,,design        and        analysis        of        experiments        ii,,,,,sections,,stat423
+106,,,course_num,,,,,,,statistics        423        design        and        analysis        of        experiments        ii,,,,,sections,,stat423
+107,,,course_num,,,,,,,statistics        education:        pedagogy        content        technology        and        assessment,,,,,sections,,stat410
+108,,,course_num,,,,,,,statistics        410        statistics        education:        pedagogy        content        technology        and        assessment,,,,,sections,,stat410
+109,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+110,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+111,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+112,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+113,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+114,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+115,,,course_num,,,,,,,statistics        ii,,,,,sections,,stat302
+116,,,course_num,,,,,,,statistics        302        statistics        ii,,,,,sections,,stat302
+117,,,course_num,,,,,,,applied        linear        models,,,,,sections,,stat334
+118,,,course_num,,,,,,,statistics        334        applied        linear        models,,,,,sections,,stat334
+119,,,course_num,,,,,,,applied        linear        models,,,,,sections,,stat334
+120,,,course_num,,,,,,,statistics        334        applied        linear        models,,,,,sections,,stat334
+121,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+122,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+123,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+124,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+125,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+126,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+127,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+128,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+129,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+130,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+131,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+132,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+133,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+134,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+135,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+136,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+137,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+138,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+139,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+140,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+141,,,course_num,,,,,,,senior        project        ii,,,,,sections,,stat462
+142,,,course_num,,,,,,,statistics        462        senior        project        ii,,,,,sections,,stat462
+143,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+144,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+145,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
+146,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
+147,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
+148,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
+149,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
+150,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
+151,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
+152,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
+153,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
+154,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
+155,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
+156,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
+157,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
+158,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
+159,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
+160,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
+161,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
+162,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
+163,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
+164,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
+165,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
+166,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
+167,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
+168,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
+169,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
+170,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
+171,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
+172,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
+173,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
+174,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
+175,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
+176,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
+177,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
+178,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
+179,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
+180,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
+181,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
+182,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
+183,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
+184,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
+185,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
+186,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
+187,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
+188,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
+189,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+190,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+191,,,course_num,,,,,,,introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+192,,,course_num,,,,,,,statistics        217        introduction        to        statistical        concepts        and        methods,,,,,sections,,stat217
+193,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
+194,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
+195,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
+196,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
+197,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
+198,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
+199,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
+200,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
+201,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
+202,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
+203,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
+204,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
+205,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
+206,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
+207,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
+208,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
+209,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
+210,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
+211,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
+212,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
+213,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
+214,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
+215,,,course_num,,,,,,,educational        research        methods,,,,,sections,,stat589
+216,,,course_num,,,,,,,education        589        educational        research        methods,,,,,sections,,stat589
+217,,,course_num,,,,,,,educational        research        methods    graduate,,,,,sections,,stat589
+218,,,course_num,,,,,,,educational        research        methods    graduate    level,,,,,sections,,stat589
+219,,,course_num,,,,,,,educational        research        methods    grad,,,,,sections,,stat589
+220,,,course_num,,,,,,,educational        research        methods    grad    level,,,,,sections,,stat589
+221,,,course_num,,,,,,,graduate    educational        research        methods,,,,,sections,,stat589
+222,,,course_num,,,,,,,grad    educational        research        methods,,,,,sections,,stat589
+223,,,course_num,,,,,,,graduate    level    educational        research        methods,,,,,sections,,stat589
+224,,,course_num,,,,,,,grad    level    educational        research        methods,,,,,sections,,stat589
+225,,,course_num,,,,,,,masters    level    educational        research        methods,,,,,sections,,stat589
+226,,,course_num,,,,,,,educational        research        methods    masters,,,,,sections,,stat589
+227,,,course_num,,,,,,,education        589        educational        research        methods    graduate,,,,,sections,,stat589
+228,,,course_num,,,,,,,education        589        educational        research        methods    graduate    level,,,,,sections,,stat589
+229,,,course_num,,,,,,,education        589        educational        research        methods    grad,,,,,sections,,stat589
+230,,,course_num,,,,,,,education        589        educational        research        methods    grad    level,,,,,sections,,stat589
+231,,,course_num,,,,,,,graduate    education        589        educational        research        methods,,,,,sections,,stat589
+232,,,course_num,,,,,,,grad    education        589        educational        research        methods,,,,,sections,,stat589
+233,,,course_num,,,,,,,graduate    level    education        589        educational        research        methods,,,,,sections,,stat589
+234,,,course_num,,,,,,,grad    level    education        589        educational        research        methods,,,,,sections,,stat589
+235,,,course_num,,,,,,,masters    level    education        589        educational        research        methods,,,,,sections,,stat589
+236,,,course_num,,,,,,,education        589        educational        research        methods    masters,,,,,sections,,stat589
+237,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+238,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+239,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+240,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+241,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+242,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+243,,,course_num,,,,,,,applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+244,,,course_num,,,,,,,statistics        218        applied        statistics        for        the        life        sciences,,,,,sections,,stat218
+245,,,course_num,,,,,,,sas        advanced        certification        preparation,,,,,sections,,stat441
+246,,,course_num,,,,,,,statistics        441        sas        advanced        certification        preparation,,,,,sections,,stat441
+247,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
+248,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
+249,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
+250,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
+251,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
+252,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
+253,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
+254,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
+255,,,course_num,,,,,,,senior        project        ii,,,,,sections,,stat462
+256,,,course_num,,,,,,,statistics        462        senior        project        ii,,,,,sections,,stat462
+257,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+258,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+259,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+260,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+261,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+262,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+263,,,course_num,,,,,,,statistical        inference        for        management        ii,,,,,sections,,stat252
+264,,,course_num,,,,,,,statistics        252        statistical        inference        for        management        ii,,,,,sections,,stat252
+265,,,course_num,,,,,,,statistical        inference        for        management        i,,,,,sections,,stat251
+266,,,course_num,,,,,,,statistics        251        statistical        inference        for        management        i,,,,,sections,,stat251
+267,,,course_type,,,,,,,lecture,,,,,sections,,lecture
+268,,,course_type,,,,,,,lec,,,,,sections,,lecture
+269,,,course_type,,,,,,,laboratory,,,,,sections,,laboratory
+270,,,course_type,,,,,,,lab,,,,,sections,,laboratory
+271,,,course_type,,,,,,,lecs,,,,,sections,,lecture
+272,,,course_type,,,,,,,lectures,,,,,sections,,lecture
+273,,,course_type,,,,,,,labs,,,,,sections,,laboratory
+274,,,course_type,,,,,,,independent        study,,,,,sections,,independent        study
+275,,,course_type,,,,,,,ind,,,,,sections,,independent        study
+276,,,course_type,,,,,,,activity,,,,,sections,,activity
+277,,,course_type,,,,,,,activities,,,,,sections,,activity
+278,,,course_type,,,,,,,independent    studies,,,,,sections,,intependent    study
+279,,,course_type,,,,,,,seminar,,,,,sections,,seminar
+280,,,course_type,,,,,,,seminars,,,,,sections,,seminar
+281,,,course_days,,,,,,,monday,,,,,sections,,monday
+282,,,course_days,,,,,,,m,,,,,sections,,monday
+283,,,course_days,,,,,,,mon,,,,,sections,,monday
+284,,,course_days,,,,,,,tuesday,,,,,sections,,tuesday
+285,,,course_days,,,,,,,t,,,,,sections,,tuesday
+286,,,course_days,,,,,,,tues,,,,,sections,,tuesday
+287,,,course_days,,,,,,,tu,,,,,sections,,tuesday
+288,,,course_days,,,,,,,wednesday,,,,,sections,,wednesday
+289,,,course_days,,,,,,,wed,,,,,sections,,wednesday
+290,,,course_days,,,,,,,w,,,,,sections,,wednesday
+291,,,course_days,,,,,,,thurs,,,,,sections,,thursday
+292,,,course_days,,,,,,,thursday,,,,,sections,,thursday
+293,,,course_days,,,,,,,th,,,,,sections,,thursday
+294,,,course_days,,,,,,,tr,,,,,sections,,thursday
+295,,,course_days,,,,,,,fri,,,,,sections,,friday
+296,,,course_days,,,,,,,friday,,,,,sections,,friday
+297,,,course_days,,,,,,,f,,,,,sections,,friday
+298,,,course_days,,,,,,,fr,,,,,sections,,friday
 0,,,course_num,,data301,datacourses,,,data301,,,,,,,,
 1,,,course_num,,data301,datacourses,,,data    introduction    to    data    science,,,,,,,,
 2,,,course_num,,data301,datacourses,,,301        introduction    to    data    science,,,,,,,,
