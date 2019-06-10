@@ -23,7 +23,7 @@ import re
 import irc.bot
 import irc.strings
 from irc.client import ip_numstr_to_quad, ip_quad_to_numstr
-from queryparser import question_categorizer, loader, config, relevance_detector
+from question_categorizer import *
 
 class TestBot(irc.bot.SingleServerIRCBot):
     def __init__(self, channel, nickname, server, port=6667):
@@ -93,7 +93,7 @@ class TestBot(irc.bot.SingleServerIRCBot):
             #Foaad: change this
             c.privmsg(self.channel, "") 
         else:
-            c.privmsg(self.channel, question_categorizer.respond(cmd))
+            c.privmsg(self.channel, respond(cmd))
             # c.notice(nick, "Not understood: " + cmd)
 
 def main():
