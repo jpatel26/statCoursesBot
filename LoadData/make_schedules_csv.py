@@ -96,7 +96,7 @@ for p in people:
               newstr = newstr.replace(",", '').lower()
               cn = re.search(r'[0-9][0-9][0-9]', newstr)
               if cn:
-                 Coursenums.append(cn.group(0).lower())
+                 Coursenums.append(str("stat" + cn.group(0).lower()).replace(" ", ''))
                  Courseprof.append(prof.lower())
               courses.append(newstr.lower())
               
@@ -132,7 +132,7 @@ df_courses = pd.DataFrame(Courses)
 df_courses.to_csv("sections.csv", index=False, header=False, escapechar=' ', quoting=csv.QUOTE_NONE)
 df_c = pd.read_csv("sections.csv")
 mystring =  re.search(r'[0-9][0-9][0-9]', str(df_c[df_c.columns[0]]))
-df_c["course_num"] = mystring.group(0)
+df_c["course_num"] = str("stat" + mystring.group(0)).replace(" ", '')
 df_c.to_csv("sections.csv", index=False)
 #print(df_courses)
 
@@ -237,7 +237,7 @@ for index, row in syn3.iterrows():
    cnlist = str(row[0]).split(' ')
    desc = ' '.join(cnlist[4:])
    can = str(cnlist[2])
-   if can == 'has':
+   if can == 'has' or can == 'statscience': #Some bad cases
       continue
    s = ' '
    make_entry_cn('course_num', can, desc)

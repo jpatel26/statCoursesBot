@@ -31,7 +31,9 @@ for c in courses:
    credits = title.find("span", {"class" : "courseblockhours"})
    course_units.append((str(credits.string.strip())[:-6]).lower())
    tmp_title = str(title)[12:16]
-   course_num.append(tmp_title.replace(",", '').lower())
+   number = "data" + tmp_title.replace(",", '').lower()
+   newstr = number[:4] + number[5:]
+   course_num.append(newstr)
    jank = str(title)[17:]
    text = jank.partition(".")[0]
    course_title.append(text.replace(",", '').replace('"', '').lower())
