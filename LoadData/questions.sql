@@ -3,7 +3,7 @@ use jpatel26466;
 drop table if exists questions;
 create table questions
 (
-    qid       int primary key not null auto_increment,
+    qid      int primary key not null auto_increment,
     theme    varchar(30),
     question varchar(300),
     answerId int
