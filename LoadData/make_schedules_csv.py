@@ -265,10 +265,10 @@ for index, row in syn3.iterrows():
       make_entry_cn('course_num', can, "masters level " + str(row[0]))
       make_entry_cn('course_num', can, str(row[0]) + " masters")
 
-   make_entry_cn('course_room', str(row[7]) ,str(row[6]))
-   make_entry_cn('course_room', str(row[7]) , ' '.join((row[6]).split(' ')[:-3]))
-   make_entry_cn('course_room', str(row[7]) , str(row[6]).split(' ')[0])
-   make_entry_cn('course_room', str(row[7]) ,''.join(str(row[6]).split(' ')[0:3]))
+   #make_entry_cn('course_room', str(row[7]) ,str(row[6]))
+   #make_entry_cn('course_room', str(row[7]) , ' '.join((row[6]).split(' ')[:-3]))
+   #make_entry_cn('course_room', str(row[7]) , str(row[6]).split(' ')[0])
+   #make_entry_cn('course_room', str(row[7]) ,''.join(str(row[6]).split(' ')[0:3]))
 
 make_entry_cn( "course_type", "lecture", "lecture")
 make_entry_cn( "course_type", "lecture", "lec")

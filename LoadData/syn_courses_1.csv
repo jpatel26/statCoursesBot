@@ -930,3 +930,22 @@ courses,course_area,cr/nc,credit
 courses,course_area,cr/nc,no  credit  or  credit
 courses,course_area,cr/nc,pass  or  fail
 courses,course_area,cr/nc,pass/fail
+unknown,course_level,first_year,first  year
+unknown,course_level,first_year,1st  year
+unknown,course_level,first_year,freshman
+unknown,course_level,second_year,second  year
+unknown,course_level,second_year,2nd  year
+unknown,course_level,second_year,sophomore
+unknown,course_level,third_year,third  year
+unknown,course_level,third_year,3rd  year
+unknown,course_level,third_year,junior
+unknown,course_level,fourth_year,fourth  year
+unknown,course_level,fourth_year,4th  year
+unknown,course_level,fourth_year,senior
+unknown,course_level,graduate,fifth  year
+unknown,course_level,graduate,graduate
+unknown,course_level,graduate,grad
+unknown,course_level,graduate,masters
+unknown,course_level,graduate,sixth  year
+unknown,course_level,graduate,5th  year
+unknown,course_level,graduate,6th  year
