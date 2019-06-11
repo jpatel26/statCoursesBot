@@ -90,7 +90,6 @@ class TfidfClassifier:
         self.fit_transform(X_train, Y_train, label_extractor=label_extractor)
         Y_pred = [self.predict(x)[0].canon for x in X_test]
         Y_test = [y.canon for y in Y_test]
-        # print(precision_recall_fscore_support(Y_test, Y_pred))
         print(accuracy_score(Y_test, Y_pred))
 
     def predict(self, Y):
@@ -135,7 +134,7 @@ def variable_scan(classifier, query, is_exclusive=True, is_relevant=(lambda x: T
         w = words[i]
         if w in non_starters: continue
         results = classifier.predict_take_all(w)
-        if len(results) == 0 or results[0].similarity < 0.5:
+        if len(results) == 0 or results[0].similarity < 0.3:
             if all([c.isdigit() for c in w]):
                 variables.append(
                     FoundVariable(i, i + 1, w,
@@ -202,12 +201,6 @@ def print_extracted(variables, title="Extracted Variables"):
         print("Top 3 Results:")
         for res, sim in fv.results[:3]:
             print(res.canon, " -> ", sim)
-
-
-def columns_in_use(question):
-    question_vars = get_query_vars(question)
-    print(question, question_vars)
-    return [variable_to_col[qvar] for qvar in question_vars]
 
 
 def question_vars(question):
@@ -293,7 +286,7 @@ def find_next(var_name, col_name, variables):
                     if var_name == "[TOPIC]":
                         found.append(syn.canon)
                     elif last_added is not None:
-                        if abs(last_added - sim) < 1e-4:
+                        if sim > 0.1 and abs(last_added - sim) < 1e-4:
                             found.append(syn.canon)
                     else:
                         found.append(syn.canon)
@@ -313,7 +306,6 @@ def match_to_variables(aid, variables):
             nxt = find_next(var_name, col, variables)
             while nxt is not None:
                 colvars.append(nxt)
-                print(nxt)
                 nxt = find_next(var_name, col, variables)
             if len(colvars) == 0:
                 return None
@@ -345,7 +337,7 @@ goodbye = ["Bye!", "Farewell", "Goodbye!", "Until we meet again.", "My people wi
            'до свидания товарищ']
 error_resp = ["I'm not feeling too well... You might have to ask me later.",
               "Something went wrong... Try again?"]
-user_goodbye = ["q", "quit", "bye", "goodbye", "thank you", "thanks"]
+user_goodbye = ["q", "quit", "bye", "goodbye", "thank you", "thanks", "yeet"]
 
 
 def ask(query):
@@ -365,8 +357,8 @@ def ask(query):
             return StaciaMsg("UNKNOWN", random.choice(not_enough_info))
         answer = ans(aid, matched)
         return StaciaMsg("NORMAL", answer)
-    except RuntimeError as err:
-        logging.error(err)
+    except Exception as e:
+        logging.error(e)
         return StaciaMsg("ERROR", random.choice(error_resp))
 
 

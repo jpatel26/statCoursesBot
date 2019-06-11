@@ -5,7 +5,7 @@ content	What can I learn about in [STAT-COURSE]	1	The following is the course de
 content	What is covered in [STAT-COURSE]?	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].		select course_description from courses where course_num = '[STAT-COURSE]';	1
 content	Which courses require use of statistical software?	2	The following courses require use of statistical software: [COURSE-LIST].		select course_num, course_title from courses where course_description like '%software%';	
 content	What coding classes does the stat department offer?	3	The following coding classes are offered by the stat department: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%computing%';	
-content	What stat courses are for engineers?	4	minor		select course_num, course_title from courses where course_title like '%computing%';	
+content	What stat courses are for engineers?	4	The following courses are for engineers: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%engineers%';	
 content	What stat courses are for business majors?	5	The following courses are for business majors: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%management%';	
 content	What certification classes does the department offer?	7	The following courses are certification courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%certification%';	
 content	What are the intro stat classes?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
@@ -94,7 +94,7 @@ prerequisites	After I take [STAT-COURSE] can I take [STAT-COURSE]?	73	Here are t
 prerequisites	Can I take [STAT-COURSE] at the same time as [STAT-COURSE]?	74	Here are the prerequisites for [STAT-COURSE].		select course_pre from courses where course_num = [STAT-COURSE];	
 prerequisites	Can I take [STAT-COURSE] before [STAT-COURSE]?	74	Here are the prerequisites for [STAT-COURSE].		select course_pre from courses where course_num = [STAT-COURSE];	
 prerequisites	How may DATA classes require a prerequisite?	76	[NUM-OF-CLASSES] of stat classes require a prerequisite. They are [COURSE-LIST].		select course_num from data_courses where len(course_pre) > 0;	
-prerequisites	Are there any alternatives to taking [STAT-COURSE]?	77	No, [STAT-COURSE] is a unique class. 		c	
+prerequisites	Are there any alternatives to taking [STAT-COURSE]?	77	No, [STAT-COURSE] is a unique class. 		d	
 prerequisites	Does [STAT-COURSE] count towards a minor in STAT?	79	These courses count for a minor in Statistics. [LIST-OF-COURSES]		select couse_num from course_req where minor_req = 'y';	
 prerequisites	Which courses require graduate standing?	80	The following courses require graduate standing as a prerequisite: [COURSE-LIST]		select course_num from courses where course_pre like '%graduate standing'%;	
 prerequisites	Can I take [STAT-COURSE] as an undergraduate?	81	[STAT-COURSE] is a [COURSE-LEVEL] class.		c	
@@ -121,7 +121,7 @@ scheduling	How many sections of [STAT-COURSE] are offered this quarter?	99	Ther 
 scheduling	How many sections of [STAT-COURSE] does [STAT-FACULTY] teach?	100	[STAT-FACULTY] teaches [NUM-OF-SECTIONS] sections.		select count(*) as count from sections where faculty_last_name = '[STAT-FACULTY]' group by course_num;	
 scheduling	Who teaches the most sections of [STAT-COURSE]?	101	[STAT-FACULTY] teaches the most sections of [STAT-COURSE].		select count(*) as count from sections where faculty_last_name = '[STAT-FACULTY]' group by course_num order by count desc limit 1;	
 scheduling	How many DATA courses are offered [TERM]?	102	The following courses are taught [TERM] quarter: [COURSE-LIST].		select course_num from data_courses where course_term like '%[TERM]%';	
-scheduling	Which DATA courses are offered in [TERM]?	103	The following courses are taught [TERM] quarter: [COURSE-LIST].		select course_num from data_courses where course_term like '%[TERM]%';	
+scheduling	Which DATA courses are offered in [TERM]?	103	The following courses are taught [TERM] quarter: [COURSE-LIST].		select course_num from data_courses where course_term like '%[TERM]%';	/distinct
 scheduling	Which quarter is [STAT-COURSE] typically offered?	104	[STAT-COURSE] is typically offered [TERM] quarter.		select course_term from courses where course_num = '[STAT-COURSE]';	
 scheduling	When is [STAT-COURSE] available next?	104	[STAT-COURSE] is typically offered [TERM] quarter.		select course_term from courses where course_num = '[STAT-COURSE]';	
 scheduling	What terms is [STAT-COURSE] normally offered?	104	[STAT-COURSE] is typically offered [TERM] quarter.		select course_term from courses where course_num = '[STAT-COURSE]';	
