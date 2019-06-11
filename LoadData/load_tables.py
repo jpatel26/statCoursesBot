@@ -38,6 +38,7 @@ cur.execute("LOAD DATA LOCAL INFILE 'poly_ratings.csv' INTO TABLE polyratings FI
 # Load schedules table
 os.system('python3 make_schedules_csv.py')
 os.system('python3 make_data_courses.py')
+os.system('python3 make_coursereq_csv.py')
 cur.execute("LOAD DATA LOCAL INFILE 'schedules.csv' INTO TABLE faculty FIELDS TERMINATED BY ','")
 cur.execute("LOAD DATA LOCAL INFILE 'sections.csv' INTO TABLE sections FIELDS TERMINATED BY ','")
 cur.execute("LOAD DATA LOCAL INFILE 'courseprof.csv' INTO TABLE faculty_courses FIELDS TERMINATED BY ','")
