@@ -19,11 +19,11 @@ df = load_questions()
 def answer(qid, var):
    #print(qid, var)
    if qid == 16:
-       clas = var['[TOPIC]'][0]
-        for cl in clas:
-            if cl in var['[STAT-COURSE]'][0]:
-                return 'Yes, you will learn that and much more.'
-        return 'Unfortunately not. Check out catalog.calpoly.edu to see what class will teach you that!'
+      clas = var['[TOPIC]'][0]
+      for cl in clas:
+         if cl in var['[STAT-COURSE]'][0]:
+            return 'Yes, you will learn that and much more.'
+         return 'Unfortunately not. Check out catalog.calpoly.edu to see what class will teach you that!'
 
    q = df.loc[df.answerId == qid, 'query']
    q = q.iloc[0]
@@ -74,6 +74,14 @@ def answer(qid, var):
       for l in c:
          profs = profs + l['faculty_last_name'] + ", "
       ans = "The following teachers teach that course: " + profs.title()
+      return ans
+
+   if qid == 126:
+      courses = ''
+      for l in c:
+         courses = courses + l['course_term'] 
+      ans = "That class is offered during the following terms: " + courses
+      return ans
       
       
    return ans 
