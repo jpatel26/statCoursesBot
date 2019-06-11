@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 #
 # Example program using irc.bot.
 #
@@ -19,16 +19,18 @@ The known commands are:
     die -- Let the bot cease to exist.
     dcc -- Let the bot invite you to a DCC CHAT connection.
 """
-import re
 import irc.bot
 import irc.strings
 from irc.client import ip_numstr_to_quad, ip_quad_to_numstr
 from question_categorizer import *
 
-class TestBot(irc.bot.SingleServerIRCBot):
-    def __init__(self, channel, nickname, server, port=6667):
+
+class IrcStacia(irc.bot.SingleServerIRCBot):
+    def __init__(self, channel, nickname, server, port=6667, response_fn=lambda s: s, greeting_fn=lambda s: s):
         irc.bot.SingleServerIRCBot.__init__(self, [(server, port)], nickname, nickname)
         self.channel = channel
+        self.response_fn = response_fn
+        self.greeting_fn = greeting_fn
 
     def on_nicknameinuse(self, c, e):
         c.nick(c.get_nickname() + "_")
@@ -85,21 +87,23 @@ class TestBot(irc.bot.SingleServerIRCBot):
             c.ctcp("DCC", nick, "CHAT chat %s %d" % (
                 ip_quad_to_numstr(dcc.localaddress),
                 dcc.localport))
-        elif cmd == "hello": #Foaad: change this
-            c.privmsg(self.channel, "Hello! I'm Stacia Stat Bot.")
-        elif cmd == "about": #Foaad: add your name
-            c.privmsg(self.channel, "")
+        elif cmd == "hello":
+            c.privmsg(self.channel, self.greeting_fn)
+        elif cmd == "about":
+            c.privmsg(self.channel,
+                      "I'm StaCIA. I specialize in Statistics courses. "
+                      "I was created by Ashley Jacobson, Evan Zhang, Jasmine Patel,"
+                      "and Spencer Gilson.")
         elif cmd == "usage":
-            #Foaad: change this
-            c.privmsg(self.channel, "") 
+            c.privmsg(self.channel, "Ask me a question about Statistics courses at CalPoly.")
         else:
-            c.privmsg(self.channel, respond(cmd))
-            # c.notice(nick, "Not understood: " + cmd)
+            c.privmsg(self.channel, self.response_fn(cmd).content)
 
-def main():
+
+def bot_init(response_fn=lambda s: s, greeting_fn=lambda s: s):
     import sys
     if len(sys.argv) != 4:
-        print("Usage: testbot <server[:port]> <channel> <nickname>")
+        print("Usage: stacia_alt <server[:port]> <channel> <nickname>")
         sys.exit(1)
 
     s = sys.argv[1].split(":", 1)
@@ -115,9 +119,6 @@ def main():
     channel = sys.argv[2]
     nickname = sys.argv[3]
     print("getting ready")
-    bot = TestBot(channel, nickname, server, port)
+    bot = IrcStacia(channel, nickname, server, port, response_fn=response_fn, greeting_fn=greeting_fn)
     bot.start()
     print("started..")
-
-if __name__ == "__main__":
-    main()

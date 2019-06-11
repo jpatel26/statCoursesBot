@@ -17,8 +17,6 @@ def resolve(l):
 
 
 def answer(qid, var):
-
-
    q = df.loc[df.answerId == qid, 'query']
    if (len(q)) > 1:
       q = q.loc[0]
