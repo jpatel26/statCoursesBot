@@ -54,6 +54,3 @@ def answer(qid, var):
       ans = ans.replace(key, value)
    
    return ans
-
-
-# answer(1, {"[STAT-COURSE]": [["stat324"]]})
