@@ -87,7 +87,14 @@ def answer(qid, var):
       profs = ""
       for l in c:
          profs = profs + l['faculty_last_name'] + ", "
-      ans = "The following teachers teach that course: " + profs
+      ans = "The following teachers teach that course: " + profs.title()
+
+   if qid == 126:
+      courses = ''
+      for l in c:
+         courses = courses + l['course_term'] 
+         ans = "That class is offered during the following terms: " + courses
+      return ans
       
       
    return ans 
