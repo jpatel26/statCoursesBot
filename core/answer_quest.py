@@ -73,7 +73,7 @@ def answer(qid, var):
       profs = ""
       for l in c:
          profs = profs + l['faculty_last_name'] + ", "
-      ans = "The following teachers teach that course: " + profs
+      ans = "The following teachers teach that course: " + profs.title()
       
       
    return ans 
