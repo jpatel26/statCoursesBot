@@ -22,7 +22,6 @@ The known commands are:
 import irc.bot
 import irc.strings
 from irc.client import ip_numstr_to_quad, ip_quad_to_numstr
-from question_categorizer import *
 
 
 class IrcStacia(irc.bot.SingleServerIRCBot):
