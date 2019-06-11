@@ -7,5 +7,5 @@
 
 2. Run Bot
 ```
-python3 queryparser/irc_stat_bot.py irc.freenode.net "#CSC466" statBot
+python3 stacia_alt.py irc.freenode.net "#CalpolyStats" statBot
 ```
