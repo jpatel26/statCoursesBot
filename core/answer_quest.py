@@ -17,9 +17,13 @@ df = load_questions()
 
 
 def answer(qid, var):
+   #print(qid, var)
+
    q = df.loc[df.answerId == qid, 'query']
    q = q.iloc[0]
    q = str(q)
+   #print("qis", q)
+
    
    if q == 'p' and str(qid) == '12':
       courses = var['[TOPIC]']
@@ -33,19 +37,21 @@ def answer(qid, var):
       else:
          q = q.replace(key, value[0][0]) 
   
-   
+
+   #print(q)
    cursor.execute(q) #Executes Query
    c = cursor.fetchall() #Executes Query
 
 
+
    ans = df.loc[df.answerId == qid, 'a_primary']
+   
    if (len(ans)) > 1:
-      ans = ans.loc[0]
-      #print(ans)
+      ans = ans.iloc[0]
    
    for key, value in var.items():
       if len(value) > 1:
-         for value in value:
+         for v in value:
             ans = ans.replace(key, value[0], 1)
       else:
          ans = ans.replace(key, value[0][0])
@@ -56,6 +62,12 @@ def answer(qid, var):
       key = key.replace("_", "-")
       key = "[" + key + "]"
       ans = ans.replace(key, value)
+
+   if qid == 24:
+      profs = ""
+      for l in c:
+         profs = profs + l['faculty_last_name'] + ", "
+      ans = "The following teachers teach that course: " + profs
       
-   
-   return ans
+      
+   return ans 
