@@ -41,7 +41,7 @@ def answer(qid, var):
       courses = var['[TOPIC]']
       return "Here are some classes: " + ', '.join([x for x in courses[0]])
    
-   if str(qid) = '77':
+   if str(qid) == '77':
       return "Sorry, there are no alternatives to that class."
 
 
