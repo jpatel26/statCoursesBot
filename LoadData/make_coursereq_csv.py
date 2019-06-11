@@ -80,7 +80,7 @@ stat_df = pd.DataFrame.from_records(vals)
 
 #keys = [i.split()[1] for i in list(classes.keys())]
 #keys = list(classes.keys())
-keys = ["data" + i.split()[1] for i in list(classes.keys())]
+keys = ["stat" + i.split()[1] for i in list(classes.keys())]
 keys = [i.lower().replace(' ','') for i in keys]
 stat_df["course_num"] = pd.Series(keys)
 stat_df.columns = ['major_req', 'major_elect', 'minor', 'course_num']

@@ -1,19 +1,19 @@
+#!/usr/bin/env python3
 import re
-import pandas as pd
+import random
+import string
+import warnings
+
+import numpy as np
+
+from .loader import load_synonym_table, load_questions
 import pymysql
 
 con = pymysql.connect(host = 'localhost', user = 'jpatel26466', passwd = 'jpatel26db466', db = 'jpatel26466')
 cursor = con.cursor(pymysql.cursors.DictCursor)
 
-#cursor.execute("select * from centroids;")
-#c = cursor.fetchall()
 
-df = pd.read_csv('bot_questions.csv')
-
-def resolve(l):
-   li = [int(i[-3:]) for i in l]
-   li.sort()
-   return "stat" + str(li[0])
+df = load_questions()
 
 
 def answer(qid, var):
@@ -27,16 +27,17 @@ def answer(qid, var):
          for value in value:
             q = q.replace(key, value[0], 1)
       else:
-         q = q.replace(key, value[0][0])
-      
-   q = q + ";"
+         q = q.replace(key, value[0][0]) 
+  
    
-   cursor.execute(q)
-   c = cursor.fetchall()
+   cursor.execute(q) #Executes Query
+   c = cursor.fetchall() #Executes Query
 
-   ans = df.loc[df.answerId == qid, 'primary']
+
+   ans = df.loc[df.answerId == qid, 'a_primary']
    if (len(ans)) > 1:
       ans = ans.loc[0]
+      #print(ans)
    
    for key, value in var.items():
       if len(value) > 1:
@@ -53,5 +54,6 @@ def answer(qid, var):
       ans = ans.replace(key, value)
    
    print(ans)
+
 
 answer(1, {"[STAT-COURSE]": [["stat324"]]})

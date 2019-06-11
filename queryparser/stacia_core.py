@@ -4,6 +4,7 @@ import re
 import string
 import warnings
 from collections import namedtuple
+from .answer_quest import answer
 
 import nltk
 import numpy as np
