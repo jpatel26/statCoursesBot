@@ -18,6 +18,12 @@ df = load_questions()
 
 def answer(qid, var):
    #print(qid, var)
+   if qid == 16:
+       clas = var['[TOPIC]'][0]
+        for cl in clas:
+            if cl in var['[STAT-COURSE]'][0]:
+                return 'Yes, you will learn that and much more.'
+        return 'Unfortunately not. Check out catalog.calpoly.edu to see what class will teach you that!'
 
    q = df.loc[df.answerId == qid, 'query']
    q = q.iloc[0]
