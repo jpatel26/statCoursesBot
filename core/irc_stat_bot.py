@@ -96,7 +96,7 @@ class IrcStacia(irc.bot.SingleServerIRCBot):
         elif cmd == "usage":
             c.privmsg(self.channel, "Ask me a question about Statistics courses at CalPoly.")
         else:
-            c.privmsg(self.channel, self.response_fn(cmd).content)
+            c.privmsg(self.channel, self.response_fn(cmd).content[:512])
 
 
 def bot_init(response_fn=lambda s: s, greeting_fn=lambda s: s):
