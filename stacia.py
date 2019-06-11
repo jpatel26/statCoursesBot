@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import queryparser.stacia_core as sc
+import core.stacia_core as sc
 
 if __name__ == '__main__':
     print(sc.greet())

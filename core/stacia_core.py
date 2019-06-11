@@ -3,8 +3,8 @@ import random
 import re
 import string
 import warnings
+import logging
 from collections import namedtuple
-from .answer_quest import answer
 
 import nltk
 import numpy as np
@@ -12,6 +12,7 @@ import pandas as pd
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 
 from .loader import load_synonym_table, load_questions
+from .answer_quest import answer as ans
 
 warnings.filterwarnings("ignore")
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -23,6 +24,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics.classification import accuracy_score
 from nltk.corpus import stopwords as _sw
 
+logging.basicConfig(level=logging.INFO)
 lemmatizer = nltk.stem.WordNetLemmatizer
 stopwords = _sw.words('english')
 ps = PorterStemmer()
@@ -229,7 +231,7 @@ tfSynClassifier = TfidfClassifier(stop_words='english', analyzer='char_wb', ngra
 tfSynClassifier.fit_transform(syn_entries, syn_labels)
 
 X, y = question_entries, answer_id_labels
-tfQuestionClassifier = TfidfClassifier(tokenizer=question_stem_normalize, analyzer='char_wb', ngram_range=(4, 5))
+tfQuestionClassifier = TfidfClassifier(tokenizer=question_stem_normalize, analyzer='char', ngram_range=(4, 5))
 tfQuestionClassifier.fit_transform(X, y)
 
 clf = GaussianNB()
@@ -279,14 +281,23 @@ def classify(query):
     return mlp.classes_[best], mlp_prediction[best], variables
 
 
-def find_next(col_name, variables):
+def find_next(var_name, col_name, variables):
     found = []
     for i in range(len(variables)):
         _, _, _, results = variables[i]
         if results[0].label.column == col_name:
+            last_added = None
             for syn, sim in results:
-                if syn.column == col_name and syn.canon not in found:
-                    found.append(syn.canon)
+                if syn.column == col_name \
+                        and syn.canon not in found:
+                    if var_name == "[TOPIC]":
+                        found.append(syn.canon)
+                    elif last_added is not None:
+                        if abs(last_added - sim) < 1e-4:
+                            found.append(syn.canon)
+                    else:
+                        found.append(syn.canon)
+                    last_added = sim
             variables.pop(i)
             return found
     return None
@@ -299,17 +310,17 @@ def match_to_variables(aid, variables):
     for var_name, col in zip(qvars, columns):
         if var_name == '[COURSE-LIST]':
             colvars = []
-            nxt = find_next(col, variables)
+            nxt = find_next(var_name, col, variables)
             while nxt is not None:
                 colvars.append(nxt)
                 print(nxt)
-                nxt = find_next(col, variables)
+                nxt = find_next(var_name, col, variables)
             if len(colvars) == 0:
                 return None
             avars[var_name] = colvars
             continue
 
-        nxt = find_next(col, variables)
+        nxt = find_next(var_name, col, variables)
         if nxt is None:
             return None
         avars[var_name].append(nxt)
@@ -342,15 +353,20 @@ def ask(query):
         return StaciaMsg("END", random.choice(goodbye))
     try:
         aid, conf, variables = classify(query)
-        if conf < 0.2:
-            return StaciaMsg("UNKNOWN", random.choice(outside_domain))
+        logging.info(variables)
+        logging.info(f"{answers[aid]} -> {conf}")
+        if conf < 0.05:
+            return StaciaMsg("UNKNOWN", random.choice(no_answer))
         matched = match_to_variables(aid, variables)
+        logging.info(matched)
         if matched is None:
             if len(variables) == 0:
                 return StaciaMsg("UNKNOWN", random.choice(outside_domain))
             return StaciaMsg("UNKNOWN", random.choice(not_enough_info))
-        return StaciaMsg("NORMAL", answers[aid])
-    except:
+        answer = ans(aid, matched)
+        return StaciaMsg("NORMAL", answer)
+    except RuntimeError as err:
+        logging.error(err)
         return StaciaMsg("ERROR", random.choice(error_resp))
 
 

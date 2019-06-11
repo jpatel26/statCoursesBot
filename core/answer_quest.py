@@ -53,7 +53,7 @@ def answer(qid, var):
       key = "[" + key + "]"
       ans = ans.replace(key, value)
    
-   print(ans)
+   return ans
 
 
-answer(1, {"[STAT-COURSE]": [["stat324"]]})
+# answer(1, {"[STAT-COURSE]": [["stat324"]]})
