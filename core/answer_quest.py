@@ -44,10 +44,6 @@ def answer(qid, var):
    if str(qid) == '77':
       return "Sorry, there are no alternatives to that class."
 
-   if 'COURSE-LIST' in ans:
-      yee = " ".join(c[0].values())
-      ans = ans.replace('[COURSE-LIST]', yee)
-      return ans
 
    for key, value in var.items():
       if len(value) > 1:
@@ -68,6 +64,11 @@ def answer(qid, var):
    if (len(ans)) > 1:
       ans = ans.iloc[0]
    
+   if 'COURSE-LIST' in ans:
+      yee = " ".join(c[0].values())
+      ans = ans.replace('[COURSE-LIST]', yee)
+      return ans
+
    for key, value in var.items():
       if len(value) > 1:
          for v in value:
