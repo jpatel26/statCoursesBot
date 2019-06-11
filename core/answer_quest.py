@@ -18,9 +18,13 @@ df = load_questions()
 
 def answer(qid, var):
    q = df.loc[df.answerId == qid, 'query']
-   if (len(q)) > 1:
-      q = q.loc[0]
+   q = q.iloc[0]
    q = str(q)
+   
+   if q == 'p' and str(qid) == '12':
+      courses = var['[TOPIC]']
+      return "Here are some classes: " + ', '.join([x for x in courses[0]])
+   
 
    for key, value in var.items():
       if len(value) > 1:
@@ -52,5 +56,6 @@ def answer(qid, var):
       key = key.replace("_", "-")
       key = "[" + key + "]"
       ans = ans.replace(key, value)
+      
    
    return ans
