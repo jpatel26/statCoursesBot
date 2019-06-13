@@ -7,8 +7,6 @@ content	Which classes use statisital software?	2	The following courses require u
 content	Which courses require use of statistical software?	2	The following courses require use of statistical software: [COURSE-LIST].		select course_num, course_title from courses where course_description like '%software%';	
 content	What coding classes does the stat department offer?	3	The following coding classes are offered by the stat department: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%computing%';	
 content	What coding classes are offered?	3	The following coding classes are offered by the stat department: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%computing%';	
-content	What stat courses are for engineers?	4	The following courses are for engineers: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%engineers%';	
-content	What stat courses are for business majors?	5	The following courses are for business majors: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%management%';	
 content	What certification classes does the department offer?	7	The following courses are certification courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%certification%';	
 content	What are the intro stat classes?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
 content	What are some introductory statistics classes?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
@@ -144,7 +142,7 @@ scheduling	Does [STAT-COURSE] conflict with [STAT-COURSE] in [TERM]?	112	Here ar
 scheduling	Which courses are offered this quarter but not next quarter?	113	[COURSE-LIST] is offered this quarter but not next quarter.		select course_num from courses where course_term like '%SP%' and course_term not like '%F%';	
 scheduling	Which courses should I take as a [YEAR-NUM] year?	116	For course level [COURSE-LEVEL], there are [NUM-OF-CLASSES] stat courses.		select count(*) from courses where course_num >= [COURSE-LEVEL];	
 scheduling	Is [STAT-COURSE] available during [TERM]?	126	[STAT-COURSE] is available during [TERM].		select course_term from courses where course_num = '[STAT-COURSE]';	1
-scheduling	Is [STAT-COURSE] offered during [TERM]?	126	[STAT-COURSE] is available during [TERM].		select course_term from courses where course_num = '[STAT-COURSE]';	1
+scheduling	Is [STAT-COURSE] offered [TERM]?	126	[STAT-COURSE] is available during [TERM].		select course_term from courses where course_num = '[STAT-COURSE]';	1
 scheduling	What courses end before [TIME]?	127	[COURSE-LIST]		c	
 scheduling	What courses don't have a [DAY] class?	128	[COURSE-LIST]		select course_num from sections where course_days not like '%[DAY]%';	
 scheduling	What classes can I take as a graduate student?	129	[COURSE-LIST]		select course_num from courses where course_num like '5%';	
