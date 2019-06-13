@@ -18,6 +18,25 @@ df = load_questions()
 
 def answer(qid, var):
    #print(qid, var)
+   if qid == 84:
+      course_nums = []
+      print(var)
+      v = str(var)
+      x = re.findall(r'stat(\d+)', v)
+      if x:
+         for xx in x:
+            course_nums.append(int(xx))
+
+      y = re.findall(r'data(\d+)', v)
+      if y:
+         for yy in y:
+            course_nums.append(int(yy))
+
+      ans = "You should take them in this order: " 
+      for c in course_nums:
+         ans = ans + str(c) + ", "
+      return(ans)
+
    if qid == 16:
       clas = var['[TOPIC]'][0]
       for cl in clas:
@@ -84,6 +103,7 @@ def answer(qid, var):
       ans = ans.replace(key, value)
 
    if qid == 24:
+      print(c)
       profs = ""
       for l in c:
          profs = profs + l['faculty_last_name'] + ", "
@@ -95,6 +115,7 @@ def answer(qid, var):
          courses = courses + l['course_term'] 
          ans = "That class is offered during the following terms: " + courses
       return ans
+
       
       
    return ans 
