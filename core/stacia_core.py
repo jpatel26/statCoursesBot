@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
+import logging
 import random
 import re
 import string
 import warnings
-import logging
 from collections import namedtuple
 
 import nltk
@@ -11,13 +11,11 @@ import numpy as np
 import pandas as pd
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 
-from .loader import load_synonym_table, load_questions
 from .answer_quest import answer as ans
+from .loader import load_synonym_table, load_questions
 
 warnings.filterwarnings("ignore")
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import GaussianNB
-from sklearn.cluster import KMeans
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split
@@ -227,9 +225,7 @@ X, y = question_entries, answer_id_labels
 tfQuestionClassifier = TfidfClassifier(tokenizer=question_stem_normalize, analyzer='char', ngram_range=(4, 5))
 tfQuestionClassifier.fit_transform(X, y)
 
-clf = GaussianNB()
-km = KMeans(n_clusters=len(answer_variables), n_jobs=4)
-mlp = MLPClassifier()
+mlp = MLPClassifier(max_iter=400)
 tfidf_matrix = tfQuestionClassifier.model.transform(X)
 df = pd.DataFrame(tfidf_matrix.toarray(), columns=tfQuestionClassifier.model.get_feature_names(), index=y)
 new_features = []
@@ -245,8 +241,6 @@ for x in X:
 df2 = pd.DataFrame(new_features, index=y)
 df = pd.concat([df, df2], axis=1)
 
-# clf.fit(df.values, Y)
-# km.fit(df.values)
 mlp.fit(df.values, y)
 
 
@@ -270,7 +264,7 @@ def classify(query):
     full_features = np.append(matrix, [__courses, __terms, __faculty, __days, __numbers])
 
     mlp_prediction = mlp.predict_proba([full_features])[0]
-    best = mlp_prediction.argmax() # Choose the one with highest confidence
+    best = mlp_prediction.argmax()  # Choose the one with highest confidence
     return mlp.classes_[best], mlp_prediction[best], variables
 
 
