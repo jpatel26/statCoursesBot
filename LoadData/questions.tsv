@@ -3,13 +3,17 @@ content	What is the course description for [STAT-COURSE]?	1	The following is the
 content	What is the description for [STAT-COURSE]?	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].		select course_description from courses where course_num = '[STAT-COURSE]';	1
 content	What can I learn about in [STAT-COURSE]	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].		select course_description from courses where course_num = '[STAT-COURSE]';	1
 content	What is covered in [STAT-COURSE]?	1	The following is the course description for [STAT-COURSE]: [COURSE-DESCRIPTION].		select course_description from courses where course_num = '[STAT-COURSE]';	1
+content	Which classes use statisital software?	2	The following courses require use of statistical software: [COURSE-LIST].		select course_num, course_title from courses where course_description like '%software%';	
 content	Which courses require use of statistical software?	2	The following courses require use of statistical software: [COURSE-LIST].		select course_num, course_title from courses where course_description like '%software%';	
 content	What coding classes does the stat department offer?	3	The following coding classes are offered by the stat department: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%computing%';	
+content	What coding classes are offered?	3	The following coding classes are offered by the stat department: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%computing%';	
 content	What stat courses are for engineers?	4	The following courses are for engineers: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%engineers%';	
 content	What stat courses are for business majors?	5	The following courses are for business majors: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%management%';	
 content	What certification classes does the department offer?	7	The following courses are certification courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%certification%';	
 content	What are the intro stat classes?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
+content	What are some introductory statistics classes?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
 content	What are the introductory stat courses?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
+content	What is a course for beginners?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
 content	Which stat classes use R?	9	The following courses use R: [COURSE-LIST].		select course_num, course_title from courses where course_title like '% r.%';	
 content	Which stat classes use SAS?	10	The following courses use SAS: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%sas%';	
 content	What [TOPIC] classes does the department offer?	12	Here are the classes about [TOPIC] : [COURSE-LIST]		p	
@@ -19,13 +23,16 @@ content	Which courses will teach me about [TOPIC]?	12	Here are the classes about
 content	Which classes will teach me about [TOPIC]?	12	Here are the classes about [TOPIC] : [COURSE-LIST]		p	
 content	Which courses cover [TOPIC]?	12	Here are the classes about [TOPIC] : [COURSE-LIST]		p	
 content	What courses should I take if I'm interested in [TOPIC]?	12	Here are the classes about [TOPIC] : [COURSE-LIST]		p	
-content	Which faculty members teach courses on [TOPIC]?	14	There are a couple faculty memebers can teach you about [TOPIC]. They are [STAT-FACULTY-LIST]		select distinct(faculty_last_name) from faculty_courses where course_description like '%[TOPIC]%';	1
+content	Which faculty members teach courses on [TOPIC]?	14	There are a couple faculty members can teach you about [TOPIC]. They are [STAT-FACULTY-LIST]		select distinct(faculty_last_name) from faculty_courses where course_description like '%[TOPIC]%';	1
+content	Which teachers cover [TOPIC] in their classes?	14	There are a couple faculty members can teach you about [TOPIC]. They are [STAT-FACULTY-LIST]		select distinct(faculty_last_name) from faculty_courses where course_description like '%[TOPIC]%';	
 content	Will I learn about [TOPIC] in [STAT-COURSE]?	16	In [STAT-COURSE] you will learn about the following topics. [COURSE-DESCRIPTION]		c	
+content	Does [STAT-COURSE] cover [TOPIC]?	16	In [STAT-COURSE] you will learn about the following topics. [COURSE-DESCRIPTION]		c	
 content	Which courses do not have labs?	17	There are quite a few. I'll list them for you: [COURSE-LIST].		select course_num, course_title from courses where couse_description not like '% lab%' 	
 content	Does [STAT-COURSE] have any labs?	18	The number of labs in [STAT-COURSE] can be found in the course description: [COURSE-DESCRIPTION]		select course_description from courses where course_num = '[STAT-COURSE]';	1
 content	How many lectures does [STAT-COURSE] have?	19	The number of lectures in [STAT-COURSE] can be found in the course description: [COURSE-DESCRIPTION]		select course_description from courses where course_num = '[STAT-COURSE]';	1
 content	How many labs does [STAT-COURSE] have?	20	The number of labs in [STAT-COURSE] can be found in the course description: [COURSE-DESCRIPTION]		select course_description from courses where course_num = '[STAT-COURSE]';	1
 content	What are some approved support electives in the area of [TOPIC]?	21	Some support classes on [TOPIC] are: [COURSE-LIST]. Make sure both of the support electives you take are from the same area!		select course_num, course_title from courses where course_description like '%[TOPIC]%';	1
+content	What are some support electives that cover [TOPIC]?	21	Some support classes on [TOPIC] are: [COURSE-LIST]. Make sure both of the support electives you take are from the same area!		select course_num, course_title from courses where course_description like '%[TOPIC]%';	
 content	How many units is [STAT-COURSE]?	23	[STAT-COURSE] is [NUM-CREDITS] units		select course_units from courses where course_num = '[STAT-COURSES]';	1
 faculty	Which professors teach [STAT-COURSE]?	24	[STAT-COURSE] is taught by [FACULTY-LIST].		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]';	1
 faculty	Which faculty teach [STAT-COURSE]?	24	[STAT-COURSE] is taught by [FACULTY-LIST].		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]';	1
@@ -34,26 +41,28 @@ faculty	Who teaches [STAT-COURSE]?	24	[STAT-COURSE] is taught by [FACULTY-LIST].
 faculty	Who is teaching [STAT-COURSE]?	24	[STAT-COURSE] is taught by [FACULTY-LIST].		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]';	1
 faculty	Which professor is teaching the most courses?	26	[STAT-FACULTY] is teaching the most courses. They are [COURSE-LIST]		select faculty_last_name, count(*) as count from faculty_courses group by faculty_last_name order by count desc limit 1;	
 faculty	Which faculty is teaching the most courses?	26	[STAT-FACULTY] is teaching the most courses. They are [COURSE-LIST]		select faculty_last_name, count(*) as count from faculty_courses group by faculty_last_name order by count desc limit 1;	
-faculty	How many STAT professors teach [STAT-COURSE]?	27	[STAT-COURSE] is taught by [STAT-FACULTY-LIST].		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]'	1
+faculty	Which professor is instructing the most classes?	26	[STAT-FACULTY] is teaching the most courses. They are [COURSE-LIST]		select faculty_last_name, count(*) as count from faculty_courses group by faculty_last_name order by count desc limit 1;	
+faculty	How many professors teach [STAT-COURSE]?	27	[STAT-COURSE] is taught by [STAT-FACULTY-LIST].		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]'	1
+faculty	How many teachers teach [STAT-COURSE]?	27	[STAT-COURSE] is taught by [STAT-FACULTY-LIST].		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]'	
 faculty	How many courses does [STAT-FACULTY] teach?	29	[STAT-FACULTY] teaches several classes. They are: [COURSE-LIST].		select course_num from faculty_courses where faculty_last_name = '[STAT-FACULTY]'	1
 faculty	What does [STAT-FACULTY] teach?	29	[STAT-FACULTY] teaches several classes. They are: [COURSE-LIST].		select course_num from faculty_courses where faculty_last_name = '[STAT-FACULTY]'	1
 faculty	What topics does [STAT-FACULTY] teach in their classes?	29	[STAT-FACULTY] teaches several classes. They are: [COURSE-LIST].		select course_num from faculty_courses where faculty_last_name = '[STAT-FACULTY]'	1
-faculty	What is the polyrating for the professor(s) teaching [STAT-COURSE]?	31	The following professors teach [STAT-COURSE]: [STAT-FACULTY-LIST].		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t where c.course_num = '[STAT-COURSE]';	1
+faculty	Which classes does [STAT-FACULTY] teach?	29	[STAT-FACULTY] teaches several classes. They are: [COURSE-LIST].		select course_num from faculty_courses where faculty_last_name = '[STAT-FACULTY]'	
+faculty	What is the polyrating for the professors teaching [STAT-COURSE]?	31	The following professors teach [STAT-COURSE]: [STAT-FACULTY-LIST].		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t where c.course_num = '[STAT-COURSE]';	1
 faculty	Who can teach me about [TOPIC]?	31	The following professors teach [STAT-COURSE]: [STAT-FACULTY-LIST].		select faculty_last_name, course_num from faculty_courses where course_num = "[STAT-COURSE]";	1
 faculty	Can [STAT-FACULTY] teach me about [TOPIC]?	32	These are the faculty who teach  [TOPIC]: [STAT-FACULTY-LIST]		select faculty_last_name, course_num from faculty_courses where course_num = "[STAT-COURSE]";	
 faculty	What professor teaching [STAT-COURSE] has the highest polyrating?	33	The professor teaching [STAT-COURSE] with the highest polyrating is [STAT-FACULTY].		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t where c.course_num = '[STAT-COURSE]' order by t.faculty_rating desc limit 1;	1
 faculty	Which stat professor has the highest polyrating?	33	[STAT-FACULTY] has the highest polyrating		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t order by t.faculty_rating desc limit 1;	
 faculty	Which teacher has the highest polyrating?	33	[STAT-FACULTY] has the highest polyrating		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t order by t.faculty_rating desc limit 1;	
 faculty	Can I take [STAT-COURSE] with a professor whose Polyrating is over [NUM-RATING]?	34	The highest polyrating for a teacher who teaches [STAT-COURS] is [STAT-FACULTY] with a polyrating of [NUM-RATING].		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t where c.course_num = '[STAT-COURSE]' having t.faculty_rating > [number];	
-faculty	Can I take [STAT-COURSE] with a teacher who has a Polyrating over [NUM-RATING]?	34	The highest polyrating for a teacher who teaches [STAT-COURS] is [STAT-FACULTY] with a polyrating of [NUM-RATING].		select distinct(t.faculty_last_name), t.faculty_rating from faculty_courses c natural join faculty_total t where c.course_num = '[STAT-COURSE]' having t.faculty_rating > [number];	
-other	What is a course for beginners?	8	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
+other	How many units are in [STAT-COURSE]?	23	[STAT-COURSE] is [NUM-CREDITS] units		select course_units from courses where course_title = '[STAT-COURSES]'	
 other	How many units is [STAT-COURSE]?	23	[STAT-COURSE] is [NUM-CREDITS] units		select course_units from courses where course_title = '[STAT-COURSES]'	
-other	Is [STAT-COURSE] a valid DATA course?	36	[STAT-COURSE] is/is not a valid DATA course.		select course_num from courses where course_num = '[STAT-COURSE]';	
-other	Is [STAT-COURSE] a valid STAT course?	36	[STAT-COURSE] is/is not a valid DATA course.		select course_num from courses where course_num = '[STAT-COURSE]';	
-other	How many STAT courses does the STAT department offer?	38	The stat department offers [NUM-OF-CLASSES] STAT courses.		select count(*) from courses;	
-other	How many DATA courses does the STAT department offer?	38	The stat department offers [NUM-OF-CLASSES] DATAcourses.		select count(*) from courses;	
+other	Is [STAT-COURSE] a valid course?	36	[STAT-COURSE] is a valid course.		select course_num from courses where course_num = '[STAT-COURSE]';	
+other	Is [STAT-COURSE] a class?	36	[STAT-COURSE] is a valid course.		select course_num from courses where course_num = '[STAT-COURSE]';	
+other	How many courses does the department offer?	38	The stat department offers [NUM-OF-CLASSES] courses.		select count(*) from courses;	
+other	What is the total number of courses offered?	38	The stat department offers [NUM-OF-CLASSES] courses.		select count(*) from courses;	
 other	What is the average grade in [STAT-COURSE]?	40	The average grade for [STAT-COURSE] is [GRADE] based on Polyratings.		select distinct(faculty_last_name), faculty_letter_grade, faculty_num_grade from faculty_total t natural join faculty_courses c where c.course_num = [STAT-COURSE];	
-other	What is the title of [COURSE_NUMBER]?	41	The title of [COURSE-NUMBER] is [COURSE-TITLE].		select course_title from courses where course_num = [COURSE_NUMBER];	
+other	What is the title of [COURSE-NUMBER]?	41	The title of [COURSE-NUMBER] is [COURSE-TITLE].		select course_title from courses where course_num = [COURSE_NUMBER];	
 other	What is the course number of [COURSE-TITLE]?	42	The course number of [COURSE-TITLE] is [COURSE-NUMBER].		select course_num from courses where course_title = [COURSE-TITLE];	1
 other	How many [COURSE-LEVEL] level stat courses are there?	43	For course level [COURSE-LEVEL], there are [NUM-OF-CLASSES] stat courses.		select count(*) from courses where course_num >= [COURSE-LEVEL];	
 other	How many [COURSE-LEVEL] level courses does the stat department offer?	43	For course level [COURSE-LEVEL], there are [NUM-OF-CLASSES] stat courses.		select count(*) from courses where course_num >= [COURSE-LEVEL];	
@@ -61,12 +70,12 @@ other	How many [COURSE-LEVEL] stat classes are there?	43	For course level [COURS
 other	Are there any [COURSE-LEVEL] courses?	43	For course level [COURSE-LEVEL], there are [NUM-OF-CLASSES] stat courses.		select count(*) from courses where course_num >= 500;	
 other	How many [COURSE-LEVEL] level data courses are there?	44	For course level [COURSE-LEVEL], there are [NUM-OF-CLASSES] stat courses.		select count(*) from courses where course_num >= [COURSE-LEVEL];	
 other	Does [STAT-COURSE] count as a support elective?	46	Here are the classes that count as support electives: [LIST-OF-CLASSES]		select course_num from course_req where course_num = '[STAT-COURSE]' and major_elect = 'y';	
-other	How many units do I need to graduate with a BS if I currently have [NUM-CREDITS] units?	47	You need another [NUM-CREDITS] units to graduate.		180 - [NUM-CREDITS]	
-other	How many units do I need to graduate with a degree in Stats?	47	You need another [NUM-CREDITS] units to graduate.		180 - [NUM-CREDITS]	
-other	Which courses do I need for the data science minor?	48	You will need 80 units for the data science minor.		d	
+other	How many units do I need to graduate if I have [NUM-CREDITS] units?	47	You need another [NUM-CREDITS] units to graduate.		180 - [NUM-CREDITS]	
+other	How many units do I need for the data science minor?	48	You will need 80 units for the data science minor.		d	
 other	What is the hardest class?	51	STAT 465 is the last course in the major.		d	
 other	What is the hardest series?	52	425, 426, and 427 is the hardest series.		d	
 other	How many courses am I required to take?	53	As a STAT major you are required to take 180 units of stat courses. As a stat minor you are required to take 24 units of stat courses.		d	
+other	How many units are required as a statistics major?	53	As a STAT major you are required to take 180 units of stat courses. As a stat minor you are required to take 24 units of stat courses.		d	
 other	What room is [STAT-COURSE] in?	54	[STAT-COURSE] is in this [ROOM]		select course_section, course_room from sections where course_name = '[STAT-COURSE]';	
 other	What room is [STAT-COURSE] in during [TERM]?	54	[STAT-COURSE] is in this [ROOM]		select course_section, course_room from sections where course_name = '[STAT-COURSE]';	
 other	What classroom is [STAT-COURSE] in [TERM]?	54	[STAT-COURSE] is in this [ROOM]		select course_section, course_room from sections where course_name = '[STAT-COURSE]';	
@@ -79,6 +88,7 @@ other	How many credits is the STAT minor?	60	The STAT minor requires [NUM-CREDIT
 other	Where are most STAT courses located?	122	[LOCATION]		select course_location, count(*) as count from sections group by course_location order by count desc limit 1;	
 other	Can I take [STAT-COURSE] credit / no credit?	123	Here are the courses that can be taken credit/no credit [COURSE-LIST]		select course_num from courses where course_area = 'CR/NC';	
 other	Which professor should I take for [TOPIC]?	124	[STAT-FACULTY] is the best for that subject.		select distinct(faculty_last_name) from faculty_courses where course_num = '[STAT-COURSE]';	
+prerequisites	Does [STAT-COURSE] count towards the data science minor?	55	Here are the required classes for a Data Science minor [COURSE-LIST].		select course_num from course_req where minor_req = 'y';	
 prerequisites	How many units are needed to get a minor in STAT?	60	The STAT minor requires 24 credits.		d	
 prerequisites	Does [STAT-FACULTY] teach any courses with no prerequisites?	63	[STAT-FACULTY] teaches [COURSE-LIST]. None of these require a prerequisite class.		select f.course_num from (select course_num, course_title, course_pre from courses where course_pre not REGEXP '[0-9]') c natural join faculty_courses f where f.faculty_last_name = '[STAT-FACULTY]';	
 prerequisites	Does [STAT-COURSE] have any prerequisites?	64	[STAT-COURSE] has [NUM-OF-CLASSES] prerequisites. They are: [COURSE-LIST].		select course_pre from courses where course_num = [STAT-COURSE];	
@@ -96,7 +106,7 @@ prerequisites	Can I take [STAT-COURSE] before [STAT-COURSE]?	74	Here are the pre
 prerequisites	How may DATA classes require a prerequisite?	76	[NUM-OF-CLASSES] of stat classes require a prerequisite. They are [COURSE-LIST].		select course_num from data_courses where len(course_pre) > 0;	
 prerequisites	Are there any alternatives to taking [STAT-COURSE]?	77	No, [STAT-COURSE] is a unique class. 		d	
 prerequisites	Does [STAT-COURSE] count towards a minor in STAT?	79	These courses count for a minor in Statistics. [LIST-OF-COURSES]		select couse_num from course_req where minor_req = 'y';	
-prerequisites	Which courses require graduate standing?	80	The following courses require graduate standing as a prerequisite: [COURSE-LIST]		select course_num from courses where course_pre like '%graduate standing'%;	
+prerequisites	Which courses require graduate standing?	80	The following courses require graduate standing as a prerequisite: [COURSE-LIST]		select course_num from courses where course_pre like '%graduate standing%';	
 prerequisites	Can I take [STAT-COURSE] as an undergraduate?	81	[STAT-COURSE] is a [COURSE-LEVEL] class.		c	
 prerequisites	Which courses can I take with the consent of an instructor?	82	You can take the following courses with the consent of an instructor: [COURSE-LIST]. Always ask for consent.		select course_num from courses where course_pre like '%consent'%;	
 prerequisites	What order should I take [COURSE-LIST] in?	84	[COURSE-LIST]		c	
@@ -104,11 +114,7 @@ prerequisites	What stat courses can you get AP credit for?	85	You can get credit
 prerequisites	What is the last STAT class in the major?	86	STAT 465 is the last course in the major.		d	
 prerequisites	Which classes should I take if I am not a stat major?	87	The following courses are intro courses: [COURSE-LIST].		select course_num, course_title from courses where course_title like '%introduction%';	
 prerequisites	Am I required to take any STAT classes?	88	Yes. All majors are required to take a stat class. For example, STAT 312 is Statistics for Engineers.		d	
-prerequisites	Does [STAT-COURSE] count towards the data science minor?	55	Here are the required classes for a Data Science minor [COURSE-LIST].		select course_num from course_req where minor_req = 'y';	
 prerequisites	Which STAT courses satisfy a GE?	90	The following STAT courses satisfy a GE: [COURSE-LIST]		select course_num from courses where course_area like '%GE%';	
-scheduling	What courses end before [TIME]?	127	[COURSE-LIST]		c	
-scheduling	What courses don't have a [DAY] class?	128	[COURSE-LIST]		select course_num from sections where course_days not like '%[DAY]%';	
-scheduling	What classes can I take as a graduate student?	129	[COURSE-LIST]		select course_num from courses where course_num like '5%';	
 scheduling	How many hours a week is [STAT-COURSE]?	91	[STAT-COURSE] is [NUM-HOURS] hours a week.		c	
 scheduling	How many lecture hours a week is [STAT-COURSE]?	92	[STAT-COURSE] is [NUM-HOURS] lecture hours a week.		c	
 scheduling	How many lab hours a week is [STAT-COURSE]?	93	[STAT-COURSE] is [NUM-HOURS] lab hours a week.		c	
@@ -139,3 +145,6 @@ scheduling	Which courses are offered this quarter but not next quarter?	113	[COU
 scheduling	Which courses should I take as a [YEAR-NUM] year?	116	For course level [COURSE-LEVEL], there are [NUM-OF-CLASSES] stat courses.		select count(*) from courses where course_num >= [COURSE-LEVEL];	
 scheduling	Is [STAT-COURSE] available during [TERM]?	126	[STAT-COURSE] is available during [TERM].		select course_term from courses where course_num = '[STAT-COURSE]';	1
 scheduling	Is [STAT-COURSE] offered during [TERM]?	126	[STAT-COURSE] is available during [TERM].		select course_term from courses where course_num = '[STAT-COURSE]';	1
+scheduling	What courses end before [TIME]?	127	[COURSE-LIST]		c	
+scheduling	What courses don't have a [DAY] class?	128	[COURSE-LIST]		select course_num from sections where course_days not like '%[DAY]%';	
+scheduling	What classes can I take as a graduate student?	129	[COURSE-LIST]		select course_num from courses where course_num like '5%';	

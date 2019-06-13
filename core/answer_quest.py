@@ -1,20 +1,17 @@
 #!/usr/bin/env python3
-import re
-import random
-import string
-import warnings
 
-import numpy as np
+import logging
 
-from .loader import load_synonym_table, load_questions
 import pymysql
 
-con = pymysql.connect(host = 'localhost', user = 'jpatel26466', passwd = 'jpatel26db466', db = 'jpatel26466')
+from .loader import load_questions
+import re
+
+logging.basicConfig(level=logging.INFO)
+con = pymysql.connect(host='localhost', user='jpatel26466', passwd='jpatel26db466', db='jpatel26466')
 cursor = con.cursor(pymysql.cursors.DictCursor)
 
-
 df = load_questions()
-
 
 def answer(qid, var):
    #print(qid, var)
@@ -32,6 +29,7 @@ def answer(qid, var):
          for yy in y:
             course_nums.append(int(yy))
 
+      course_nums.sort()
       ans = "You should take them in this order: " 
       for c in course_nums:
          ans = ans + str(c) + ", "
@@ -109,7 +107,7 @@ def answer(qid, var):
          profs = profs + l['faculty_last_name'] + ", "
       ans = "The following teachers teach that course: " + profs.title()
 
-   if qid == 126:
+   if qid == 126 or qid == 104:
       courses = ''
       for l in c:
          courses = courses + l['course_term'] 
